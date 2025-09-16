@@ -1,0 +1,275 @@
+{
+  "totals": {
+    "tasks": 10,
+    "baseline_dups_total": 0,
+    "manipulated_dups_total": 7,
+    "intersections_total": 0,
+    "soft_intersections_total": 2
+  },
+  "per_task": [
+    {
+      "task_id": "aut_01",
+      "baseline": {
+        "n_items": 30,
+        "unique": 30,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "manipulated": {
+        "n_items": 20,
+        "unique": 20,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "overlap": {
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "intersection_examples": []
+      },
+      "soft_overlap": {
+        "soft_intersection_count": 0,
+        "soft_pairs": []
+      }
+    },
+    {
+      "task_id": "aut_02",
+      "baseline": {
+        "n_items": 30,
+        "unique": 30,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "manipulated": {
+        "n_items": 30,
+        "unique": 30,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "overlap": {
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "intersection_examples": []
+      },
+      "soft_overlap": {
+        "soft_intersection_count": 1,
+        "soft_pairs": [
+          {
+            "baseline": "**Keyboard Cleaner** – Use the bristles to remove dust and debris from between keyboard keys.",
+            "manipulated": "**Keyboard Cleaner** – Use the bristles to dislodge dust and debris from keyboard keys.",
+            "jaccard": 0.786
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "aut_03",
+      "baseline": {
+        "n_items": 20,
+        "unique": 20,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "manipulated": {
+        "n_items": 30,
+        "unique": 30,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "overlap": {
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "intersection_examples": []
+      },
+      "soft_overlap": {
+        "soft_intersection_count": 0,
+        "soft_pairs": []
+      }
+    },
+    {
+      "task_id": "aut_04",
+      "baseline": {
+        "n_items": 50,
+        "unique": 50,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "manipulated": {
+        "n_items": 100,
+        "unique": 93,
+        "dups_total": 7,
+        "duplicates": [
+          "diy balance scale  suspend a pan for weight comparisons",
+          "diy balance scale  suspend a pan for weight measurement",
+          "diy balance scale  suspend a pan for weight testing",
+          "diy camera strap  secure a phone or compact camera",
+          "diy compass  suspend a magnetized object for navigation",
+          "diy compass  use with a magnetized pin for direction"
+        ]
+      },
+      "overlap": {
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "intersection_examples": []
+      },
+      "soft_overlap": {
+        "soft_intersection_count": 0,
+        "soft_pairs": []
+      }
+    },
+    {
+      "task_id": "aut_05",
+      "baseline": {
+        "n_items": 20,
+        "unique": 20,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "manipulated": {
+        "n_items": 20,
+        "unique": 20,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "overlap": {
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "intersection_examples": []
+      },
+      "soft_overlap": {
+        "soft_intersection_count": 0,
+        "soft_pairs": []
+      }
+    },
+    {
+      "task_id": "aut_06",
+      "baseline": {
+        "n_items": 30,
+        "unique": 30,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "manipulated": {
+        "n_items": 30,
+        "unique": 30,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "overlap": {
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "intersection_examples": []
+      },
+      "soft_overlap": {
+        "soft_intersection_count": 1,
+        "soft_pairs": [
+          {
+            "baseline": "**Temporary Ice Pack**: Fill with water, freeze, and use as a cooling pack for food or injuries.",
+            "manipulated": "**Emergency Ice Pack** – Freeze water and use as a cooling pack for food or minor injuries.",
+            "jaccard": 0.722
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "aut_07",
+      "baseline": {
+        "n_items": 30,
+        "unique": 30,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "manipulated": {
+        "n_items": 40,
+        "unique": 40,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "overlap": {
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "intersection_examples": []
+      },
+      "soft_overlap": {
+        "soft_intersection_count": 0,
+        "soft_pairs": []
+      }
+    },
+    {
+      "task_id": "aut_08",
+      "baseline": {
+        "n_items": 25,
+        "unique": 25,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "manipulated": {
+        "n_items": 20,
+        "unique": 20,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "overlap": {
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "intersection_examples": []
+      },
+      "soft_overlap": {
+        "soft_intersection_count": 0,
+        "soft_pairs": []
+      }
+    },
+    {
+      "task_id": "aut_09",
+      "baseline": {
+        "n_items": 50,
+        "unique": 50,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "manipulated": {
+        "n_items": 48,
+        "unique": 48,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "overlap": {
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "intersection_examples": []
+      },
+      "soft_overlap": {
+        "soft_intersection_count": 0,
+        "soft_pairs": []
+      }
+    },
+    {
+      "task_id": "aut_10",
+      "baseline": {
+        "n_items": 25,
+        "unique": 25,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "manipulated": {
+        "n_items": 30,
+        "unique": 30,
+        "dups_total": 0,
+        "duplicates": []
+      },
+      "overlap": {
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "intersection_examples": []
+      },
+      "soft_overlap": {
+        "soft_intersection_count": 0,
+        "soft_pairs": []
+      }
+    }
+  ],
+  "top_overlap_examples": [],
+  "params": {
+    "soft_jaccard_thr": 0.65,
+    "soft_max_pairs": null
+  }
+}
