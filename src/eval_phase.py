@@ -1,7 +1,8 @@
 import os, json, re
 
-IN_DIR  = "/home/beinling/qwen-reasoning/outputs/structured_signals"
-OUT_DIR = "/home/beinling/qwen-reasoning/outputs/gold_labels"
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+IN_DIR  = os.path.join(BASE, "outputs", "structured_signals")
+OUT_DIR = os.path.join(BASE, "outputs", "gold_labels")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # Satzgrenzen wie in deiner Segmentierung (., !, ? + evtl. schließende Quotes/Brackets + Whitespace, oder \n)
