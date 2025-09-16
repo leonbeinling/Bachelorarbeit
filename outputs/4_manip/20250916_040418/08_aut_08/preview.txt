@@ -1,0 +1,143 @@
+===== BEFORE (excerpt up to 1.2k) =====
+<think>
+Okay, let me try to think of some unusual and creative uses for a wine cork. First, I should remember that a wine cork is made from the bark of a cork oak tree, so it's a natural, spongy material. It's lightweight, can hold water, and has a unique texture. 
+
+Maybe for crafts? Like, using it as a material for making small sculptures or mosaics. People often use cork for bulletin boards or pinboards, but that's pretty common. Maybe more creative: like cutting it into shapes for art projects. Or using it as a coaster? Wait, that's also common. 
+
+===== AFTER  (excerpt up to 1.2k, with markers) =====
+<think>
+Okay, let me try to think of some unusual and creative uses for a wine cork. First, I should remember that a wine cork is made from the bark of a cork oak tree, so it's a natural, spongy material. It's lightweight, can hold water, and has a unique texture. 
+
+Maybe for crafts? Like, using it as a material for making small sculptures or mosaics. People often use cork for bulletin boards or pinboards, but that's pretty common. Maybe more creative: like cutting it into shapes for art projects. Or using it as a coaster? Wait, that's also common. ⟦IDEATE→EVALUATE⟧ let me check.
+
+What about in the kitchen? Maybe as a trivet for hot pots? Since cork is heat-resistant. Or ⟦IDEATE→EVALUATE⟧ that's a standard use too. Maybe as a drawer divider? But that's not very unusual. 
+
+How about for plants? ⟦IDEATE→EVALUATE⟧ let me check. Some people use corks as seed starters, like placing seeds in the holes. That's a possibility. Or maybe as a way to hang plants, like using the corks as spacers for hanging pots. 
+
+For pets? Maybe as a chew toy for dogs? But I don't think that's safe. Or as a cat toy? Maybe not. 
+
+⟦IDEATE→EVALUATE⟧ that's not working. Let me think again. Maybe for organization.
+
+===== LIVE SWAP META =====
+{
+  "performed": true,
+  "scope": "all",
+  "max_swaps": "unbounded",
+  "swaps": [
+    {
+      "ideate_index": 2,
+      "original_trigger": "Maybe using",
+      "chosen_replacement": "let me check",
+      "assistant_cut_start": 555,
+      "assistant_cut_end": 566,
+      "storage_insert": {
+        "pos": 555,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 4,
+      "original_trigger": "maybe as",
+      "chosen_replacement": "that's a",
+      "assistant_cut_start": 662,
+      "assistant_cut_end": 670,
+      "storage_insert": {
+        "pos": 662,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 6,
+      "original_trigger": "Maybe as",
+      "chosen_replacement": "let me check",
+      "assistant_cut_start": 769,
+      "assistant_cut_end": 777,
+      "storage_insert": {
+        "pos": 769,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 8,
+      "original_trigger": "What about",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 1065,
+      "assistant_cut_end": 1075,
+      "storage_insert": {
+        "pos": 1065,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 10,
+      "original_trigger": "What about",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 1252,
+      "assistant_cut_end": 1262,
+      "storage_insert": {
+        "pos": 1252,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 12,
+      "original_trigger": "maybe for",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 1411,
+      "assistant_cut_end": 1420,
+      "storage_insert": {
+        "pos": 1411,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 14,
+      "original_trigger": "Maybe as",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 1544,
+      "assistant_cut_end": 1552,
+      "storage_insert": {
+        "pos": 1544,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 16,
+      "original_trigger": "Maybe using",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 1739,
+      "assistant_cut_end": 1750,
+      "storage_insert": {
+        "pos": 1739,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 18,
+      "original_trigger": "Another idea",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 2140,
+      "assistant_cut_end": 2152,
+      "storage_insert": {
+        "pos": 2140,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 20,
+      "original_trigger": "How about",
+      "chosen_replacement": "that's a",
+      "assistant_cut_start": 2541,
+      "assistant_cut_end": 2550,
+      "storage_insert": {
+        "pos": 2541,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    }
+  ]
+}
+
+===== AFTER CONTEXT AROUND FIRST SWAP (±80, runtime text) =====
+to shapes for art projects. Or using it as a coaster? Wait, that's also common. let me check.
+
+What about in the kitchen? Maybe as a trivet for hot pots? Since 

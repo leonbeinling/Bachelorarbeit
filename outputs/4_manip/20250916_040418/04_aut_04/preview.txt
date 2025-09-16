@@ -1,0 +1,80 @@
+===== BEFORE (excerpt up to 1.2k) =====
+<think>
+Okay, so I need to come up with as many unusual and creative uses for a shoelace as possible. Let me start by brainstorming. First, I know shoelaces are primarily for tying shoes, but maybe there are other uses. Let's see... 
+
+1. Maybe using them as a measuring tape? Since they have a certain length, you could use them to measure things roughly. That's a common one, but maybe there's more.
+
+2. As a makeshift belt if the real one breaks. If the shoelace is thick enough, maybe it can hold up pants. 
+
+3. For tying things together, like bundling wires or securing a package. That's a practical use but maybe considered common. Wait, the question asks for unusual, so maybe I need to think outside the box.
+
+4. Using them as a thread in a pinch for sewing, but probably too thick. 
+
+===== AFTER  (excerpt up to 1.2k, with markers) =====
+<think>
+Okay, so I need to come up with as many unusual and creative uses for a shoelace as possible. Let me start by brainstorming. First, I know shoelaces are primarily for tying shoes, but maybe there are other uses. Let's see... 
+
+1. Maybe using them as a measuring tape? Since they have a certain length, you could use them to measure things roughly. That's a common one, but maybe there's more.
+
+2. As a makeshift belt if the real one breaks. If the shoelace is thick enough, maybe it can hold up pants. 
+
+3. For tying things together, like bundling wires or securing a package. That's a practical use but maybe considered common. Wait, the question asks for unusual, so maybe I need to think outside the box.
+
+4. Using them as a thread in a pinch for sewing, but probably too thick. ⟦IDEATE→EVALUATE⟧ might be too common again.
+
+5. As a way to make a bracelet or a tie-dye pattern. Maybe using them for crafts. That's creative.
+
+6. In a survival situation, maybe as a trap for catching small animals or fish. How would that work? Maybe tying a loop and setting it up as a snare.
+
+7. As a component in a slingshot. The elasticity could help with the band.
+
+8. For creating a pendulum for simple
+
+===== LIVE SWAP META =====
+{
+  "performed": true,
+  "scope": "all",
+  "max_swaps": "unbounded",
+  "swaps": [
+    {
+      "ideate_index": 2,
+      "original_trigger": "Maybe for",
+      "chosen_replacement": "might be",
+      "assistant_cut_start": 790,
+      "assistant_cut_end": 799,
+      "storage_insert": {
+        "pos": 790,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 4,
+      "original_trigger": "maybe for",
+      "chosen_replacement": "that's a",
+      "assistant_cut_start": 1637,
+      "assistant_cut_end": 1646,
+      "storage_insert": {
+        "pos": 1637,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 6,
+      "original_trigger": "For example",
+      "chosen_replacement": "that's a",
+      "assistant_cut_start": 3410,
+      "assistant_cut_end": 3421,
+      "storage_insert": {
+        "pos": 3410,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    }
+  ]
+}
+
+===== AFTER CONTEXT AROUND FIRST SWAP (±80, runtime text) =====
+ box.
+
+4. Using them as a thread in a pinch for sewing, but probably too thick. might be too common again.
+
+5. As a way to make a bracelet or a tie-dye pattern.

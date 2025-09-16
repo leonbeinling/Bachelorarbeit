@@ -1,0 +1,84 @@
+===== BEFORE (excerpt up to 1.2k) =====
+<think>
+Okay, I need to come up with as many unusual and creative uses for a wooden clothespin as possible. Let me start by thinking about what a clothespin is normally used for. It's for holding clothes on a line, right? But the user wants unusual uses, so I need to brainstorm outside the box.
+
+First, maybe in crafting or DIY projects. Clothespins can be painted or decorated. Maybe as a part of a wind chime? Or 
+
+===== AFTER  (excerpt up to 1.2k, with markers) =====
+<think>
+Okay, I need to come up with as many unusual and creative uses for a wooden clothespin as possible. Let me start by thinking about what a clothespin is normally used for. It's for holding clothes on a line, right? But the user wants unusual uses, so I need to brainstorm outside the box.
+
+First, maybe in crafting or DIY projects. Clothespins can be painted or decorated. Maybe as a part of a wind chime? Or ⟦IDEATE→EVALUATE⟧ might be used in a kitchen tool, like holding a spice jar or something. Wait, in the kitchen, maybe to hold a piece of paper for a recipe? Or maybe to keep a bag open while cooking. 
+
+What about in gardening? Maybe to label plants, like attaching a label to a plant stem. That's a common use, but maybe there's a more unusual way. Maybe to hold open a seedling cover or a greenhouse door. Or maybe to prop up a plant that's falling over.
+
+In the home, maybe to hold together loose pages in a notebook. Or to keep a drawer from closing, like a makeshift door stop. Or to hang small items on a hook, like keys or earbuds. 
+
+For organization, maybe to sort wires or cables. Or to hold multiple cords together. Also, maybe as a bookmark in a book, though that's a bit co
+
+===== LIVE SWAP META =====
+{
+  "performed": true,
+  "scope": "all",
+  "max_swaps": "unbounded",
+  "swaps": [
+    {
+      "ideate_index": 2,
+      "original_trigger": "maybe as",
+      "chosen_replacement": "might be",
+      "assistant_cut_start": 416,
+      "assistant_cut_end": 424,
+      "storage_insert": {
+        "pos": 416,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 4,
+      "original_trigger": "maybe using",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 1221,
+      "assistant_cut_end": 1232,
+      "storage_insert": {
+        "pos": 1221,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 6,
+      "original_trigger": "maybe as",
+      "chosen_replacement": "let me check",
+      "assistant_cut_start": 1922,
+      "assistant_cut_end": 1930,
+      "storage_insert": {
+        "pos": 1922,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 8,
+      "original_trigger": "Maybe as",
+      "chosen_replacement": "that's a",
+      "assistant_cut_start": 2347,
+      "assistant_cut_end": 2355,
+      "storage_insert": {
+        "pos": 2347,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 10,
+      "original_trigger": "Maybe as",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 3226,
+      "assistant_cut_end": 3234,
+      "storage_insert": {
+        "pos": 3226,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    }
+  ]
+}
+
+===== AFTER CONTEXT AROUND FIRST SWAP (±80, runtime text) =====
+s. Clothespins can be painted or decorated. Maybe as a part of a wind chime? Or might be used in a kitchen tool, like holding a spice jar or something. Wait, in

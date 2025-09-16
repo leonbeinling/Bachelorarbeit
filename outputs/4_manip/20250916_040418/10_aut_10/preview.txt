@@ -1,0 +1,150 @@
+===== BEFORE (excerpt up to 1.2k) =====
+<think>
+Okay, so I need to come up with unusual and creative uses for a tree. Let me start by brainstorming. Trees are usually for shade, building materials, oxygen, etc., but the question asks for unusual uses. Let me think outside the box.
+
+First, 
+
+===== AFTER  (excerpt up to 1.2k, with markers) =====
+<think>
+Okay, so I need to come up with unusual and creative uses for a tree. Let me start by brainstorming. Trees are usually for shade, building materials, oxygen, etc., but the question asks for unusual uses. Let me think outside the box.
+
+First, ⟦IDEATE→EVALUATE⟧ make sure I understand the question. They want creative uses beyond the obvious. So, maybe things like using the tree as a structure for something else, or integrating technology with it. Let me jot down ideas as they come.
+
+Maybe using a tree as a natural sculpture? Or as a part of an art installation. People do that sometimes, like bending branches into shapes. That could be one. Also, using the tree as a base for a garden. Wait, that's maybe not so unusual. Maybe using the tree as a part of a musical instrument? Like a tree that's carved to produce sounds when wind blows through it. Or ⟦IDEATE→EVALUATE⟧ that's a musical instrument made from a tree.
+
+Another idea: using the tree as a water filtration system. Some trees can absorb water, but maybe using the roots or structure to filter water. Or as a natural air purifier. That's a common use, but maybe integrating it into a building design. Or using the tree as a part
+
+===== LIVE SWAP META =====
+{
+  "performed": true,
+  "scope": "all",
+  "max_swaps": "unbounded",
+  "swaps": [
+    {
+      "ideate_index": 2,
+      "original_trigger": "maybe using",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 250,
+      "assistant_cut_end": 261,
+      "storage_insert": {
+        "pos": 250,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 4,
+      "original_trigger": "maybe a",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 846,
+      "assistant_cut_end": 853,
+      "storage_insert": {
+        "pos": 846,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 6,
+      "original_trigger": "What about",
+      "chosen_replacement": "let me check",
+      "assistant_cut_start": 1201,
+      "assistant_cut_end": 1211,
+      "storage_insert": {
+        "pos": 1201,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 8,
+      "original_trigger": "maybe for",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 1428,
+      "assistant_cut_end": 1437,
+      "storage_insert": {
+        "pos": 1428,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 10,
+      "original_trigger": "What about",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 1817,
+      "assistant_cut_end": 1827,
+      "storage_insert": {
+        "pos": 1817,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 12,
+      "original_trigger": "Let me think",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 2774,
+      "assistant_cut_end": 2786,
+      "storage_insert": {
+        "pos": 2774,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 14,
+      "original_trigger": "Another idea",
+      "chosen_replacement": "might be",
+      "assistant_cut_start": 3014,
+      "assistant_cut_end": 3026,
+      "storage_insert": {
+        "pos": 3014,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 16,
+      "original_trigger": "maybe a",
+      "chosen_replacement": "might be",
+      "assistant_cut_start": 3596,
+      "assistant_cut_end": 3603,
+      "storage_insert": {
+        "pos": 3596,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 18,
+      "original_trigger": "What about",
+      "chosen_replacement": "that's a",
+      "assistant_cut_start": 3955,
+      "assistant_cut_end": 3965,
+      "storage_insert": {
+        "pos": 3955,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 20,
+      "original_trigger": "Another idea",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 5468,
+      "assistant_cut_end": 5480,
+      "storage_insert": {
+        "pos": 5468,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 22,
+      "original_trigger": "Another thought",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 6266,
+      "assistant_cut_end": 6281,
+      "storage_insert": {
+        "pos": 6266,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    }
+  ]
+}
+
+===== AFTER CONTEXT AROUND FIRST SWAP (±80, runtime text) =====
+, but the question asks for unusual uses. Let me think outside the box.
+
+First, make sure I understand the question. They want creative uses beyond the obvious.

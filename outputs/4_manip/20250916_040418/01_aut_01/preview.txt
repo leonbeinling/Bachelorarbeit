@@ -1,0 +1,174 @@
+===== BEFORE (excerpt up to 1.2k) =====
+<think>
+Okay, I need to come up with unusual and creative uses for a bicycle. Let me start by thinking about the different parts of a bicycle and how they might be repurposed. 
+
+First, the frame. Maybe it could be used as a coat rack if you take off the wheels. Or 
+
+===== AFTER  (excerpt up to 1.2k, with markers) =====
+<think>
+Okay, I need to come up with unusual and creative uses for a bicycle. Let me start by thinking about the different parts of a bicycle and how they might be repurposed. 
+
+First, the frame. Maybe it could be used as a coat rack if you take off the wheels. Or ⟦IDEATE→EVALUATE⟧ make sure that's not too obvious. What else? The frame could be a part of a sculpture, like a modern art piece. That's a bit unusual.
+
+Then the wheels. The wheels could be used as a merry-go-round for kids, but that's maybe a bit common. Wait, ⟦IDEATE→EVALUATE⟧ that's not too unusual. Maybe using the wheel as a base for a spinning top or something. Or turning it into a hamster wheel for a pet, but again, maybe not that unusual. Hmm.
+
+The handlebars. If you remove them, they could be used as a coat hanger or a tool for reaching high places. Like a long pole. Or ⟦IDEATE→EVALUATE⟧ that's a stretch. Maybe they could be turned into a walking cane, but maybe not. 
+
+The seat. The seat could be a garden chair if you add some padding. Or a stool. That's a bit common. Maybe as a part of a furniture piece, like a bench. 
+
+The pedals. Maybe as a part of a mechanical project, like a pedal-powered generator. That's a 
+
+===== LIVE SWAP META =====
+{
+  "performed": true,
+  "scope": "all",
+  "max_swaps": "unbounded",
+  "swaps": [
+    {
+      "ideate_index": 2,
+      "original_trigger": "maybe as",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 265,
+      "assistant_cut_end": 273,
+      "storage_insert": {
+        "pos": 265,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 4,
+      "original_trigger": "maybe a",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 509,
+      "assistant_cut_end": 516,
+      "storage_insert": {
+        "pos": 509,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 6,
+      "original_trigger": "maybe as",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 814,
+      "assistant_cut_end": 822,
+      "storage_insert": {
+        "pos": 814,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 8,
+      "original_trigger": "maybe using",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 1168,
+      "assistant_cut_end": 1179,
+      "storage_insert": {
+        "pos": 1168,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 10,
+      "original_trigger": "Maybe as",
+      "chosen_replacement": "that's a",
+      "assistant_cut_start": 1438,
+      "assistant_cut_end": 1446,
+      "storage_insert": {
+        "pos": 1438,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 12,
+      "original_trigger": "maybe as",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 1657,
+      "assistant_cut_end": 1665,
+      "storage_insert": {
+        "pos": 1657,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 14,
+      "original_trigger": "could be used",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 1814,
+      "assistant_cut_end": 1827,
+      "storage_insert": {
+        "pos": 1814,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 16,
+      "original_trigger": "Another idea",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 2143,
+      "assistant_cut_end": 2155,
+      "storage_insert": {
+        "pos": 2143,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 18,
+      "original_trigger": "Another idea",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 2601,
+      "assistant_cut_end": 2613,
+      "storage_insert": {
+        "pos": 2601,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 20,
+      "original_trigger": "could be used",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 2780,
+      "assistant_cut_end": 2793,
+      "storage_insert": {
+        "pos": 2780,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 22,
+      "original_trigger": "maybe using",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 3086,
+      "assistant_cut_end": 3097,
+      "storage_insert": {
+        "pos": 3086,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 24,
+      "original_trigger": "Another idea",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 3754,
+      "assistant_cut_end": 3766,
+      "storage_insert": {
+        "pos": 3754,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 26,
+      "original_trigger": "Another idea",
+      "chosen_replacement": "let me check",
+      "assistant_cut_start": 4712,
+      "assistant_cut_end": 4724,
+      "storage_insert": {
+        "pos": 4712,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    }
+  ]
+}
+
+===== AFTER CONTEXT AROUND FIRST SWAP (±80, runtime text) =====
+the frame. Maybe it could be used as a coat rack if you take off the wheels. Or make sure that's not too obvious. What else? The frame could be a part of a scul

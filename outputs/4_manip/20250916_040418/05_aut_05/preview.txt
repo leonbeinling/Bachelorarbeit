@@ -1,0 +1,156 @@
+===== BEFORE (excerpt up to 1.2k) =====
+<think>
+Okay, the user wants a list of unusual and creative uses for a dreamcatcher. Let me start by recalling what a dreamcatcher is. Traditionally, it's an object used by some Native American tribes to filter dreams, letting good ones through and trapping bad ones. But the user is looking for non-traditional, creative uses.
+
+First, I should brainstorm different categories. Maybe art, decor, functional items, educational tools, etc. Let me think of each category.
+
+For art, 
+
+===== AFTER  (excerpt up to 1.2k, with markers) =====
+<think>
+Okay, the user wants a list of unusual and creative uses for a dreamcatcher. Let me start by recalling what a dreamcatcher is. Traditionally, it's an object used by some Native American tribes to filter dreams, letting good ones through and trapping bad ones. But the user is looking for non-traditional, creative uses.
+
+First, I should brainstorm different categories. Maybe art, decor, functional items, educational tools, etc. Let me think of each category.
+
+For art, ⟦IDEATE→EVALUATE⟧ that's obvious, but maybe something more unique. Maybe a mobile for a child's room? But that's a common use. Wait, the user wants unusual. ⟦IDEATE→EVALUATE⟧ that's already a common use, so maybe not. Let me think again.
+
+What about using it as a sound diffuser? If you hang multiple dreamcatchers around a room, the webbing might help scatter sound waves, improving acoustics. That's a bit unusual.
+
+For decor, ⟦IDEATE→EVALUATE⟧ that's a given. But maybe using them as part of a larger installation art piece? Like a wall of dreamcatchers with different colors and sizes. That could create an interesting visual effect.
+
+As a functional item, maybe a filter. Since the web is a physical barrier, could i
+
+===== LIVE SWAP META =====
+{
+  "performed": true,
+  "scope": "all",
+  "max_swaps": "unbounded",
+  "swaps": [
+    {
+      "ideate_index": 2,
+      "original_trigger": "maybe using",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 479,
+      "assistant_cut_end": 490,
+      "storage_insert": {
+        "pos": 479,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 4,
+      "original_trigger": "How about",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 618,
+      "assistant_cut_end": 627,
+      "storage_insert": {
+        "pos": 618,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 6,
+      "original_trigger": "maybe a",
+      "chosen_replacement": "that's a",
+      "assistant_cut_start": 872,
+      "assistant_cut_end": 879,
+      "storage_insert": {
+        "pos": 872,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 8,
+      "original_trigger": "maybe for",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 1256,
+      "assistant_cut_end": 1265,
+      "storage_insert": {
+        "pos": 1256,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 10,
+      "original_trigger": "How about",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 1612,
+      "assistant_cut_end": 1621,
+      "storage_insert": {
+        "pos": 1612,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 12,
+      "original_trigger": "What about",
+      "chosen_replacement": "might be",
+      "assistant_cut_start": 1924,
+      "assistant_cut_end": 1934,
+      "storage_insert": {
+        "pos": 1924,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 14,
+      "original_trigger": "maybe a",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 2608,
+      "assistant_cut_end": 2615,
+      "storage_insert": {
+        "pos": 2608,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 16,
+      "original_trigger": "For example",
+      "chosen_replacement": "that's a",
+      "assistant_cut_start": 3010,
+      "assistant_cut_end": 3021,
+      "storage_insert": {
+        "pos": 3010,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 18,
+      "original_trigger": "maybe using",
+      "chosen_replacement": "that's a",
+      "assistant_cut_start": 3421,
+      "assistant_cut_end": 3432,
+      "storage_insert": {
+        "pos": 3421,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 20,
+      "original_trigger": "How about",
+      "chosen_replacement": "let me check",
+      "assistant_cut_start": 4448,
+      "assistant_cut_end": 4457,
+      "storage_insert": {
+        "pos": 4448,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 22,
+      "original_trigger": "Another idea",
+      "chosen_replacement": "that's a",
+      "assistant_cut_start": 4717,
+      "assistant_cut_end": 4729,
+      "storage_insert": {
+        "pos": 4717,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    }
+  ]
+}
+
+===== AFTER CONTEXT AROUND FIRST SWAP (±80, runtime text) =====
+ctional items, educational tools, etc. Let me think of each category.
+
+For art, that's obvious, but maybe something more unique. Maybe a mobile for a child's ro

@@ -1,0 +1,72 @@
+{
+  "timestamp_utc": "2025-09-16T02:04:30.956894Z",
+  "hf_version": "4.53.2",
+  "torch_version": "2.7.1+cu126",
+  "numpy_version": "2.2.6",
+  "model_id": "Qwen/Qwen3-32B",
+  "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "device": "cuda",
+  "seed": 42,
+  "gen_config": {
+    "max_new_tokens": 15000,
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "top_k": 0,
+    "do_sample": true,
+    "repetition_penalty": 1.0
+  },
+  "output_dir": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418",
+  "markers": {
+    "PROBLEM": [
+      "user wants",
+      "okay, let's see",
+      "okay, i need to come up"
+    ],
+    "IDEATE": [
+      "maybe a",
+      "maybe as",
+      "maybe using",
+      "what about",
+      "another idea",
+      "let me think",
+      "another thought",
+      "for example",
+      "how about",
+      "maybe for",
+      "could be used",
+      "maybe something"
+    ],
+    "EVALUATE": [
+      "that",
+      "that's",
+      "that's a",
+      "might be",
+      "let me check",
+      "make sure",
+      "maybe not",
+      "but that's",
+      "ensure",
+      "might not be",
+      "that's kind of"
+    ],
+    "ANSWER": [
+      "i think i have enough",
+      "let me count",
+      "i have enough",
+      "let me list them out",
+      "final list",
+      "let me finalize",
+      "let me organize them"
+    ]
+  },
+  "eval_replacement_pool": [
+    "that",
+    "that's",
+    "that's a",
+    "might be",
+    "let me check",
+    "make sure"
+  ],
+  "detection_scope": "all",
+  "max_swaps": "unbounded"
+}

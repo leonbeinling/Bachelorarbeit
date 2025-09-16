@@ -1,0 +1,115 @@
+===== BEFORE (excerpt up to 1.2k) =====
+<think>
+Okay, let's see. The user wants a list of unusual and creative uses for a toothbrush. Hmm, I need to think beyond the obvious. The main use is obviously for brushing teeth, but what else? Maybe using the bristles for cleaning small items. Like maybe cleaning keyboard keys? That's a common one, but maybe there's more.
+
+Wait, the user specified "unusual and creative," so I should brainstorm some less obvious ones. 
+
+===== AFTER  (excerpt up to 1.2k, with markers) =====
+<think>
+Okay, let's see. The user wants a list of unusual and creative uses for a toothbrush. Hmm, I need to think beyond the obvious. The main use is obviously for brushing teeth, but what else? Maybe using the bristles for cleaning small items. Like maybe cleaning keyboard keys? That's a common one, but maybe there's more.
+
+Wait, the user specified "unusual and creative," so I should brainstorm some less obvious ones. ⟦IDEATE→EVALUATE⟧ that might not come to mind immediately. Let's think about different areas where a toothbrush could be useful. Art projects? Maybe using the bristles to make textures in painting. Or maybe using the handle as a tool in crafts. ⟦IDEATE→EVALUATE⟧ let me check if those make sense. 
+
+What about in gardening? Maybe using the bristles to gently loosen soil around small plants or to remove pests from leaves. That could work. Or using it as a seed planter for tiny seeds. Also, maybe in electronics for cleaning components. The soft bristles can be gentle on circuit boards. 
+
+⟦IDEATE→EVALUATE⟧ might be some uses in DIY projects, like applying glue in tight spaces. Or using the handle as a small screwdriver with some modification. Or as a tool for spreading p
+
+===== LIVE SWAP META =====
+{
+  "performed": true,
+  "scope": "all",
+  "max_swaps": "unbounded",
+  "swaps": [
+    {
+      "ideate_index": 2,
+      "original_trigger": "Maybe using",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 424,
+      "assistant_cut_end": 435,
+      "storage_insert": {
+        "pos": 424,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 4,
+      "original_trigger": "What about",
+      "chosen_replacement": "let me check",
+      "assistant_cut_start": 651,
+      "assistant_cut_end": 661,
+      "storage_insert": {
+        "pos": 651,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 6,
+      "original_trigger": "How about",
+      "chosen_replacement": "might be",
+      "assistant_cut_start": 979,
+      "assistant_cut_end": 988,
+      "storage_insert": {
+        "pos": 979,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 8,
+      "original_trigger": "Maybe using",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 1287,
+      "assistant_cut_end": 1298,
+      "storage_insert": {
+        "pos": 1287,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 10,
+      "original_trigger": "maybe using",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 1587,
+      "assistant_cut_end": 1598,
+      "storage_insert": {
+        "pos": 1587,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 12,
+      "original_trigger": "Maybe using",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 1785,
+      "assistant_cut_end": 1796,
+      "storage_insert": {
+        "pos": 1785,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 14,
+      "original_trigger": "maybe using",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 2391,
+      "assistant_cut_end": 2402,
+      "storage_insert": {
+        "pos": 2391,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 16,
+      "original_trigger": "maybe for",
+      "chosen_replacement": "that's",
+      "assistant_cut_start": 2860,
+      "assistant_cut_end": 2869,
+      "storage_insert": {
+        "pos": 2860,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    }
+  ]
+}
+
+===== AFTER CONTEXT AROUND FIRST SWAP (±80, runtime text) =====
+pecified "unusual and creative," so I should brainstorm some less obvious ones. that might not come to mind immediately. Let's think about different areas where

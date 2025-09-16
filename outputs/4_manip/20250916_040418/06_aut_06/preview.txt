@@ -1,0 +1,86 @@
+===== BEFORE (excerpt up to 1.2k) =====
+<think>
+Okay, let's see. The user wants a list of unusual and creative uses for a paper cup. Hmm, first, I need to think beyond the obvious uses like holding drinks or serving food. Maybe start by considering different categories: art, practical uses, educational, entertainment, etc.
+
+For art, paper cups can be painted or decorated. Maybe used in crafts, like making flowers or animals by cutting and shaping. Or maybe as part of a larger sculpture. Then, practical uses. Could they be used as seed starters for plants? That's a common one, but maybe there's more. 
+
+===== AFTER  (excerpt up to 1.2k, with markers) =====
+<think>
+Okay, let's see. The user wants a list of unusual and creative uses for a paper cup. Hmm, first, I need to think beyond the obvious uses like holding drinks or serving food. Maybe start by considering different categories: art, practical uses, educational, entertainment, etc.
+
+For art, paper cups can be painted or decorated. Maybe used in crafts, like making flowers or animals by cutting and shaping. Or maybe as part of a larger sculpture. Then, practical uses. Could they be used as seed starters for plants? That's a common one, but maybe there's more. ⟦IDEATE→EVALUATE⟧ that's a start.
+
+What about as a measuring tool? If you mark the cup, you can use it to measure liquids or ingredients. Maybe even as a funnel if you cut the top off. That's a bit more creative.
+
+For educational purposes, using the cup in science experiments. Like a simple calorimeter or a holder for small items during experiments. Maybe even for teaching about buoyancy by seeing how many they can stack before sinking.
+
+Entertainment ideas: Use as a makeshift megaphone by shaping it. Or as a puppet for a shadow play. Maybe even as a drum. Oh, and for a DIY toy, like a spinning top if you poke a hole in the b
+
+===== LIVE SWAP META =====
+{
+  "performed": true,
+  "scope": "all",
+  "max_swaps": "unbounded",
+  "swaps": [
+    {
+      "ideate_index": 2,
+      "original_trigger": "Maybe as",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 567,
+      "assistant_cut_end": 575,
+      "storage_insert": {
+        "pos": 567,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 4,
+      "original_trigger": "maybe a",
+      "chosen_replacement": "make sure",
+      "assistant_cut_start": 1631,
+      "assistant_cut_end": 1638,
+      "storage_insert": {
+        "pos": 1631,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 6,
+      "original_trigger": "What about",
+      "chosen_replacement": "might be",
+      "assistant_cut_start": 2017,
+      "assistant_cut_end": 2027,
+      "storage_insert": {
+        "pos": 2017,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 8,
+      "original_trigger": "Let me think",
+      "chosen_replacement": "let me check",
+      "assistant_cut_start": 2508,
+      "assistant_cut_end": 2520,
+      "storage_insert": {
+        "pos": 2508,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    },
+    {
+      "ideate_index": 10,
+      "original_trigger": "what about",
+      "chosen_replacement": "that",
+      "assistant_cut_start": 3201,
+      "assistant_cut_end": 3211,
+      "storage_insert": {
+        "pos": 3201,
+        "marker": "⟦IDEATE→EVALUATE⟧ "
+      }
+    }
+  ]
+}
+
+===== AFTER CONTEXT AROUND FIRST SWAP (±80, runtime text) =====
+ used as seed starters for plants? That's a common one, but maybe there's more. that's a start.
+
+What about as a measuring tool? If you mark the cup, you can us
