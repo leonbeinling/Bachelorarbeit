@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2025-09-14T17:31:44.012163+00:00",
+  "model_id": "Qwen/Qwen3-32B",
+  "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "transformers_version": "4.53.2",
+  "torch_version": "2.7.1+cu126",
+  "python": "3.10.12",
+  "gpu": {
+    "cuda_available": true,
+    "device_count": 9,
+    "devices": [
+      "NVIDIA A40",
+      "NVIDIA A40",
+      "NVIDIA A40",
+      "NVIDIA A40",
+      "NVIDIA A40",
+      "NVIDIA A40",
+      "NVIDIA A40",
+      "NVIDIA A40",
+      "NVIDIA A40"
+    ]
+  },
+  "seed": 42,
+  "prompt_file": "prompts/all_prompts.json",
+  "prompt_sha256": "2504d57471a073c3b882b256209b21021d5c7f977774955bb67ffcbb675079ef",
+  "generation_kwargs": {
+    "do_sample": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 2048,
+    "use_cache": true,
+    "pad_token_id": 151643,
+    "eos_token_id": 151645
+  },
+  "debug_mode": true,
+  "segmented_phases_signals": {
+    "segments_char": []
+  },
+  "segmentation_meta": {
+    "version": "seg-v2025-09-06-hard-only",
+    "run_utc": "2025-09-14T17:31:44.012163+00:00",
+    "run_local": "2025-09-14T19:31:44.012329+02:00",
+    "run_tz": "Europe/Berlin",
+    "catalog_hash": "e3ce51b70995321b1b4e43258f2a2112",
+    "marker_counts": {
+      "clarify": 37,
+      "ideate": 40,
+      "evaluate": 52,
+      "finalize": 26
+    },
+    "marker_usage": {
+      "CLARIFY": {},
+      "IDEATE": {},
+      "EVALUATE": {},
+      "FINALIZE": {}
+    }
+  },
+  "timestamp_local": "2025-09-14T19:31:44.012329+02:00",
+  "timestamp_tz": "Europe/Berlin"
+}

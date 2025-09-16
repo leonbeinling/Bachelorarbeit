@@ -1,0 +1,95 @@
+{
+  "timestamp_utc": "2025-09-14T17:31:44.012163+00:00",
+  "task_type": "GSM8K",
+  "task_id": "gsm_04",
+  "prompt": "Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?",
+  "final_answer": "Julie is reading a 120-page book. Yesterday, she read 12 pages, and today she read twice as many pages as yesterday, which is $2 \\times 12 = 24$ pages. \n\nThe total number of pages she has read so far is:\n$$\n12 + 24 = 36\n$$\n\nThe remaining pages in the book are:\n$$\n120 - 36 = 84\n$$\n\nShe wants to read half of the remaining pages tomorrow, which is:\n$$\n\\frac{84}{2} = 42\n$$\n\nThus, the number of pages Julie should read tomorrow is $\\boxed{42}$.<|im_end|>",
+  "model_id": "Qwen/Qwen3-32B",
+  "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "seed": 42,
+  "generation_kwargs": {
+    "do_sample": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 4096,
+    "use_cache": true,
+    "pad_token_id": 151643,
+    "eos_token_id": 151645
+  },
+  "auto_continue": {
+    "enabled": true,
+    "continue_steps": 0,
+    "new_tokens_total": 558,
+    "hard_cap_left": 29442,
+    "ctx_limit": 40960,
+    "ctx_safety": 64,
+    "chunk_tokens": 1024
+  },
+  "segmented_phases_signals": {
+    "segments_char": [
+      {
+        "phase": "CLARIFY",
+        "start_marker": "okay, let's see",
+        "start_marker_start_char": 0,
+        "start_marker_end_char": 15,
+        "start_char": 0,
+        "end_char": 230,
+        "text": "Okay, let's see. Julie is reading a 120-page book. So the total number of pages is 120. Yesterday, she read 12 pages. Today, she read twice as many pages as yesterday. Hmm, so today's reading is twice 12, which would be 24 pages. "
+      },
+      {
+        "phase": "EVALUATE",
+        "start_marker": "let me check",
+        "start_marker_start_char": 230,
+        "start_marker_end_char": 242,
+        "start_char": 230,
+        "end_char": 1169,
+        "text": "Let me check that again. If yesterday was 12, then twice that is 24. Yeah, that seems right.\n\nSo, total pages read so far would be yesterday's 12 plus today's 24. Let me add those up. 12 + 24 is 36 pages. So she's read 36 pages in total. The book is 120 pages, so the remaining pages would be 120 minus 36. Let me calculate that. 120 - 36... 120 minus 30 is 90, minus 6 more is 84. So there are 84 pages left.\n\nNow, the question says she wants to read half of the remaining pages tomorrow. So half of 84. Let me divide that by 2. 84 divided by 2 is 42. So she should read 42 pages tomorrow. Wait, let me just verify each step again to make sure I didn't make a mistake.\n\nTotal pages: 120. Pages read yesterday: 12. Pages read today: 2*12=24. Total read: 12+24=36. Remaining pages: 120-36=84. Half of remaining: 84/2=42. Yeah, that seems correct. I don't think I missed anything here. The numbers add up. So the answer should be 42 pages.\n\n"
+      },
+      {
+        "phase": "FINALIZE",
+        "start_marker": "final answer",
+        "start_marker_start_char": 1171,
+        "start_marker_end_char": 1183,
+        "start_char": 1169,
+        "end_char": 1230,
+        "text": "**Final Answer**\nJulie should read \\boxed{42} pages tomorrow."
+      }
+    ],
+    "source_hash": "sha256:6f3c6cb7169492f0fa41c073605a9bf0a2d22997d130a6aa41d4b2cab403e729",
+    "trace_preview": "Okay, let's see. Julie is reading a 120-page book. So the total number of pages is 120. Yesterday, she read 12 pages. Today, she read twice as many pages as yesterday. Hmm, so today's reading is twice"
+  },
+  "segmentation_meta": {
+    "version": "seg-v2025-09-06-hard-only",
+    "run_utc": "2025-09-14T17:31:44.012163+00:00",
+    "run_local": "2025-09-14T19:31:44.012329+02:00",
+    "run_tz": "Europe/Berlin",
+    "catalog_hash": "e3ce51b70995321b1b4e43258f2a2112",
+    "marker_counts": {
+      "clarify": 37,
+      "ideate": 40,
+      "evaluate": 52,
+      "finalize": 26
+    },
+    "marker_usage": {
+      "CLARIFY": {
+        "okay, let's see": 1
+      },
+      "IDEATE": {
+        "calculate": 1
+      },
+      "EVALUATE": {
+        "let me check": 1,
+        "that": 6,
+        "verify": 1,
+        "make sure": 1
+      },
+      "FINALIZE": {
+        "final answer": 1
+      }
+    }
+  },
+  "timestamp_local": "2025-09-14T19:31:44.012329+02:00",
+  "timestamp_tz": "Europe/Berlin",
+  "reasoning_hash": "sha256:6f3c6cb7169492f0fa41c073605a9bf0a2d22997d130a6aa41d4b2cab403e729"
+}
