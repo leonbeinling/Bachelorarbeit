@@ -4,13 +4,13 @@ from typing import List, Tuple, Dict, Any, Optional
 import numpy as np
 import pandas as pd
 from sentence_transformers import SentenceTransformer
-
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 # -------- CONFIG --------
 CONFIG = {
-    "BASE": "/home/beinling/qwen-reasoning",
-    "RUN_DIR_4MANIP": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418",
-    "IN_FLUENCY_ROOT": None,   # derives from RUN_DIR_4MANIP if None
-    "OUT_ORIG_ROOT": None,     # derives from RUN_DIR_4MANIP if None
+    "BASE": BASE,
+    "RUN_DIR_4MANIP": "outputs/4_manip/20250916_040418",    #datei einstellen
+    "IN_FLUENCY_ROOT": None,   
+    "OUT_ORIG_ROOT": None,     
     "FLUENCY_GLOBS": ["*/*_fluency_simple.json", "*/*_fluency.json"],
     "ORIG_MODEL_NAME": os.getenv("ORIG_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"),
     "COMPUTE_CUE_DISTANCE": os.getenv("ORIG_COMPUTE_CUE", "1") not in ("0", "false", "False"),
