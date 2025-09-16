@@ -1,0 +1,52 @@
+[
+  {
+    "id": "aut_01",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a bicycle. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_02",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a toothbrush. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_03",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a newspaper. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_04",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a shoelace. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_05",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a dreamcatcher. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_06",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a paper cup. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_07",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a wooden clothespin. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_08",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a wine cork. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_09",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a shoe box. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_10",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a tree. Provide the final answer as a numbered list."
+  }
+]
