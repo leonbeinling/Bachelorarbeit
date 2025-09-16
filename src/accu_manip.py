@@ -1,15 +1,14 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import os, re, json, glob
 from typing import List, Dict, Any, Optional, Tuple, Iterable
 from collections import defaultdict
 
+
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 # ---------- CONFIG ----------
 CONFIG = {
-    "BASE": None,  # project root = parent of this file if None
-    "IN_LABELED_ROOT": None,  # <BASE>/outputs/5_eval_manip/labeled_segments if None
-    "OUT_ACC_ROOT": None,     # <BASE>/outputs/5_eval_manip/accuracy if None
+    "BASE": None,  # project root 
+    "IN_LABELED_ROOT": None, 
+    "OUT_ACC_ROOT": None,    
 
     "LABELED_FILE_GLOBS": ["**/*.jsonl", "**/*.json"],
 
