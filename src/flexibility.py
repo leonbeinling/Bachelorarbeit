@@ -5,15 +5,16 @@ import numpy as np
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import AgglomerativeClustering
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 # -------- CONFIG --------
 CONFIG = {
-    "BASE": "/home/beinling/qwen-reasoning",
-    "RUN_DIR_4MANIP": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418",
+    "BASE": BASE,
+    "RUN_DIR_4MANIP": "outputs/4_manip/20250916_040418",
 
     # Auto-derive from RUN_DIR_4MANIP if None
-    "IN_FLUENCY_ROOT": None,   # e.g. .../outputs/5_eval_manip/fluency/<RUN_NAME>
-    "OUT_FLEX_ROOT": None,     # e.g. .../outputs/5_eval_manip/flexibility/<RUN_NAME>
+    "IN_FLUENCY_ROOT": None,   
+    "OUT_FLEX_ROOT": None,  
 
     # Accept both simple and old fluency formats
     "FLUENCY_GLOBS": ["*/*_fluency_simple.json", "*/*_fluency.json"],
