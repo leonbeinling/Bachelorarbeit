@@ -1,0 +1,485 @@
+{
+  "task_id": "aut_04",
+  "task_type": "AUT",
+  "prompt": "List as many unusual and creative uses as possible for a umbrella. Provide the final answer as a numbered list.",
+  "units": "sentence",
+  "note": "Gold labels left blank; seg_labels and trigger_markers aggregated per sentence from structured_signals.",
+  "marker_usage": {
+    "CLARIFY": {
+      "okay, i need to come up": 1,
+      "user wants": 1
+    },
+    "IDEATE": {
+      "maybe using": 4,
+      "what about": 4,
+      "maybe as": 4,
+      "how about": 3,
+      "could it be": 1,
+      "another idea": 2
+    },
+    "EVALUATE": {
+      "that's a": 2,
+      "might be": 1,
+      "might not be": 1,
+      "too similar": 1,
+      "check if": 1,
+      "good": 1,
+      "make sure": 1
+    },
+    "FINALIZE": {
+      "let me list them out": 1,
+      "let me count": 1,
+      "let me organize them": 1
+    }
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 36,
+    "evaluate": 80,
+    "finalize": 26
+  },
+  "catalog_hash": "165852ab6a69363b01a239b84888bd62",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, I need to come up with as many unusual and creative uses for an umbrella as possible.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["okay, i need to come up"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 2,
+      "text": "Let me start by thinking about the basic functions of an umbrella.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["okay, i need to come up"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 3,
+      "text": "It's mainly for protection from rain or sun, but there's more to it.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["okay, i need to come up"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 4,
+      "text": "Maybe I can brainstorm different scenarios where an umbrella could serve a different purpose.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["okay, i need to come up"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 5,
+      "text": "First, maybe using it as a tool.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 6,
+      "text": "Like, if you're trying to reach something high up, could you use the umbrella as a makeshift pole?",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 7,
+      "text": "Or maybe to knock something down from a tree.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 8,
+      "text": "That's a start.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that's a"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 9,
+      "text": "What about in sports?",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["what about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 10,
+      "text": "Maybe as a baton in a relay race, or as a prop in a dance performance.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["what about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 11,
+      "text": "Wait, the user wants unusual and creative uses.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["user wants"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 12,
+      "text": "So maybe more out-of-the-box ideas.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["user wants"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 13,
+      "text": "How about using the umbrella as a shield in a game of dodgeball?",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 14,
+      "text": "Or as a support for a plant in a garden.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 15,
+      "text": "If the ribs are flexible, maybe shaping them into a sculpture.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 16,
+      "text": "What about in an emergency?",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 17,
+      "text": "If the umbrella is made of metal, could it be used as a conductor for electricity?",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 18,
+      "text": "Or maybe as a signal mirror if the canopy is reflective.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 19,
+      "text": "Also, in a survival situation, using the umbrella to collect rainwater.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 20,
+      "text": "Another thought: using the umbrella as a camera stabilizer.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 21,
+      "text": "The handle could be attached to a tripod or something.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 22,
+      "text": "Or as a wind vane if you attach a pointer.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 23,
+      "text": "Maybe even as a musical instrument—tapping the ribs to make sounds.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 24,
+      "text": "What about in art?",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 25,
+      "text": "Using the umbrella as a canvas for painting.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 26,
+      "text": "Or as a tool to create patterns in sand or snow.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 27,
+      "text": "Maybe as a part of a costume for a theatrical performance.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 28,
+      "text": "Also, practical but creative uses: using the umbrella to keep a tent dry during a storm, or as a temporary ramp for a wheelchair.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 29,
+      "text": "Maybe as a tool to measure the height of something by using the length of the umbrella.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 30,
+      "text": "Wait, some of these might be too similar to existing uses.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["might be"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 31,
+      "text": "Need to think more unique.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["might be"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 32,
+      "text": "How about using the umbrella as a fishing rod?",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 33,
+      "text": "If you attach a line and hook to the tip.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 34,
+      "text": "Or as a tool to scare away animals by moving it around.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 35,
+      "text": "Another idea: using the umbrella as a part of a science experiment, like testing wind speed by observing how it opens or closes.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 36,
+      "text": "Or as a component in a Rube Goldberg machine.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 37,
+      "text": "Also, maybe using the umbrella as a fashion accessory in a different way, like a hat if the handle is long enough.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 38,
+      "text": "Or as a prop in a magic trick to create illusions.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 39,
+      "text": "I should check if I'm repeating any ideas.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["check if"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 40,
+      "text": "Let me list them out and see.",
+      "seg_labels": ["Finalize"],
+      "trigger_markers": ["let me list them out"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 41,
+      "text": "Maybe some can be combined or rephrased for more creativity.",
+      "seg_labels": ["Finalize"],
+      "trigger_markers": ["let me list them out"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 42,
+      "text": "Also, think about different contexts: outdoor activities, emergencies, art, sports, etc.",
+      "seg_labels": ["Finalize"],
+      "trigger_markers": ["let me list them out"],
+      "gold_labels": ["Evaluate", "Ideate"]
+    },
+    {
+      "sent_id": 43,
+      "text": "Hmm, maybe using the umbrella as a temporary bridge over a small stream by placing it across.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 44,
+      "text": "Or as a support for a clothesline.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 45,
+      "text": "What about using the ribs as a measuring tool for length?",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 46,
+      "text": "Another angle: using the umbrella as a part of a musical instrument, like a drum if you hit the canopy.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 47,
+      "text": "Or as a wind chime if you hang it with strings.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 48,
+      "text": "Wait, some of these might not be very unusual.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["might not be"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 49,
+      "text": "Need to push further.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["might not be"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 50,
+      "text": "How about using the umbrella as a part of a robot arm?",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["how about"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 51,
+      "text": "Or as a component in a kinetic sculpture.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 52,
+      "text": "Also, in photography, using the umbrella as a diffuser for light.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 53,
+      "text": "Or as a reflector.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 54,
+      "text": "I think I have a good list, but need to make sure they are all unique and creative.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["good"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 55,
+      "text": "Let me count and see if I can add more.",
+      "seg_labels": ["Finalize"],
+      "trigger_markers": ["let me count"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 56,
+      "text": "Maybe using the umbrella as a tool to clean gutters by extending it.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 57,
+      "text": "Or as a part of a DIY project for a child's toy.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 58,
+      "text": "Another idea: using the umbrella as a part of a weather vane if you attach a pointer.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 59,
+      "text": "Or as a temporary shelter for small animals.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["maybe using"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 60,
+      "text": "I think that's a solid list.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["that's a"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 61,
+      "text": "Let me organize them into a numbered list and check for repetition or similarity.",
+      "seg_labels": ["Finalize"],
+      "trigger_markers": ["let me organize them"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 62,
+      "text": "Maybe combine some ideas where possible.",
+      "seg_labels": ["Finalize"],
+      "trigger_markers": ["let me organize them"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 63,
+      "text": "Alright, time to finalize the list.",
+      "seg_labels": ["Finalize"],
+      "trigger_markers": ["let me organize them"],
+      "gold_labels": ["Finalize"]
+    }
+  ]
+}
