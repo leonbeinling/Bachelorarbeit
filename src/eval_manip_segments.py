@@ -8,8 +8,9 @@ from glob import glob
 from typing import List, Dict, Any, Optional
 
 # --- Defaults ------------------------------------------------------------------
-DEFAULT_INPUT_ROOT = "/home/beinling/qwen-reasoning/outputs/4_manip"
-DEFAULT_OUTPUT_ROOT = "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments"
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+DEFAULT_INPUT_ROOT = os.path.join(BASE, "outputs", "4_manip")
+DEFAULT_OUTPUT_ROOT = os.path.join(BASE, "outputs", "5_eval_manip", "segments")
 MARKER_RE = re.compile(r"⟦([A-Z]+)→([A-Z]+)⟧")
 PROTECTED_SIBLINGS = {"duplicate", "flexibility", "fluency", "originality"}
 
