@@ -1,0 +1,30 @@
+{
+  "task_id": "aut_01",
+  "file_kind": "manipulated",
+  "count_mode": "last",
+  "fluency": 20,
+  "items": [
+    "**Kinetic Sculpture**: Transform the entire bike or its parts (wheels, frame) into a wind-powered kinetic art piece that spins or moves with environmental energy.",
+    "**Musical Instrument**: Use the spokes as chimes for a wind instrument or strike them like a xylophone to create rhythmic sounds.",
+    "**Vertical Garden Trellis**: Hang the bike frame upside-down with plants growing along its structure for a living art installation.",
+    "**Emergency Water Wheel**: Submerge the rear wheel in a stream to harness kinetic energy and generate small amounts of electricity.",
+    "**Mobile Library Cart**: Attach a large basket or crate to the frame to create a portable library for distributing books in underserved areas.",
+    "**Pet Playground**: Convert the wheel into a hamster or dwarf goat treadmill, or use the frame as a climbing structure for small animals.",
+    "**Architectural Prop**: Use the bike as a focal point in a room’s decor, such as a wall-mounted mobile or a ceiling sculpture.",
+    "**Composting System**: Attach a rotating drum to the pedals to create a pedal-powered compost tumbler.",
+    "**Gaming Platform**: Build a balance challenge game where players ride the bike on a narrow beam or track.",
+    "**Time Capsule Container**: Enclose a historical bike in a transparent case as a symbolic time capsule for future generations.",
+    "**Sound Installation**: Create a bike-powered sound art project where pedaling generates white noise or music via piezoelectric sensors.",
+    "**Emergency Shelter Component**: Use the frame and canvas to build a lightweight, collapsible shelter for disaster relief.",
+    "**Floating Garden Barge**: Attach the bike to a raft with planters to create a mobile garden on waterways or ponds.",
+    "**Fitness Equipment**: Modify the bike into a resistance trainer using pulleys and elastic bands for strength training.",
+    "**Interactive Art**: Build a bike that paints with its wheels (e.g., using paint-coated tires on a canvas surface).",
+    "**Community Mural Base**: Use the bike frame as a scaffold for artists to paint on, creating a collaborative, portable mural.",
+    "**Wind-Powered Fan**: Convert the wheel into a windcatcher for a passive cooling system in a building.",
+    "**Theatrical Prop**: Incorporate the bike into a dance or theater performance as a metaphor for movement, freedom, or struggle.",
+    "**Sustainable Jewelry**: Repurpose tiny parts (e.g., chain links, reflectors) into eco-friendly fashion accessories.",
+    "**Educational Tool**: Use the bike to demonstrate physics principles like torque, momentum, or energy conversion in classrooms."
+  ],
+  "prompt": "List as many unusual and creative uses as possible for a bicycle. Provide the final answer as a numbered list.",
+  "source_file": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/01_aut_01/manipulated.json"
+}

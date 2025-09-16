@@ -1,0 +1,30 @@
+{
+  "task_id": "aut_03",
+  "file_kind": "baseline",
+  "count_mode": "last",
+  "fluency": 20,
+  "items": [
+    "**Edible Ink Art**: Mix soy-based newspaper ink with food-safe ingredients (e.g., corn syrup) to create temporary edible ink for decorating cakes or cookies.",
+    "**DIY Battery**: Wrap a copper wire and zinc nail in saltwater-soaked newspaper to generate a small electric current for simple circuits.",
+    "**Soundproofing Prototype**: Tape layers of newspaper to walls or furniture to experiment with temporary sound dampening in a room.",
+    "**Emergency Fire Starter**: Roll newspaper into a tight log and mix with dry kindling for a compact, portable fire-starting tool.",
+    "**Paper Mache Mosaic**: Cut and arrange colored newspaper sections into a collage, then coat with paper mache to create a textured wall art piece.",
+    "**Temporary Solar Panel Frame**: Fold and layer newspaper into a rigid frame to hold solar cells or mirrors in a makeshift solar concentrator.",
+    "**Seed-Embedded Compost**: Soak and blend newspaper with compostable materials and seeds to create biodegradable seed paper for planting.",
+    "**Musical Instrument Component**: Roll newspaper into a cone or cylinder to use as a makeshift reed for a flute or as a drumhead for a percussive instrument.",
+    "**Emergency Water Filter (Non-Potable Use)**: Layer crumpled newspaper with activated charcoal (from briquettes) to filter debris from rainwater (not for drinking).",
+    "**Temporary Insulation**: Wrap newspaper around pipes or windows during a cold snap to reduce heat loss.",
+    "**Origami Engineering Challenge**: Design and test modular origami structures for load-bearing capacity using newspaper.",
+    "**Artistic Shadow Play**: Cut intricate shapes into newspaper and use it as a stencil for shadow projections in a dark room.",
+    "**Edible Packaging Experiment**: Soak newspaper in a cornstarch and water mixture, let it dry, and test its biodegradable packaging potential.",
+    "**DIY Kaleidoscope**: Roll newspaper into a tube and line it with reflective materials (e.g., foil) to create a simple light-refracting device.",
+    "**Historical Time Capsule**: Seal a folded newspaper in a plastic bag and bury it as part of a community project to document current events.",
+    "**Emergency Buoyancy Aid**: Tie multiple tightly rolled newspaper tubes together to create a temporary float for small items in water.",
+    "**Capillary Action Demo**: Use vertical strips of newspaper to demonstrate water absorption and dye movement in a science experiment.",
+    "**Temporary Musical Notation Stand**: Fold newspaper into a sturdy stand to hold sheet music during practice sessions.",
+    "**Urban Art Installation**: Drape newspaper over public structures to create a transient, wind-interactive art piece.",
+    "**DIY Puzzle Game**: Cut newspaper into interlocking pieces to create a custom jigsaw puzzle with images or text as clues."
+  ],
+  "prompt": "List as many unusual and creative uses as possible for a newspaper. Provide the final answer as a numbered list.",
+  "source_file": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/03_aut_03/baseline.json"
+}
