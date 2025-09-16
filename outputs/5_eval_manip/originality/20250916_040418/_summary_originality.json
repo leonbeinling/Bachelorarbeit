@@ -1,0 +1,202 @@
+[
+  {
+    "task_id": "aut_01",
+    "file_kind": "baseline",
+    "aut_folder": "01_aut_01",
+    "n_ideas": 30,
+    "pool_size": 50,
+    "originality_mean": 0.3710932413736979,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/01_aut_01/aut_01_baseline_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/01_aut_01/aut_01_baseline_originality.csv"
+  },
+  {
+    "task_id": "aut_01",
+    "file_kind": "manipulated",
+    "aut_folder": "01_aut_01",
+    "n_ideas": 20,
+    "pool_size": 50,
+    "originality_mean": 0.32440474927425383,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/01_aut_01/aut_01_manipulated_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/01_aut_01/aut_01_manipulated_originality.csv"
+  },
+  {
+    "task_id": "aut_02",
+    "file_kind": "baseline",
+    "aut_folder": "02_aut_02",
+    "n_ideas": 30,
+    "pool_size": 60,
+    "originality_mean": 0.25984351634979247,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/02_aut_02/aut_02_baseline_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/02_aut_02/aut_02_baseline_originality.csv"
+  },
+  {
+    "task_id": "aut_02",
+    "file_kind": "manipulated",
+    "aut_folder": "02_aut_02",
+    "n_ideas": 30,
+    "pool_size": 60,
+    "originality_mean": 0.2556902160247167,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/02_aut_02/aut_02_manipulated_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/02_aut_02/aut_02_manipulated_originality.csv"
+  },
+  {
+    "task_id": "aut_03",
+    "file_kind": "baseline",
+    "aut_folder": "03_aut_03",
+    "n_ideas": 20,
+    "pool_size": 50,
+    "originality_mean": 0.329905641078949,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/03_aut_03/aut_03_baseline_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/03_aut_03/aut_03_baseline_originality.csv"
+  },
+  {
+    "task_id": "aut_03",
+    "file_kind": "manipulated",
+    "aut_folder": "03_aut_03",
+    "n_ideas": 30,
+    "pool_size": 50,
+    "originality_mean": 0.3473179668188095,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/03_aut_03/aut_03_manipulated_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/03_aut_03/aut_03_manipulated_originality.csv"
+  },
+  {
+    "task_id": "aut_04",
+    "file_kind": "baseline",
+    "aut_folder": "04_aut_04",
+    "n_ideas": 50,
+    "pool_size": 143,
+    "originality_mean": 0.28856545269489287,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/04_aut_04/aut_04_baseline_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/04_aut_04/aut_04_baseline_originality.csv"
+  },
+  {
+    "task_id": "aut_04",
+    "file_kind": "manipulated",
+    "aut_folder": "04_aut_04",
+    "n_ideas": 100,
+    "pool_size": 143,
+    "originality_mean": 0.18930478692054747,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/04_aut_04/aut_04_manipulated_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/04_aut_04/aut_04_manipulated_originality.csv"
+  },
+  {
+    "task_id": "aut_05",
+    "file_kind": "baseline",
+    "aut_folder": "05_aut_05",
+    "n_ideas": 20,
+    "pool_size": 40,
+    "originality_mean": 0.3755728006362915,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/05_aut_05/aut_05_baseline_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/05_aut_05/aut_05_baseline_originality.csv"
+  },
+  {
+    "task_id": "aut_05",
+    "file_kind": "manipulated",
+    "aut_folder": "05_aut_05",
+    "n_ideas": 20,
+    "pool_size": 40,
+    "originality_mean": 0.3524882853031158,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/05_aut_05/aut_05_manipulated_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/05_aut_05/aut_05_manipulated_originality.csv"
+  },
+  {
+    "task_id": "aut_06",
+    "file_kind": "baseline",
+    "aut_folder": "06_aut_06",
+    "n_ideas": 30,
+    "pool_size": 60,
+    "originality_mean": 0.31580243905385336,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/06_aut_06/aut_06_baseline_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/06_aut_06/aut_06_baseline_originality.csv"
+  },
+  {
+    "task_id": "aut_06",
+    "file_kind": "manipulated",
+    "aut_folder": "06_aut_06",
+    "n_ideas": 30,
+    "pool_size": 60,
+    "originality_mean": 0.33765479624271394,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/06_aut_06/aut_06_manipulated_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/06_aut_06/aut_06_manipulated_originality.csv"
+  },
+  {
+    "task_id": "aut_07",
+    "file_kind": "baseline",
+    "aut_folder": "07_aut_07",
+    "n_ideas": 30,
+    "pool_size": 70,
+    "originality_mean": 0.34727718234062194,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/07_aut_07/aut_07_baseline_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/07_aut_07/aut_07_baseline_originality.csv"
+  },
+  {
+    "task_id": "aut_07",
+    "file_kind": "manipulated",
+    "aut_folder": "07_aut_07",
+    "n_ideas": 40,
+    "pool_size": 70,
+    "originality_mean": 0.3703093111515045,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/07_aut_07/aut_07_manipulated_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/07_aut_07/aut_07_manipulated_originality.csv"
+  },
+  {
+    "task_id": "aut_08",
+    "file_kind": "baseline",
+    "aut_folder": "08_aut_08",
+    "n_ideas": 25,
+    "pool_size": 45,
+    "originality_mean": 0.2637413167953491,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/08_aut_08/aut_08_baseline_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/08_aut_08/aut_08_baseline_originality.csv"
+  },
+  {
+    "task_id": "aut_08",
+    "file_kind": "manipulated",
+    "aut_folder": "08_aut_08",
+    "n_ideas": 20,
+    "pool_size": 45,
+    "originality_mean": 0.26800076067447665,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/08_aut_08/aut_08_manipulated_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/08_aut_08/aut_08_manipulated_originality.csv"
+  },
+  {
+    "task_id": "aut_09",
+    "file_kind": "baseline",
+    "aut_folder": "09_aut_09",
+    "n_ideas": 50,
+    "pool_size": 98,
+    "originality_mean": 0.3302071249485016,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/09_aut_09/aut_09_baseline_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/09_aut_09/aut_09_baseline_originality.csv"
+  },
+  {
+    "task_id": "aut_09",
+    "file_kind": "manipulated",
+    "aut_folder": "09_aut_09",
+    "n_ideas": 48,
+    "pool_size": 98,
+    "originality_mean": 0.3347368836402893,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/09_aut_09/aut_09_manipulated_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/09_aut_09/aut_09_manipulated_originality.csv"
+  },
+  {
+    "task_id": "aut_10",
+    "file_kind": "baseline",
+    "aut_folder": "10_aut_10",
+    "n_ideas": 25,
+    "pool_size": 55,
+    "originality_mean": 0.3654644536972046,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/10_aut_10/aut_10_baseline_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/10_aut_10/aut_10_baseline_originality.csv"
+  },
+  {
+    "task_id": "aut_10",
+    "file_kind": "manipulated",
+    "aut_folder": "10_aut_10",
+    "n_ideas": 30,
+    "pool_size": 55,
+    "originality_mean": 0.3920115172863007,
+    "report_json": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/10_aut_10/aut_10_manipulated_originality.json",
+    "report_csv": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/originality/20250916_040418/10_aut_10/aut_10_manipulated_originality.csv"
+  }
+]
