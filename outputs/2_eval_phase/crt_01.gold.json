@@ -1,0 +1,788 @@
+{
+  "task_id": "crt_01",
+  "task_type": "CRT",
+  "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?",
+  "units": "sentence",
+  "note": "Gold labels set by rules: Clarify (task/meta), Ideate (new approach or execution), Evaluate (explicit check/judgment), Finalize (presentation/recap/closing).",
+  "marker_usage": {
+    "CLARIFY": {
+      "okay, let's see": 1,
+      "the problem is": 2
+    },
+    "IDEATE": {
+      "alternatively": 1,
+      "let me think": 1,
+      "for example": 1
+    },
+    "EVALUATE": {
+      "that": 17,
+      "let me check": 1,
+      "that's a": 1,
+      "verify": 1,
+      "that's": 4,
+      "but that's": 1
+    },
+    "FINALIZE": {
+      "the answer is": 2,
+      "final answer": 1
+    }
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 37,
+    "evaluate": 54,
+    "finalize": 26
+  },
+  "catalog_hash": "055ac768531902a35e2492f040ee2816",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, let's see.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["okay, let's see"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 2,
+      "text": "There's this problem about a bat and a ball costing $1.10 together, and the bat is $1.00 more than the ball.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["okay, let's see"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 3,
+      "text": "I need to figure out how much the ball costs.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["okay, let's see"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 4,
+      "text": "Hmm, sounds straightforward, but I remember sometimes these problems can be tricky because of how the wording is set up.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["okay, let's see"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 5,
+      "text": "Let me think through it step by step.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["let me think"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 6,
+      "text": "First, let me try to translate the problem into equations.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["let me think"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 7,
+      "text": "Let me denote the cost of the ball as something, maybe \"x\" dollars.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["let me think"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 8,
+      "text": "Then, since the bat costs $1.00 more than the ball, the bat would be \"x + 1.00\" dollars.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["let me think"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 9,
+      "text": "Together, they add up to $1.10.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["let me think"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 10,
+      "text": "So, the equation would be:",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["let me think"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 11,
+      "text": "Ball cost + Bat cost = Total cost",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["let me think"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 12,
+      "text": "Which is:",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["let me think"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 13,
+      "text": "x + (x + 1.00) = 1.10",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["let me think"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 14,
+      "text": "Let me write that out:",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 15,
+      "text": "x + x + 1.00 = 1.10",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 16,
+      "text": "Combining like terms:",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 17,
+      "text": "2x + 1.00 = 1.10",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 18,
+      "text": "Now, subtract 1.00 from both sides to solve for x:",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 19,
+      "text": "2x = 1.10 - 1.00",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 20,
+      "text": "2x = 0.10",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 21,
+      "text": "Then divide both sides by 2:",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 22,
+      "text": "x = 0.10 / 2",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 23,
+      "text": "x = 0.05",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 24,
+      "text": "So, according to this, the ball costs $0.05, and the bat costs $1.05.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 25,
+      "text": "Let me check if that adds up.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 26,
+      "text": "$0.05 + $1.05 equals $1.10.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 27,
+      "text": "Yes, that matches the total given.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 28,
+      "text": "Also, the bat is exactly $1.00 more than the ball ($1.05 - $0.05 = $1.00).",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 29,
+      "text": "So that seems to satisfy both conditions.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 30,
+      "text": "Wait, but I remember hearing that some people might think the answer is 10 cents because the total is $1.10 and the bat is $1.00 more.",
+      "seg_labels": ["Evaluate","Finalize"],
+      "trigger_markers": ["that","the answer is"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 31,
+      "text": "Let me see where that confusion might come from.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 32,
+      "text": "If someone quickly reads the problem, they might think, \"Oh, the bat is $1.00 and the ball is $0.10, so together they make $1.10.\"",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 33,
+      "text": "But that would mean the bat is only $0.90 more than the ball ($1.00 - $0.10 = $0.90), which doesn't satisfy the condition that the bat is $1.00 more.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 34,
+      "text": "So that's a common mistake.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 35,
+      "text": "The key here is that the difference has to be exactly $1.00, not just the bat being $1.00 with an additional amount for the ball.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 36,
+      "text": "Let me try another way to verify.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 37,
+      "text": "Suppose the ball is $0.05.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 38,
+      "text": "Then the bat is $0.05 + $1.00 = $1.05.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 39,
+      "text": "Adding them together: $0.05 + $1.05 = $1.10.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 40,
+      "text": "Perfect.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 41,
+      "text": "If the ball were $0.10, then the bat would be $1.10 (since it's $1.00 more), and together they would cost $1.20, which is more than the given total.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 42,
+      "text": "So that's not possible.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 43,
+      "text": "Therefore, the correct answer must be $0.05 for the ball.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 44,
+      "text": "Another approach: Let me use algebra again but define variables more formally.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 45,
+      "text": "Let the cost of the ball be x dollars.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 46,
+      "text": "Then the bat's cost is x + 1.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 47,
+      "text": "The total is 1.10.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 48,
+      "text": "So:",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 49,
+      "text": "x + (x + 1) = 1.10",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 50,
+      "text": "Which simplifies to 2x + 1 = 1.10",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 51,
+      "text": "Subtract 1: 2x = 0.10",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 52,
+      "text": "Divide by 2: x = 0.05",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 53,
+      "text": "Same result.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 54,
+      "text": "So that's consistent.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 55,
+      "text": "Maybe I can also think in cents to avoid decimals.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 56,
+      "text": "Let me convert everything to cents.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 57,
+      "text": "The total is 110 cents.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 58,
+      "text": "The bat is 100 cents more than the ball.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 59,
+      "text": "Let the ball be y cents.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 60,
+      "text": "Then the bat is y + 100 cents.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 61,
+      "text": "Together:",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 62,
+      "text": "y + (y + 100) = 110",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 63,
+      "text": "2y + 100 = 110",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 64,
+      "text": "2y = 10",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 65,
+      "text": "y = 5 cents.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 66,
+      "text": "So the ball is 5 cents, bat is 105 cents.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 67,
+      "text": "Yep, same answer.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 68,
+      "text": "I think that's solid.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that's"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 69,
+      "text": "The confusion comes from the intuitive but incorrect answer of 10 cents, which doesn't account for the fact that the $1.00 difference is in addition to the ball's cost.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 70,
+      "text": "So when you say the bat is $1.00 more, you have to add that difference to the ball's price to get the bat's price, and then the total includes both the ball and the bat.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 71,
+      "text": "Therefore, solving the equation properly gives the correct answer.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 72,
+      "text": "Let me also think if there's another way someone might approach this problem.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 73,
+      "text": "Maybe trial and error?",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 74,
+      "text": "Let's say trying different amounts.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 75,
+      "text": "Suppose the ball is 5 cents, then bat is 105, total 110.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 76,
+      "text": "That works.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 77,
+      "text": "If the ball is 10 cents, bat is 110, total is 120.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 78,
+      "text": "Too high.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 79,
+      "text": "If the ball is 4 cents, bat is 104, total is 108.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 80,
+      "text": "Too low.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 81,
+      "text": "If the ball is 6 cents, bat is 106, total is 112.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 82,
+      "text": "Too high.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 83,
+      "text": "So 5 cents is the only one that hits 110.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 84,
+      "text": "So trial and error also leads to 5 cents.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 85,
+      "text": "Alternatively, maybe someone might set up the equation incorrectly.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["alternatively"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 86,
+      "text": "For example, if they think the difference is 1.10 - 1.00 = 0.10, so splitting that as ball and bat.",
+      "seg_labels": ["Ideate","Evaluate"],
+      "trigger_markers": ["alternatively","that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 87,
+      "text": "But that's not the right way.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 88,
+      "text": "The problem is that the total is 1.10, and the bat is 1.00 more than the ball.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 89,
+      "text": "So the relationship isn't just a difference in total, but a relative price.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 90,
+      "text": "Another common mistake is not considering that the $1.00 is in addition to the ball's price.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 91,
+      "text": "So if the ball is x, the bat is x + 1.00, so total is x + x + 1.00 = 2x + 1.00.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 92,
+      "text": "So solving 2x + 1.00 = 1.10 is correct.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 93,
+      "text": "If someone instead sets up the equation as bat = total - ball, and bat = ball + 1.00, so substituting:",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 94,
+      "text": "ball + 1.00 = 1.10 - ball",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 95,
+      "text": "Then adding ball to both sides:",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 96,
+      "text": "2 * ball + 1.00 = 1.10",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 97,
+      "text": "Which is the same equation as before.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 98,
+      "text": "So solving that gives 2 * ball = 0.10 => ball = 0.05.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 99,
+      "text": "So same result.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 100,
+      "text": "Therefore, regardless of the method—algebra, trial and error, unit conversion—the answer is 5 cents for the ball.",
+      "seg_labels": ["Evaluate","Finalize"],
+      "trigger_markers": ["that","the answer is"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 101,
+      "text": "I think that's solid.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that's"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 102,
+      "text": "The key is to carefully parse the problem statement and set up the equations correctly, avoiding the common pitfall of assuming the bat is exactly $1.00 and the ball is the remaining amount, which leads to an incorrect difference.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that's"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 103,
+      "text": "Just to recap: The problem is a classic example of how people can fall into the trap of not carefully considering the relationships between numbers.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["the problem is"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 104,
+      "text": "The immediate intuition might suggest 10 cents, but upon closer examination and proper algebraic setup, the correct answer is 5 cents.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["the problem is"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 105,
+      "text": "It's a good reminder to take a moment to think through problems rather than relying on first impressions.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["the problem is"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 106,
+      "text": "**Final Answer**",
+      "seg_labels": ["Finalize"],
+      "trigger_markers": ["final answer"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 107,
+      "text": "The ball costs \\boxed{0.05} dollars.",
+      "seg_labels": ["Finalize"],
+      "trigger_markers": ["final answer"],
+      "gold_labels": ["Finalize"]
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "task_id": "gsm_02",
+  "task_type": "GSM8K",
+  "prompt": "Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?",
+  "units": "sentence",
+  "note": "Gold labels set by rules: Clarify (task/meta), Ideate (new approach or execution), Evaluate (explicit check/judgment), Finalize (presentation/recap/closing).",
+  "marker_usage": {
+    "CLARIFY": {
+      "okay, so": 3,
+      "the question is": 1
+    },
+    "IDEATE": {
+      "alternatively": 2,
+      "calculate": 3,
+      "compute": 1,
+      "for example": 1,
+      "let me think": 1
+    },
+    "EVALUATE": {
+      "that": 22,  
+      "verify": 1,
+      "make sure": 1,
+      "that's": 3,
+      "let me check": 1,
+      "might be": 1,
+      "but that's": 1,
+      "confirm": 1
+    },
+    "FINALIZE": {
+      "in conclusion": 1,
+      "final answer": 1
+    }
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 37,
+    "evaluate": 54,
+    "finalize": 26
+  },
+  "catalog_hash": "055ac768531902a35e2492f040ee2816",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, so Weng earns $12 an hour for babysitting, and she worked 50 minutes yesterday.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["okay, so"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 2,
+      "text": "I need to figure out how much she earned.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["okay, so"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 3,
+      "text": "Let me think about how to approach this.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["let me think"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 4,
+      "text": "First, I know that her hourly rate is $12 per hour.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 5,
+      "text": "But she didn't work a full hour; she only worked 50 minutes.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 6,
+      "text": "So I need to calculate the fraction of an hour that 50 minutes represents and then multiply that by her hourly rate to get the total earnings.",
+      "seg_labels": ["Ideate","Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 7,
+      "text": "Hmm, how do I convert 50 minutes into hours?",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 8,
+      "text": "Well, there are 60 minutes in an hour, right?",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 9,
+      "text": "So 50 minutes is 50/60 of an hour.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 10,
+      "text": "Let me write that down: 50 divided by 60.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 11,
+      "text": "Maybe I can simplify that fraction.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 12,
+      "text": "Both 50 and 60 are divisible by 10, so dividing numerator and denominator by 10 gives 5/6.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 13,
+      "text": "So 50 minutes is 5/6 of an hour.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 14,
+      "text": "That seems right because 60 minutes is a full hour, so 50 minutes is just 10 minutes less than an hour.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 15,
+      "text": "10 minutes is 1/6 of an hour, so subtracting that from 1 gives 5/6.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 16,
+      "text": "Yeah, that checks out.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 17,
+      "text": "Now, to find out how much she earned, I need to multiply her hourly rate by the number of hours she worked.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 18,
+      "text": "So that would be $12 multiplied by 5/6.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 19,
+      "text": "Let me do that calculation.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 20,
+      "text": "12 times 5 is 60, and then divided by 6.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 21,
+      "text": "So 60 divided by 6 is 10.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 22,
+      "text": "So does that mean she earned $10?",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 23,
+      "text": "Wait, that seems straightforward, but let me verify.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 24,
+      "text": "Alternatively, maybe I can think of it in terms of minutes.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["alternatively"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 25,
+      "text": "If she earns $12 per hour, then per minute, she would earn $12 divided by 60 minutes.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["alternatively"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 26,
+      "text": "Let me calculate that.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["calculate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 27,
+      "text": "12 divided by 60 is 0.2 dollars per minute, which is 20 cents per minute.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["calculate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 28,
+      "text": "Then, if she worked 50 minutes, multiplying 50 minutes by $0.2 per minute would be 50 * 0.2 = $10.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["calculate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 29,
+      "text": "So that also gives me $10.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 30,
+      "text": "Okay, so both methods give me the same answer.",
+      "seg_labels": ["Clarify"],
+      "trigger_markers": ["okay, so"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 31,
+      "text": "That seems consistent.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 32,
+      "text": "Wait, but let me make sure I didn't make a mistake in my calculations.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 33,
+      "text": "Let me go through the first method again.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 34,
+      "text": "50 minutes is 5/6 of an hour.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 35,
+      "text": "5 divided by 6 is approximately 0.8333...",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 36,
+      "text": "hours.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 37,
+      "text": "Then multiplying that by $12 per hour: 12 * 0.8333...",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 38,
+      "text": "Let me compute that.",
+      "seg_labels": ["Ideate","Evaluate"],
+      "trigger_markers": ["compute","that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 39,
+      "text": "12 * 0.8 is 9.6, and 12 * 0.0333...",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 40,
+      "text": "is approximately 0.4.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 41,
+      "text": "Adding those together gives 9.6 + 0.4 = 10.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 42,
+      "text": "So that's $10 again.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 43,
+      "text": "Okay, so that's the same result.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 44,
+      "text": "So that seems correct.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 45,
+      "text": "Another way to think about it: If she worked 60 minutes, she would earn $12.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 46,
+      "text": "So for each minute, it's $12/60 = $0.20 per minute.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 47,
+      "text": "Then 50 minutes would be 50 * $0.20 = $10.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 48,
+      "text": "Yep, same answer.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 49,
+      "text": "So all methods lead to $10.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 50,
+      "text": "Therefore, I think that's the right answer.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["that"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 51,
+      "text": "But let me check if there's any possibility that the question is trying to trick me.",
+      "seg_labels": ["Evaluate","Clarify"],
+      "trigger_markers": ["that","the question is"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 52,
+      "text": "For example, sometimes with hourly rates, there might be rules about rounding up to the nearest quarter hour or something.",
+      "seg_labels": ["Ideate","Evaluate"],
+      "trigger_markers": ["for example","might be"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 53,
+      "text": "But the problem doesn't mention anything like that.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["might be"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 54,
+      "text": "It just says she did 50 minutes of babysitting, and asks how much she earned.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["might be"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 55,
+      "text": "So I think we can assume that she's paid for the exact amount of time she worked, prorated by the hourly rate.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["might be"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 56,
+      "text": "Therefore, $10 is correct.",
+      "seg_labels": ["Evaluate"],
+      "trigger_markers": ["might be"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 57,
+      "text": "Alternatively, if the problem had said she was paid for each full hour, then 50 minutes would be considered as 1 hour and she would earn $12, but that's not the case here.",
+      "seg_labels": ["Ideate","Evaluate"],
+      "trigger_markers": ["alternatively","but that's"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 58,
+      "text": "The problem states she just did 50 minutes, so we need to calculate the exact amount based on the time worked.",
+      "seg_labels": ["Ideate"],
+      "trigger_markers": ["calculate"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 59,
+      "text": "So, in conclusion, after verifying through multiple methods—converting minutes to a fraction of an hour, calculating the per-minute rate, and checking the decimal equivalent—all approaches confirm that Weng earned $10 for 50 minutes of babysitting at $12 per hour.",
+      "seg_labels": ["Finalize","Evaluate"],
+      "trigger_markers": ["in conclusion","confirm"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 60,
+      "text": "**Final Answer**",
+      "seg_labels": ["Finalize"],
+      "trigger_markers": ["final answer"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 61,
+      "text": "Weng earned \\boxed{10} dollars.",
+      "seg_labels": ["Finalize"],
+      "trigger_markers": ["final answer"],
+      "gold_labels": ["Finalize"]
+    }
+  ]
+}
