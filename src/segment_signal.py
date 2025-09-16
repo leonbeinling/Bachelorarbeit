@@ -6,13 +6,14 @@ from zoneinfo import ZoneInfo  # DST-aware local time
 DEBUG = True
 
 # Run metadata
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 RUN_VERSION = "seg-v2025-09-06-hard-only"
 RUN_TZ = "Europe/Berlin"
 RUN_TS_UTC = datetime.now(timezone.utc).isoformat()
 RUN_TS_LOCAL = datetime.now(ZoneInfo(RUN_TZ)).isoformat()
 
-input_dir = "/home/beinling/qwen-reasoning/outputs/raw"
-output_dir = "/home/beinling/qwen-reasoning/outputs/structured_signals"
+input_dir = os.path.join(BASE, "outputs", "raw")
+output_dir = os.path.join(BASE, "outputs", "structured_signals")
 os.makedirs(output_dir, exist_ok=True)
 
 # --- Utils -------------------------------------------------------------------
