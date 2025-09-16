@@ -1,0 +1,453 @@
+{
+  "task_id": "aut_01",
+  "task_type": "AUT",
+  "prompt": "List as many unusual and creative uses as possible for a bucket. Provide the final answer as a numbered list.",
+  "units": "sentence",
+  "note": "Gold labels filled; seg_labels aggregated per sentence from structured_signals.",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, let's see.",
+      "seg_labels": ["Clarify"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 2,
+      "text": "The user wants a list of unusual and creative uses for a bucket.",
+      "seg_labels": ["Clarify"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 3,
+      "text": "Hmm, I need to think beyond the obvious like holding water or carrying something.",
+      "seg_labels": ["Clarify"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 4,
+      "text": "Let me brainstorm.",
+      "seg_labels": ["Clarify"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 5,
+      "text": "First, maybe as a musical instrument?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 6,
+      "text": "Like a drum.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 7,
+      "text": "That's a common one, but maybe there are other ways.",
+      "seg_labels": ["Evaluate"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 8,
+      "text": "What about using it as a seat?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 9,
+      "text": "If you take the bottom part, maybe.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 10,
+      "text": "Or a planter?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 11,
+      "text": "Yeah, people sometimes use buckets for plants.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 12,
+      "text": "But the user wants unusual, so maybe more unique ideas.",
+      "seg_labels": ["Clarify"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 13,
+      "text": "How about a temporary shelter?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 14,
+      "text": "Like a small tent if you invert it.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 15,
+      "text": "Or a hat?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 16,
+      "text": "If you wear it on your head.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 17,
+      "text": "That's kind of funny.",
+      "seg_labels": ["Evaluate"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 18,
+      "text": "Maybe a hat for a costume party.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 19,
+      "text": "What about a container for something unexpected?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 20,
+      "text": "Like a fish tank?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 21,
+      "text": "If you line it with plastic and add a filter.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 22,
+      "text": "Or a bird bath?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 23,
+      "text": "That's a bit more common, though.",
+      "seg_labels": ["Evaluate"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 24,
+      "text": "Wait, could it be used as a mold for something?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 25,
+      "text": "Like making a concrete sculpture.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 26,
+      "text": "Or a mold for ice blocks.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 27,
+      "text": "That's a good one.",
+      "seg_labels": ["Evaluate"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 28,
+      "text": "For entertainment, maybe a bucket as a prop in a game.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 29,
+      "text": "Like a game where you have to balance it on your head.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 30,
+      "text": "Or a bucket brigade for a team-building activity.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 31,
+      "text": "In art, maybe a bucket as a canvas.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 32,
+      "text": "Paint on the outside.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 33,
+      "text": "Or use it as a tool for creating art, like a paint roller holder.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 34,
+      "text": "What about in science or experiments?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 35,
+      "text": "Maybe a bucket for collecting rainwater for experiments.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 36,
+      "text": "Or as a container for a chemical reaction.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 37,
+      "text": "In sports, maybe a target for throwing.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 38,
+      "text": "Or a bucket to hold sports equipment.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 39,
+      "text": "For pets, maybe a bucket as a feeding station.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 40,
+      "text": "Or a toy for a dog to play with.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 41,
+      "text": "In gardening, besides a planter, maybe a bucket to hold tools.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 42,
+      "text": "Or as a trellis for climbing plants if you drill holes.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 43,
+      "text": "Wait, could it be used as a musical instrument in a different way?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 44,
+      "text": "Like a xylophone if you have multiple buckets of different sizes.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 45,
+      "text": "Or maybe a bucket as a part of a Rube Goldberg machine.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 46,
+      "text": "That's a creative use.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Evaluate"]
+    },
+    {
+      "sent_id": 47,
+      "text": "Also, in cooking, maybe a bucket to hold ingredients.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 48,
+      "text": "Or as a container for a slow cooker if you line it.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 49,
+      "text": "What about a bucket as a storage for something unusual?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 50,
+      "text": "Like a time capsule.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 51,
+      "text": "Or a treasure chest for a themed room.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 52,
+      "text": "In fashion, maybe a bucket as a hat or accessory.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 53,
+      "text": "Or part of a costume.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 54,
+      "text": "For photography, a bucket could be a prop.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 55,
+      "text": "Or a reflector if painted with reflective material.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 56,
+      "text": "In education, maybe a bucket for sorting objects by size or color.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 57,
+      "text": "Or as a teaching aid for volume measurements.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 58,
+      "text": "Wait, could it be used as a part of a musical instrument?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 59,
+      "text": "Like a drum, but maybe a water drum where you adjust the pitch by adding water.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 60,
+      "text": "Or a bucket as a part of a water wheel for a small-scale project.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 61,
+      "text": "Also, in a survival situation, a bucket could be used to collect and store water, but that's more practical.",
+      "seg_labels": ["Ideate", "Evaluate"],
+      "gold_labels": ["Ideate", "Evaluate"]
+    },
+    {
+      "sent_id": 62,
+      "text": "The user wants unusual, so maybe more creative.",
+      "seg_labels": ["Clarify"],
+      "gold_labels": ["Clarify"]
+    },
+    {
+      "sent_id": 63,
+      "text": "How about a bucket as a part of a sculpture?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 64,
+      "text": "Or a mobile if you hang multiple buckets.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 65,
+      "text": "Or using it as a mold for making a chair or other furniture.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 66,
+      "text": "In a party setting, maybe a bucket as a punch bowl.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 67,
+      "text": "Or a bucket for serving drinks.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 68,
+      "text": "Wait, could it be used as a part of a musical performance?",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 69,
+      "text": "Like a percussion instrument in a band.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 70,
+      "text": "Or a bucket as a part of a kinetic art installation.",
+      "seg_labels": ["Ideate"],
+      "gold_labels": ["Ideate"]
+    },
+    {
+      "sent_id": 71,
+      "text": "Hmm, I think I have enough ideas.",
+      "seg_labels": ["Finalize"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 72,
+      "text": "Let me organize them into a numbered list, making sure they're all unique and creative.",
+      "seg_labels": ["Finalize"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 73,
+      "text": "Avoid the obvious ones like holding water.",
+      "seg_labels": ["Finalize"],
+      "gold_labels": ["Finalize"]
+    },
+    {
+      "sent_id": 74,
+      "text": "Check for repetition and ensure each entry is distinct.",
+      "seg_labels": ["Evaluate"],
+      "gold_labels": ["Finalize"]
+    }
+  ]
+}

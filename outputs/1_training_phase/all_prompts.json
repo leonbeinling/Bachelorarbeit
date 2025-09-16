@@ -1,0 +1,77 @@
+[
+  {
+    "id": "aut_01",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a bucket. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_02",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a plastic bottle. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_03",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a towel. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_04",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a umbrella. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "aut_05",
+    "task_type": "AUT",
+    "prompt": "List as many unusual and creative uses as possible for a rubber band. Provide the final answer as a numbered list."
+  },
+  {
+    "id": "gsm_01",
+    "task_type": "GSM8K",
+    "prompt": "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?"
+  },
+  {
+    "id": "gsm_02",
+    "task_type": "GSM8K",
+    "prompt": "Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?"
+  },
+  {
+    "id": "gsm_03",
+    "task_type": "GSM8K",
+    "prompt": "Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?"
+  },
+  {
+    "id": "gsm_04",
+    "task_type": "GSM8K",
+    "prompt": "Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?"
+  },
+  {
+    "id": "gsm_05",
+    "task_type": "GSM8K",
+    "prompt": "James writes a 3-page letter to 2 different friends twice a week. How many pages does he write a year?"
+  },
+  {
+    "id": "crt_01",
+    "task_type": "CRT",
+    "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?"
+  },
+  {
+    "id": "crt_02",
+    "task_type": "CRT",
+    "prompt": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?"
+  },
+  {
+    "id": "crt_03",
+    "task_type": "CRT",
+    "prompt": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?"
+  },
+  {
+    "id": "crt_04",
+    "task_type": "CRT",
+    "prompt": "If you’re running a race and you pass the person in second place, what place are you in?"
+  },
+  {
+    "id": "crt_05",
+    "task_type": "CRT",
+    "prompt": "Emily’s father has three daughters. The first two are named April and May. What is the third daughter’s name?"
+  }
+]
