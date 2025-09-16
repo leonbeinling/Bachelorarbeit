@@ -2,9 +2,10 @@ import os, re, json, glob
 import pandas as pd
 from collections import Counter
 
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 # ---------- CONFIG ----------
 CONFIG = {
-    "RUN_DIR": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418",
+    "RUN_DIR": "outputs/4_manip/20250916_040418",
     "OUT_ROOT": None,
     "AUT_DIR_GLOB": "*_aut_*",
     "BASELINE_NAME": "baseline.json",
