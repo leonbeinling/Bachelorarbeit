@@ -1,0 +1,199 @@
+{
+  "files_processed": [
+    "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/01_aut_01/segments.jsonl",
+    "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/02_aut_02/segments.jsonl",
+    "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/03_aut_03/segments.jsonl",
+    "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/04_aut_04/segments.jsonl",
+    "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/05_aut_05/segments.jsonl",
+    "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/06_aut_06/segments.jsonl",
+    "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/07_aut_07/segments.jsonl",
+    "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/08_aut_08/segments.jsonl",
+    "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/09_aut_09/segments.jsonl",
+    "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/10_aut_10/segments.jsonl"
+  ],
+  "sentences_total": 102,
+  "with_marker": 102,
+  "marker_correct": 83,
+  "marker_wrong": 19,
+  "marker_vs_gold_accuracy": 0.8137254901960784,
+  "with_signal": 102,
+  "signal_correct": 83,
+  "signal_wrong": 19,
+  "signal_vs_gold_accuracy": 0.8137254901960784,
+  "per_signal_marker": [
+    {
+      "signal": "let me check",
+      "matched": 14,
+      "correct": 10,
+      "wrong": 4,
+      "accuracy_marker_vs_gold": 0.7142857142857143
+    },
+    {
+      "signal": "make sure",
+      "matched": 22,
+      "correct": 18,
+      "wrong": 4,
+      "accuracy_marker_vs_gold": 0.8181818181818182
+    },
+    {
+      "signal": "might be",
+      "matched": 11,
+      "correct": 5,
+      "wrong": 6,
+      "accuracy_marker_vs_gold": 0.45454545454545453
+    },
+    {
+      "signal": "that",
+      "matched": 2,
+      "correct": 1,
+      "wrong": 1,
+      "accuracy_marker_vs_gold": 0.5
+    },
+    {
+      "signal": "that's",
+      "matched": 16,
+      "correct": 16,
+      "wrong": 0,
+      "accuracy_marker_vs_gold": 1.0
+    },
+    {
+      "signal": "that's a",
+      "matched": 37,
+      "correct": 33,
+      "wrong": 4,
+      "accuracy_marker_vs_gold": 0.8918918918918919
+    }
+  ],
+  "per_signal_signal": [
+    {
+      "signal": "let me check",
+      "intended_phase": "Evaluate",
+      "matched": 14,
+      "correct": 10,
+      "wrong": 4,
+      "accuracy_signal_vs_gold": 0.7142857142857143
+    },
+    {
+      "signal": "make sure",
+      "intended_phase": "Evaluate",
+      "matched": 22,
+      "correct": 18,
+      "wrong": 4,
+      "accuracy_signal_vs_gold": 0.8181818181818182
+    },
+    {
+      "signal": "might be",
+      "intended_phase": "Evaluate",
+      "matched": 11,
+      "correct": 5,
+      "wrong": 6,
+      "accuracy_signal_vs_gold": 0.45454545454545453
+    },
+    {
+      "signal": "that",
+      "intended_phase": "Evaluate",
+      "matched": 2,
+      "correct": 1,
+      "wrong": 1,
+      "accuracy_signal_vs_gold": 0.5
+    },
+    {
+      "signal": "that's",
+      "intended_phase": "Evaluate",
+      "matched": 16,
+      "correct": 16,
+      "wrong": 0,
+      "accuracy_signal_vs_gold": 1.0
+    },
+    {
+      "signal": "that's a",
+      "intended_phase": "Evaluate",
+      "matched": 37,
+      "correct": 33,
+      "wrong": 4,
+      "accuracy_signal_vs_gold": 0.8918918918918919
+    }
+  ],
+  "per_file": [
+    {
+      "file": "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/01_aut_01/segments.jsonl",
+      "sentences_total": 13,
+      "with_marker": 13,
+      "marker_vs_gold_accuracy": 0.8461538461538461,
+      "with_signal": 13,
+      "signal_vs_gold_accuracy": 0.8461538461538461
+    },
+    {
+      "file": "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/02_aut_02/segments.jsonl",
+      "sentences_total": 8,
+      "with_marker": 8,
+      "marker_vs_gold_accuracy": 0.875,
+      "with_signal": 8,
+      "signal_vs_gold_accuracy": 0.875
+    },
+    {
+      "file": "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/03_aut_03/segments.jsonl",
+      "sentences_total": 17,
+      "with_marker": 17,
+      "marker_vs_gold_accuracy": 0.9411764705882353,
+      "with_signal": 17,
+      "signal_vs_gold_accuracy": 0.9411764705882353
+    },
+    {
+      "file": "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/04_aut_04/segments.jsonl",
+      "sentences_total": 3,
+      "with_marker": 3,
+      "marker_vs_gold_accuracy": 1.0,
+      "with_signal": 3,
+      "signal_vs_gold_accuracy": 1.0
+    },
+    {
+      "file": "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/05_aut_05/segments.jsonl",
+      "sentences_total": 11,
+      "with_marker": 11,
+      "marker_vs_gold_accuracy": 0.8181818181818182,
+      "with_signal": 11,
+      "signal_vs_gold_accuracy": 0.8181818181818182
+    },
+    {
+      "file": "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/06_aut_06/segments.jsonl",
+      "sentences_total": 5,
+      "with_marker": 5,
+      "marker_vs_gold_accuracy": 0.6,
+      "with_signal": 5,
+      "signal_vs_gold_accuracy": 0.6
+    },
+    {
+      "file": "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/07_aut_07/segments.jsonl",
+      "sentences_total": 5,
+      "with_marker": 5,
+      "marker_vs_gold_accuracy": 0.6,
+      "with_signal": 5,
+      "signal_vs_gold_accuracy": 0.6
+    },
+    {
+      "file": "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/08_aut_08/segments.jsonl",
+      "sentences_total": 10,
+      "with_marker": 10,
+      "marker_vs_gold_accuracy": 0.7,
+      "with_signal": 10,
+      "signal_vs_gold_accuracy": 0.7
+    },
+    {
+      "file": "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/09_aut_09/segments.jsonl",
+      "sentences_total": 19,
+      "with_marker": 19,
+      "marker_vs_gold_accuracy": 0.8421052631578947,
+      "with_signal": 19,
+      "signal_vs_gold_accuracy": 0.8421052631578947
+    },
+    {
+      "file": "outputs/5_eval_manip/labeled_segments/20250916_065745/20250916_040418/10_aut_10/segments.jsonl",
+      "sentences_total": 11,
+      "with_marker": 11,
+      "marker_vs_gold_accuracy": 0.7272727272727273,
+      "with_signal": 11,
+      "signal_vs_gold_accuracy": 0.7272727272727273
+    }
+  ]
+}
