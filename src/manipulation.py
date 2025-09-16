@@ -16,9 +16,8 @@ from transformers import (
 
 # ==== Project paths =====================================================================
 PROJ_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-DEFAULT_PROMPT_FILE = "/home/beinling/qwen-reasoning/prompts/5vorManPrompts.json"
+DEFAULT_PROMPT_FILE = os.path.join(PROJ_ROOT, "prompts", "5vorManPrompts.json")
 OUTPUT_ROOT = os.path.join(PROJ_ROOT, "outputs", "4_manip")
-
 # ==== Default configuration =============================================================
 DEFAULTS = {
     "seed": 42,
