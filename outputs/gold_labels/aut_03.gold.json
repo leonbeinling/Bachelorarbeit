@@ -1,0 +1,1733 @@
+{
+  "task_id": "aut_03",
+  "task_type": "AUT",
+  "prompt": "List as many unusual and creative uses as possible for a wine cork. Provide the final answer as a numbered list.",
+  "units": "sentence",
+  "note": "Gold labels left blank; seg_labels and trigger_markers aggregated per sentence from structured_signals.",
+  "marker_usage": {
+    "CLARIFY": {
+      "okay, let's see": 1,
+      "user wants": 1,
+      "let me think": 1
+    },
+    "IDEATE": {
+      "maybe something": 1,
+      "maybe a": 9,
+      "what about": 4,
+      "maybe as": 3,
+      "maybe using": 2,
+      "for example": 1
+    },
+    "EVALUATE": {
+      "that's kind of": 1,
+      "that's a": 4,
+      "but that's": 1,
+      "might be": 1,
+      "might not be": 1,
+      "let me check": 1,
+      "make sure": 2,
+      "ensure": 1
+    },
+    "FINALIZE": {
+      "let me list them out": 1,
+      "i think i have enough": 1,
+      "let me count": 1
+    }
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 37,
+    "evaluate": 54,
+    "finalize": 26
+  },
+  "catalog_hash": "055ac768531902a35e2492f040ee2816",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, let's see.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 2,
+      "text": "The user wants a list of unusual and creative uses for a wine cork.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 3,
+      "text": "Hmm, I need to think beyond the obvious ones like using it as a stopper or a trivet.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 4,
+      "text": "Let me brainstorm.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 5,
+      "text": "First, maybe something crafty.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe something"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 6,
+      "text": "Like making a cork board?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe something"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 7,
+      "text": "Wait, that's kind of common.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's kind of"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 8,
+      "text": "Maybe a cork coaster?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 9,
+      "text": "Still pretty standard.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 10,
+      "text": "What about using them for art projects?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 11,
+      "text": "Maybe mosaics or sculptures.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 12,
+      "text": "That's a bit more creative.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 13,
+      "text": "What about in the kitchen?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 14,
+      "text": "Maybe as a trivet, but that's already mentioned.",
+      "seg_labels": [
+        "Ideate",
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "what about",
+        "but that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 15,
+      "text": "Maybe a utensil holder?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 16,
+      "text": "Or a cutting board?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 17,
+      "text": "Maybe a cork cheese board?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 18,
+      "text": "That's a good one.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 19,
+      "text": "For gardening, maybe as a plant marker.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe as"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 20,
+      "text": "Or using them to prop open a door.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe as"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 21,
+      "text": "Oh, that's a good idea.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 22,
+      "text": "In the home, maybe as a doorstop.",
+      "seg_labels": [
+        "Evaluate",
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "that's a",
+        "maybe as"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 23,
+      "text": "Or a keychain.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe as"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 24,
+      "text": "Or a button for a jacket.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe as"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 25,
+      "text": "Wait, that's a bit unusual.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 26,
+      "text": "What about for pets?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 27,
+      "text": "Maybe a chew toy for dogs?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 28,
+      "text": "Or a scratching post for cats?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 29,
+      "text": "Maybe a cat toy with corks attached.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 30,
+      "text": "For kids' activities, maybe a cork dartboard.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 31,
+      "text": "Or a cork puzzle.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 32,
+      "text": "In the office, maybe a pen holder.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 33,
+      "text": "Or a desk organizer.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 34,
+      "text": "For DIY projects, maybe a cork pencil holder.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 35,
+      "text": "Or a cork wind chime.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 36,
+      "text": "Wait, some of these might be too similar.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "might be"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 37,
+      "text": "Let me think of more unique ones.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 38,
+      "text": "Maybe using corks as bookends?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 39,
+      "text": "Or as a part of a candle holder.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 40,
+      "text": "What about for soundproofing?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 41,
+      "text": "Maybe stuffing corks into walls to reduce noise.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 42,
+      "text": "Or using them as a part of a musical instrument, like a drum.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 43,
+      "text": "Or as a part of a science experiment, like a buoyancy test.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 44,
+      "text": "Or as a part of a jewelry piece, like earrings or a necklace.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 45,
+      "text": "Or as a part of a clock face.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 46,
+      "text": "Or as a part of a birdhouse.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 47,
+      "text": "Wait, some of these might not be very practical.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "might not be"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 48,
+      "text": "Let me check if they're actually feasible.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "might not be"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 49,
+      "text": "Also, maybe using corks as a part of a mosaic art.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 50,
+      "text": "Or as a part of a candle.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 51,
+      "text": "Or as a part of a keychain.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 52,
+      "text": "Hmm, I need to make sure each idea is unique and not overlapping.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "make sure"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 53,
+      "text": "Let me list them out and see.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 54,
+      "text": "1.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 55,
+      "text": "Cork board for pinning notes.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 56,
+      "text": "(Common, maybe skip)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 57,
+      "text": "2.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 58,
+      "text": "Coasters.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 59,
+      "text": "(Common)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 60,
+      "text": "3.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 61,
+      "text": "Trivet.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 62,
+      "text": "(Common)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 63,
+      "text": "4.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 64,
+      "text": "Plant markers.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 65,
+      "text": "(Gardening)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 66,
+      "text": "5.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 67,
+      "text": "Doorstop.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 68,
+      "text": "(Home)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 69,
+      "text": "6.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 70,
+      "text": "Keychain.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 71,
+      "text": "(Accessories)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 72,
+      "text": "7.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 73,
+      "text": "Button for clothing.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 74,
+      "text": "(Unusual)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 75,
+      "text": "8.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 76,
+      "text": "Cat toy.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 77,
+      "text": "(Pet)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 78,
+      "text": "9.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 79,
+      "text": "Bookends.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 80,
+      "text": "(Home)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 81,
+      "text": "10.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 82,
+      "text": "Candle holder.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 83,
+      "text": "(Home decor)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 84,
+      "text": "11.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 85,
+      "text": "Musical instrument part.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 86,
+      "text": "(Creative)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 87,
+      "text": "12.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 88,
+      "text": "Science experiment.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 89,
+      "text": "(Educational)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 90,
+      "text": "13.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 91,
+      "text": "Jewelry.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 92,
+      "text": "(Accessories)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 93,
+      "text": "14.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 94,
+      "text": "Clock face.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 95,
+      "text": "(Decor)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 96,
+      "text": "15.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 97,
+      "text": "Birdhouse.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 98,
+      "text": "(Gardening)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 99,
+      "text": "16.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 100,
+      "text": "Utensil holder.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 101,
+      "text": "(Kitchen)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 102,
+      "text": "17.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 103,
+      "text": "Cutting board.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 104,
+      "text": "(Kitchen)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 105,
+      "text": "18.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 106,
+      "text": "Cheese board.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 107,
+      "text": "(Kitchen)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 108,
+      "text": "19.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 109,
+      "text": "Pen holder.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 110,
+      "text": "(Office)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 111,
+      "text": "20.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 112,
+      "text": "Desk organizer.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 113,
+      "text": "(Office)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 114,
+      "text": "21.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 115,
+      "text": "Wind chime.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 116,
+      "text": "(DIY)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 117,
+      "text": "22.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 118,
+      "text": "Dartboard.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 119,
+      "text": "(Games)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 120,
+      "text": "23.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 121,
+      "text": "Puzzle.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 122,
+      "text": "(Games)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 123,
+      "text": "24.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 124,
+      "text": "Soundproofing.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 125,
+      "text": "(Home)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 126,
+      "text": "25.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 127,
+      "text": "Buoyancy test.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 128,
+      "text": "(Science)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 129,
+      "text": "26.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 130,
+      "text": "Earrings.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 131,
+      "text": "(Jewelry)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 132,
+      "text": "27.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 133,
+      "text": "Necklace.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 134,
+      "text": "(Jewelry)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 135,
+      "text": "28.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 136,
+      "text": "Drum.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 137,
+      "text": "(Music)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 138,
+      "text": "29.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 139,
+      "text": "Prop for door.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 140,
+      "text": "(Home)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 141,
+      "text": "30.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 142,
+      "text": "Candle.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 143,
+      "text": "(Home decor)",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 144,
+      "text": "Wait, some of these are similar.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "let me list them out"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 145,
+      "text": "Let me consolidate and ensure they're all unique and creative.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "ensure"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 146,
+      "text": "Maybe remove the common ones and focus on the more unusual.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "ensure"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 147,
+      "text": "For example, using corks as a part of a musical instrument, like a drum.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 148,
+      "text": "Or as a part of a science experiment.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 149,
+      "text": "Also, using them as a part of a birdhouse.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 150,
+      "text": "Maybe a cork-based mosaic.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 151,
+      "text": "Or a cork-based wind chime.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 152,
+      "text": "I think I have enough.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "i think i have enough"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 153,
+      "text": "Let me count and make sure each is distinct and creative.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "i think i have enough"
+      ],
+      "gold_labels": []
+    }
+  ]
+}

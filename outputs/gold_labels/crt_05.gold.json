@@ -1,0 +1,395 @@
+{
+  "task_id": "crt_05",
+  "task_type": "CRT",
+  "prompt": "Emily’s father has three daughters. The first two are named April and May. What is the third daughter’s name?",
+  "units": "sentence",
+  "note": "Gold labels left blank; seg_labels and trigger_markers aggregated per sentence from structured_signals.",
+  "marker_usage": {
+    "CLARIFY": {
+      "okay, let's see": 1,
+      "the question is": 4
+    },
+    "IDEATE": {},
+    "EVALUATE": {
+      "that": 4,
+      "let me check": 1,
+      "but that's": 1,
+      "confirm": 1
+    },
+    "FINALIZE": {
+      "the answer is": 1
+    }
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 37,
+    "evaluate": 54,
+    "finalize": 26
+  },
+  "catalog_hash": "055ac768531902a35e2492f040ee2816",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, let's see.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 2,
+      "text": "The question is about Emily's father who has three daughters.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 3,
+      "text": "The first two are named April and May.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 4,
+      "text": "The question is asking for the third daughter's name.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 5,
+      "text": "Hmm, at first glance, it seems straightforward, but maybe there's a trick here.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 6,
+      "text": "So, the father has three daughters.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 7,
+      "text": "The first two are April and May.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 8,
+      "text": "The third one's name is the question.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 9,
+      "text": "But wait, the problem starts by saying \"Emily's father has three daughters.\"",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 10,
+      "text": "So Emily is one of the daughters, right?",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 11,
+      "text": "Because it's her father.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 12,
+      "text": "So if the father has three daughters, and Emily is one of them, then the three daughters are Emily, April, and May.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 13,
+      "text": "But the question is phrased as \"the first two are named April and May.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 14,
+      "text": "What is the third daughter's name?\"",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 15,
+      "text": "So maybe the trick is that the third daughter is Emily herself.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 16,
+      "text": "Because the problem starts by mentioning Emily's father, so Emily is the third daughter.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 17,
+      "text": "Let me check again.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 18,
+      "text": "The problem says: Emily's father has three daughters.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 19,
+      "text": "The first two are April and May.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 20,
+      "text": "What is the third daughter's name?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 21,
+      "text": "So the three daughters are April, May, and...",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 22,
+      "text": "Emily.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 23,
+      "text": "Because the father is Emily's father, so Emily is his daughter.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 24,
+      "text": "Therefore, the third daughter is Emily.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 25,
+      "text": "The trick here is that the question starts by mentioning Emily, so people might overlook that she is part of the three daughters.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 26,
+      "text": "Instead, they might think the third daughter is named June, following the months April, May, June.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 27,
+      "text": "But that's a common trick in riddles.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 28,
+      "text": "So the answer is Emily.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "the answer is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 29,
+      "text": "Let me confirm once more.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 30,
+      "text": "The father has three daughters: April, May, and Emily.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 31,
+      "text": "The question is phrased to make you think of the next month, but actually, Emily is the third daughter.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "the question is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 32,
+      "text": "Yeah, that makes sense.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 33,
+      "text": "So the answer should be Emily.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    }
+  ]
+}

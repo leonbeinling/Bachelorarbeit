@@ -1,0 +1,428 @@
+{
+  "task_id": "gsm_04",
+  "task_type": "GSM8K",
+  "prompt": "Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?",
+  "units": "sentence",
+  "note": "Gold labels left blank; seg_labels and trigger_markers aggregated per sentence from structured_signals.",
+  "marker_usage": {
+    "CLARIFY": {
+      "okay, let's see": 1
+    },
+    "IDEATE": {},
+    "EVALUATE": {
+      "let me check": 1,
+      "that": 6,
+      "calculate": 1,
+      "verify": 1,
+      "make sure": 1
+    },
+    "FINALIZE": {
+      "final answer": 1
+    }
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 37,
+    "evaluate": 54,
+    "finalize": 26
+  },
+  "catalog_hash": "055ac768531902a35e2492f040ee2816",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, let's see.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 2,
+      "text": "Julie is reading a 120-page book.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 3,
+      "text": "So the total number of pages is 120.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 4,
+      "text": "Yesterday, she read 12 pages.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 5,
+      "text": "Today, she read twice as many pages as yesterday.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 6,
+      "text": "Hmm, so today's reading is twice 12, which would be 24 pages.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 7,
+      "text": "Let me check that again.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 8,
+      "text": "If yesterday was 12, then twice that is 24.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 9,
+      "text": "Yeah, that seems right.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 10,
+      "text": "So, total pages read so far would be yesterday's 12 plus today's 24.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 11,
+      "text": "Let me add those up.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 12,
+      "text": "12 + 24 is 36 pages.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 13,
+      "text": "So she's read 36 pages in total.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 14,
+      "text": "The book is 120 pages, so the remaining pages would be 120 minus 36.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 15,
+      "text": "Let me calculate that.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 16,
+      "text": "120 - 36...",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 17,
+      "text": "120 minus 30 is 90, minus 6 more is 84.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 18,
+      "text": "So there are 84 pages left.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 19,
+      "text": "Now, the question says she wants to read half of the remaining pages tomorrow.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 20,
+      "text": "So half of 84.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 21,
+      "text": "Let me divide that by 2.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 22,
+      "text": "84 divided by 2 is 42.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 23,
+      "text": "So she should read 42 pages tomorrow.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 24,
+      "text": "Wait, let me just verify each step again to make sure I didn't make a mistake.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 25,
+      "text": "Total pages: 120.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 26,
+      "text": "Pages read yesterday: 12.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 27,
+      "text": "Pages read today: 2*12=24.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 28,
+      "text": "Total read: 12+24=36.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 29,
+      "text": "Remaining pages: 120-36=84.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 30,
+      "text": "Half of remaining: 84/2=42.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 31,
+      "text": "Yeah, that seems correct.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 32,
+      "text": "I don't think I missed anything here.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 33,
+      "text": "The numbers add up.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 34,
+      "text": "So the answer should be 42 pages.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 35,
+      "text": "**Final Answer**",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "final answer"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 36,
+      "text": "Julie should read \\boxed{42} pages tomorrow.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "final answer"
+      ],
+      "gold_labels": []
+    }
+  ]
+}

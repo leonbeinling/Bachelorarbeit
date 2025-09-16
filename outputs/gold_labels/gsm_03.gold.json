@@ -1,0 +1,573 @@
+{
+  "task_id": "gsm_03",
+  "task_type": "GSM8K",
+  "prompt": "Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?",
+  "units": "sentence",
+  "note": "Gold labels left blank; seg_labels and trigger_markers aggregated per sentence from structured_signals.",
+  "marker_usage": {
+    "CLARIFY": {
+      "okay, let's see": 1
+    },
+    "IDEATE": {
+      "for example": 1
+    },
+    "EVALUATE": {
+      "that": 4,
+      "calculate": 1,
+      "let me check": 1,
+      "make sure": 1,
+      "that's": 1
+    },
+    "FINALIZE": {
+      "the answer is": 1
+    }
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 37,
+    "evaluate": 54,
+    "finalize": 26
+  },
+  "catalog_hash": "055ac768531902a35e2492f040ee2816",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, let's see.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 2,
+      "text": "Betty wants to buy a wallet that costs $100.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 3,
+      "text": "She has only half of the money she needs.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 4,
+      "text": "Hmm, so if the wallet is $100, half of that would be $50.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 5,
+      "text": "So Betty currently has $50 saved up.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 6,
+      "text": "Then her parents decided to give her $15.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 7,
+      "text": "And her grandparents are giving twice as much as her parents.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 8,
+      "text": "So grandparents would give 2 times $15.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 9,
+      "text": "Let me calculate that.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 10,
+      "text": "2 times 15 is $30.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 11,
+      "text": "So her grandparents are giving her $30.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 12,
+      "text": "Now, let's add up all the money she has.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 13,
+      "text": "She had $50, her parents gave $15, and grandparents gave $30.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 14,
+      "text": "So adding those together: 50 + 15 is 65, and 65 + 30 is 95.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 15,
+      "text": "Wait, so Betty has $95 now?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 16,
+      "text": "But the wallet costs $100.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 17,
+      "text": "So how much more does she need?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 18,
+      "text": "Let me subtract.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 19,
+      "text": "$100 minus $95 equals $5.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 20,
+      "text": "So Betty needs $5 more?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 21,
+      "text": "Wait, let me check again.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 22,
+      "text": "Maybe I made a mistake.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 23,
+      "text": "The problem says she has half of the money she needs.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 24,
+      "text": "The wallet is $100, so half is $50.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 25,
+      "text": "Then parents give $15, grandparents twice as much as parents, so 15*2=30.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 26,
+      "text": "So total money she has is 50+15+30=95.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 27,
+      "text": "Then 100-95=5.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 28,
+      "text": "Yeah, that seems right.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 29,
+      "text": "So she needs $5 more.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 30,
+      "text": "But let me make sure there isn't a trick here.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 31,
+      "text": "Sometimes problems have hidden details.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 32,
+      "text": "For example, does \"twice as much as her parents\" mean twice the total parents gave or each grandparent?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 33,
+      "text": "But the problem says grandparents twice as much as her parents.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 34,
+      "text": "Since it's plural grandparents, but it's possible they gave together twice as much as parents.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 35,
+      "text": "The problem says \"twice as much as her parents,\" so probably the total from grandparents is $30.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 36,
+      "text": "So yes, 15 from parents, 30 from grandparents.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 37,
+      "text": "So total 45 from family.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 38,
+      "text": "She had 50, so 50+45=95.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 39,
+      "text": "100-95=5.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 40,
+      "text": "So answer is $5.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 41,
+      "text": "I think that's correct.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 42,
+      "text": "Maybe another way to approach it: total needed is 100.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 43,
+      "text": "She has half, which is 50.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 44,
+      "text": "Total from parents and grandparents is 15 + 30=45.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 45,
+      "text": "So total she has is 50+45=95.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 46,
+      "text": "So she needs 5 more.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 47,
+      "text": "Yep.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 48,
+      "text": "Seems straightforward.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 49,
+      "text": "Probably the answer is 5.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "the answer is"
+      ],
+      "gold_labels": []
+    }
+  ]
+}

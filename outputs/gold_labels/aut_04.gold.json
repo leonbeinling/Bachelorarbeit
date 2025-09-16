@@ -1,0 +1,1197 @@
+{
+  "task_id": "aut_04",
+  "task_type": "AUT",
+  "prompt": "List as many unusual and creative uses as possible for a shoe box. Provide the final answer as a numbered list.",
+  "units": "sentence",
+  "note": "Gold labels left blank; seg_labels and trigger_markers aggregated per sentence from structured_signals.",
+  "marker_usage": {
+    "CLARIFY": {
+      "okay, let's see": 1,
+      "user wants": 1,
+      "let me think": 2
+    },
+    "IDEATE": {
+      "maybe using": 3,
+      "maybe a": 8,
+      "could be used": 1,
+      "how about": 1,
+      "for example": 1
+    },
+    "EVALUATE": {
+      "that's": 1,
+      "that": 1,
+      "might be": 1,
+      "let me check": 2
+    },
+    "FINALIZE": {
+      "i have enough": 1,
+      "let me count": 1,
+      "i think i have enough": 1,
+      "let me finalize": 1
+    }
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 37,
+    "evaluate": 54,
+    "finalize": 26
+  },
+  "catalog_hash": "055ac768531902a35e2492f040ee2816",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, let's see.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 2,
+      "text": "The user wants a list of unusual and creative uses for a shoe box.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 3,
+      "text": "Hmm, I need to think outside the box, literally.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 4,
+      "text": "First, I should brainstorm different categories where a shoe box could be useful.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 5,
+      "text": "Maybe storage, crafts, home decor, maybe even something like a pet house or a plant container.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 6,
+      "text": "Let me start jotting down ideas.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 7,
+      "text": "1.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 8,
+      "text": "**Storage for small items** – Like buttons, screws, or craft supplies.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 9,
+      "text": "That's common, but maybe there's a twist.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 10,
+      "text": "Maybe using it as a drawer organizer?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 11,
+      "text": "Or a desk organizer for pens and paperclips.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 12,
+      "text": "2.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 13,
+      "text": "**Planting container** – Shoe boxes can be used for starting seedlings.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 14,
+      "text": "Maybe even as a vertical garden if you stack them.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 15,
+      "text": "But how unusual is that?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 16,
+      "text": "Maybe using them for succulents or small herbs.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 17,
+      "text": "3.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 18,
+      "text": "**Pet house** – For small animals like hamsters or guinea pigs.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 19,
+      "text": "Maybe line it with soft materials.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 20,
+      "text": "Or even as a temporary shelter for a stray cat or dog in an emergency.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 21,
+      "text": "4.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 22,
+      "text": "**Craft projects** – Making a birdhouse, a jewelry box, or a mini bookshelf.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 23,
+      "text": "Maybe a shadow box for displaying small items.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 24,
+      "text": "Or a diorama for a school project.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 25,
+      "text": "5.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 26,
+      "text": "**Home decor** – As a decorative box, maybe painted or decorated.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 27,
+      "text": "Could be used as a tissue box cover.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 28,
+      "text": "Or part of a wall art piece when painted and hung.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 29,
+      "text": "6.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 30,
+      "text": "**Educational tools** – For kids, maybe a counting box for math games.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 31,
+      "text": "Or a vocabulary box where each compartment has a word and a picture.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 32,
+      "text": "Or a science project to track plant growth.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 33,
+      "text": "7.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 34,
+      "text": "**Tech accessories** – Maybe a stand for a phone or tablet.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 35,
+      "text": "Or a holder for charging cables.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 36,
+      "text": "If you cut a hole in the top, it could be a cable organizer.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 37,
+      "text": "8.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 38,
+      "text": "**Furniture** – Stacking them to make a side table or a footrest.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 39,
+      "text": "Or using them as shelves if you attach them to a wall.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 40,
+      "text": "Maybe a stool if you cover it with fabric.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 41,
+      "text": "9.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 42,
+      "text": "**Security** – As a lockbox for keys or valuables.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 43,
+      "text": "Maybe with a lock added.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 44,
+      "text": "Or a safe for small items in a dorm room.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 45,
+      "text": "10.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 46,
+      "text": "**Art projects** – Using the box as a canvas for painting or collage.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 47,
+      "text": "Maybe a 3D sculpture using multiple boxes.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 48,
+      "text": "Or a shadow puppet theater.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 49,
+      "text": "Wait, some of these might be too common.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "might be"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 50,
+      "text": "Let me think of more unique ideas.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 51,
+      "text": "Maybe using the box as a **soundproofing material** by filling it with foam or insulation.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 52,
+      "text": "Or as a **temporary first aid kit** with bandages and tools.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 53,
+      "text": "How about a **mini greenhouse** by cutting the top off and covering with plastic?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 54,
+      "text": "Or a **bug hotel** for insects in a garden.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 55,
+      "text": "Also, **emergency shelter** for people in a pinch, like in a survival situation.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 56,
+      "text": "Or a **mobile office** for a small workspace with compartments for supplies.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 57,
+      "text": "Maybe a **DIY camera shutter release** using the box and some materials.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 58,
+      "text": "Wait, the user said \"unusual and creative,\" so I need to push beyond the obvious.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 59,
+      "text": "Maybe a **mini aquarium** if you line it with plastic and add a filter.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 60,
+      "text": "Or a **musical instrument** like a box for a DIY drum or xylophone.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 61,
+      "text": "Another angle: **games** – like a board game box, or a puzzle storage.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 62,
+      "text": "Or a **treasure chest** for a themed room or a child's play.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 63,
+      "text": "Also, **organizing cables** by threading them through holes in the box.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 64,
+      "text": "Or a **portable snack organizer** with compartments for different snacks.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 65,
+      "text": "Hmm, maybe a **mini library** for a child's books.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 66,
+      "text": "Or a **travel kit** for toiletries.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 67,
+      "text": "Wait, some of these might overlap.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 68,
+      "text": "Let me check if I have enough unique ideas.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "i have enough"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 69,
+      "text": "Let me count.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "i have enough"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 70,
+      "text": "I have about 15 so far.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "i have enough"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 71,
+      "text": "Need to get to maybe 20.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "i have enough"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 72,
+      "text": "Let me think more.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 73,
+      "text": "**Shoebox as a speaker enclosure** – if you add a speaker and some electronics.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 74,
+      "text": "**A mini greenhouse** as mentioned.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 75,
+      "text": "**A bird feeder** by cutting a hole and adding perches.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 76,
+      "text": "**A shadow puppet theater** for kids.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 77,
+      "text": "**A mini greenhouse** again.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 78,
+      "text": "**A temporary shelter for small animals** like a cat or dog in an emergency.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 79,
+      "text": "**A storage for winter gloves and hats**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 80,
+      "text": "**A DIY camera shutter release** using the box as a housing.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 81,
+      "text": "**A mini aquarium**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 82,
+      "text": "**A musical instrument**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 83,
+      "text": "**A puzzle storage**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 84,
+      "text": "**A travel kit**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 85,
+      "text": "**A mini library**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 86,
+      "text": "**A portable snack organizer**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 87,
+      "text": "**A cable organizer**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 88,
+      "text": "**A security lockbox**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 89,
+      "text": "**A first aid kit**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 90,
+      "text": "**A soundproofing box**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 91,
+      "text": "**A bug hotel**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 92,
+      "text": "**A mobile office**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 93,
+      "text": "**A furniture piece**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 94,
+      "text": "**A decorative tissue box**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 95,
+      "text": "**A craft storage**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 96,
+      "text": "**A pet house**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 97,
+      "text": "**A plant container**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 98,
+      "text": "**A desk organizer**.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 99,
+      "text": "Wait, maybe some of these can be combined or rephrased.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 100,
+      "text": "Let me try to list them in a numbered list, making sure each is unique and creative.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 101,
+      "text": "Also, avoid repeating the same idea in different ways.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 102,
+      "text": "Let me check for duplicates.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 103,
+      "text": "For example, storage for small items and desk organizer are similar but different.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 104,
+      "text": "Okay, I think I have enough.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "i think i have enough"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 105,
+      "text": "Let me finalize the list.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "i think i have enough"
+      ],
+      "gold_labels": []
+    }
+  ]
+}

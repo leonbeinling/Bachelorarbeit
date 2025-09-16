@@ -1,0 +1,987 @@
+{
+  "task_id": "crt_02",
+  "task_type": "CRT",
+  "prompt": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+  "units": "sentence",
+  "note": "Gold labels left blank; seg_labels and trigger_markers aggregated per sentence from structured_signals.",
+  "marker_usage": {
+    "CLARIFY": {
+      "the question is": 2,
+      "let me think": 1
+    },
+    "IDEATE": {
+      "alternatively": 3,
+      "for example": 1
+    },
+    "EVALUATE": {
+      "that": 7,
+      "might be": 1,
+      "let me check": 3,
+      "verify": 2,
+      "compute": 1
+    },
+    "FINALIZE": {
+      "the answer is": 2,
+      "final answer": 1
+    }
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 37,
+    "evaluate": 54,
+    "finalize": 26
+  },
+  "catalog_hash": "055ac768531902a35e2492f040ee2816",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, let me try to figure out this problem.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 2,
+      "text": "So, the question is: If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 3,
+      "text": "Hmm, sounds like a rate problem.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 4,
+      "text": "Let me break it down step by step.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 5,
+      "text": "First, let me understand the given information.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 6,
+      "text": "Five machines take five minutes to produce five widgets.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 7,
+      "text": "So, maybe I need to find out the rate at which each machine works.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 8,
+      "text": "If I can figure out how many widgets one machine can make in a certain amount of time, then I can scale it up to 100 machines.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 9,
+      "text": "Let me think.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 10,
+      "text": "If 5 machines make 5 widgets in 5 minutes, then maybe each machine is making one widget in five minutes?",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 11,
+      "text": "Wait, that might be too simplistic.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 12,
+      "text": "Let me check.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 13,
+      "text": "If each machine makes one widget in five minutes, then 5 machines working together would make 5 widgets in five minutes.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 14,
+      "text": "That seems to fit.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 15,
+      "text": "So, each machine's rate is 1 widget per 5 minutes.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 16,
+      "text": "But let me verify this with some calculations.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 17,
+      "text": "The general formula for work problems is:",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 18,
+      "text": "Work = Rate × Time",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 19,
+      "text": "But here, we have multiple machines working together.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 20,
+      "text": "So, maybe the formula is:",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 21,
+      "text": "Total Work = Number of Machines × Rate per Machine × Time",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 22,
+      "text": "In this case, the total work is the number of widgets produced.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 23,
+      "text": "Let me assign variables:",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 24,
+      "text": "Let's denote:",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 25,
+      "text": "- Number of machines as M",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 26,
+      "text": "- Rate per machine as R (widgets per minute)",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 27,
+      "text": "- Time as T (minutes)",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 28,
+      "text": "- Total widgets as W",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 29,
+      "text": "So, the formula would be:",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 30,
+      "text": "W = M × R × T",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 31,
+      "text": "Given that when M = 5, T = 5, W = 5.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 32,
+      "text": "Let me plug those numbers in:",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 33,
+      "text": "5 = 5 × R × 5",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 34,
+      "text": "So, solving for R:",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 35,
+      "text": "5 = 25R",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 36,
+      "text": "Therefore, R = 5 / 25 = 1/5 widgets per minute per machine.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 37,
+      "text": "So each machine produces 1/5 of a widget per minute.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 38,
+      "text": "That makes sense.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 39,
+      "text": "So, one machine would take 5 minutes to make 1 widget.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 40,
+      "text": "Now, the question is asking: How long would it take 100 machines to make 100 widgets?",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "the question is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 41,
+      "text": "Using the same formula:",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "the question is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 42,
+      "text": "W = M × R × T",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "the question is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 43,
+      "text": "We need to find T when M = 100, W = 100, and R = 1/5.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "the question is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 44,
+      "text": "Plugging in:",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "the question is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 45,
+      "text": "100 = 100 × (1/5) × T",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "the question is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 46,
+      "text": "Let me compute the right-hand side:",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 47,
+      "text": "100 × (1/5) × T = 20 × T",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 48,
+      "text": "So, 20T = 100",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 49,
+      "text": "Therefore, T = 100 / 20 = 5 minutes.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 50,
+      "text": "Wait, so it's also 5 minutes?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 51,
+      "text": "That seems counterintuitive at first because if you have more machines, you might think it would take less time, but since the number of widgets scales with the number of machines, it actually takes the same amount of time.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 52,
+      "text": "Let me check again.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 53,
+      "text": "Original scenario: 5 machines take 5 minutes to make 5 widgets.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 54,
+      "text": "So, each machine is making 1 widget in 5 minutes.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 55,
+      "text": "If you have 100 machines, each one can still only make 1 widget in 5 minutes.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 56,
+      "text": "Therefore, 100 machines can make 100 widgets in the same 5 minutes.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 57,
+      "text": "That makes sense because each machine works independently on its own widget.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "compute"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 58,
+      "text": "Alternatively, maybe I can think of it as the time per widget per machine.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 59,
+      "text": "Since each machine's production time per widget is 5 minutes, regardless of how many machines you have, if you have as many machines as you need widgets, they can each produce one widget in 5 minutes.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 60,
+      "text": "So, 100 machines can produce 100 widgets in 5 minutes.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 61,
+      "text": "But let me try another approach to verify.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "verify"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 62,
+      "text": "Let's find out how many widgets one machine can produce in 5 minutes.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "verify"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 63,
+      "text": "Since 5 machines produce 5 widgets in 5 minutes, then 1 machine produces 1 widget in 5 minutes.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "verify"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 64,
+      "text": "Therefore, in 5 minutes, 100 machines would produce 100 widgets.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "verify"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 65,
+      "text": "Yep, same answer.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "verify"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 66,
+      "text": "Alternatively, maybe think in terms of rates.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 67,
+      "text": "Each machine's rate is 1 widget / 5 minutes, so 0.2 widgets per minute.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 68,
+      "text": "Then 100 machines would have a combined rate of 100 × 0.2 = 20 widgets per minute.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 69,
+      "text": "To make 100 widgets, time required is 100 / 20 = 5 minutes.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 70,
+      "text": "Yep, same answer.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 71,
+      "text": "So, all different approaches lead to 5 minutes.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 72,
+      "text": "Therefore, the answer is 5 minutes.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "the answer is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 73,
+      "text": "But wait, let me check if there's a trick here.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 74,
+      "text": "Sometimes these problems have a twist.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 75,
+      "text": "For example, if the problem was about, say, baking cakes and you need a certain number of ovens, but here it's machines making widgets.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 76,
+      "text": "Assuming that each machine works independently and there's no bottleneck or dependency between machines.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 77,
+      "text": "So, if you have more machines, they can just each make their own widget without interfering with each other.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 78,
+      "text": "Therefore, scaling the number of machines and the number of widgets proportionally keeps the time the same.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 79,
+      "text": "Another way to think about it is using proportions.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 80,
+      "text": "If 5 machines take 5 minutes to make 5 widgets, then how many widgets can 1 machine make in 5 minutes?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 81,
+      "text": "It would be 1 widget.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 82,
+      "text": "Therefore, scaling up, 100 machines in 5 minutes can make 100 widgets.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 83,
+      "text": "So, the time remains 5 minutes.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 84,
+      "text": "Alternatively, if you wanted to make more widgets than you have machines, say 1000 widgets with 100 machines, then you'd need more time.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 85,
+      "text": "But in this case, since the number of machines equals the number of widgets needed, the time remains the same as the original scenario.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 86,
+      "text": "Therefore, after checking multiple ways, I think the answer is indeed 5 minutes.",
+      "seg_labels": [
+        "Ideate",
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "alternatively",
+        "the answer is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 87,
+      "text": "**Final Answer**",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "the answer is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 88,
+      "text": "It would take \\boxed{5} minutes.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "the answer is"
+      ],
+      "gold_labels": []
+    }
+  ]
+}

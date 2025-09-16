@@ -1,0 +1,1788 @@
+{
+  "task_id": "aut_05",
+  "task_type": "AUT",
+  "prompt": "List as many unusual and creative uses as possible for a tree . Provide the final answer as a numbered list.",
+  "units": "sentence",
+  "note": "Gold labels left blank; seg_labels and trigger_markers aggregated per sentence from structured_signals.",
+  "marker_usage": {
+    "CLARIFY": {
+      "okay, i need to come up": 1
+    },
+    "IDEATE": {
+      "maybe using": 6,
+      "maybe as": 1,
+      "what about": 1,
+      "maybe a": 2,
+      "another idea": 1,
+      "how about": 1
+    },
+    "EVALUATE": {
+      "that's": 4,
+      "that": 2,
+      "that's a": 6,
+      "but that's": 1,
+      "might be": 1
+    },
+    "FINALIZE": {}
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 37,
+    "evaluate": 54,
+    "finalize": 26
+  },
+  "catalog_hash": "055ac768531902a35e2492f040ee2816",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, I need to come up with unusual and creative uses for a tree.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, i need to come up"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 2,
+      "text": "Let me start by brainstorming.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, i need to come up"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 3,
+      "text": "Trees are usually for shade, oxygen, wood, etc., but I need to think outside the box.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, i need to come up"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 4,
+      "text": "First, maybe using a tree as a natural sculpture.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 5,
+      "text": "Artists sometimes carve trees into shapes.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 6,
+      "text": "That's one.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 7,
+      "text": "Then, maybe as a living bridge.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe as"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 8,
+      "text": "I've heard of that in some places where roots are trained to form bridges.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 9,
+      "text": "That's a good one.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 10,
+      "text": "What about using the tree as a natural ladder?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 11,
+      "text": "If the branches are spaced out, maybe you can climb it like a ladder.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 12,
+      "text": "Or maybe a treehouse with a slide or something.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 13,
+      "text": "Oh, a treehouse with a zip line.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "what about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 14,
+      "text": "That's creative.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 15,
+      "text": "Another idea: using the tree as a natural filter.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "another idea"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 16,
+      "text": "Maybe the roots can help purify water.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "another idea"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 17,
+      "text": "I think some places use mangroves for water filtration.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "another idea"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 18,
+      "text": "That's a possible use.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 19,
+      "text": "How about a tree as a musical instrument?",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "how about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 20,
+      "text": "Like using the wood to make instruments, but maybe the tree itself can be part of a musical setup.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "how about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 21,
+      "text": "Or maybe using the wind through the leaves to create sounds.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "how about"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 22,
+      "text": "That's a bit abstract, but maybe possible.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 23,
+      "text": "A tree as a natural antenna?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 24,
+      "text": "Maybe the branches can be used to transmit signals.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 25,
+      "text": "Not sure how practical, but maybe in a survival situation.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 26,
+      "text": "Or using the tree as a lightning rod?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 27,
+      "text": "That's a stretch, but maybe.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 28,
+      "text": "Using the tree as a natural clock.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 29,
+      "text": "Some trees have seasonal changes, so maybe marking time by their leaves or flowers.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 30,
+      "text": "Or using the shadow of the tree to tell time like a sundial.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 31,
+      "text": "That's a good one.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 32,
+      "text": "A tree as a natural shelter for animals.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 33,
+      "text": "Maybe creating a habitat for birds or insects.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 34,
+      "text": "But that's more of a natural use.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 35,
+      "text": "Maybe enhancing it by adding nesting boxes or something.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 36,
+      "text": "Using the tree for art installations.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 37,
+      "text": "Like hanging art from the branches or using the tree as a canvas for murals.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 38,
+      "text": "That's creative.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 39,
+      "text": "A tree as a natural gym.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 40,
+      "text": "Using the branches for pull-ups or climbing.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 41,
+      "text": "Maybe a tree-based obstacle course.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 42,
+      "text": "Using the tree for communication.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 43,
+      "text": "Like sending messages tied to the branches, or using it as a landmark for navigation.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 44,
+      "text": "Maybe in a survival scenario.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 45,
+      "text": "A tree as a natural water source.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 46,
+      "text": "Some trees have sap or can collect water from the air.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 47,
+      "text": "Maybe using that for drinking.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 48,
+      "text": "A tree as a natural air purifier.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 49,
+      "text": "Beyond just oxygen, maybe using specific trees to remove pollutants from the air.",
+      "seg_labels": [
+        "Evaluate",
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "that",
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 50,
+      "text": "A tree as a natural dye source.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 51,
+      "text": "Using the bark or leaves to make dyes for fabrics.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 52,
+      "text": "A tree as a natural fertilizer.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 53,
+      "text": "Chopping and dropping leaves to enrich the soil.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 54,
+      "text": "A tree as a natural fence.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 55,
+      "text": "Training the branches to form a barrier.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 56,
+      "text": "A tree as a natural ladder for climbing buildings.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 57,
+      "text": "If the tree is near a structure, maybe using it to climb up.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 58,
+      "text": "A tree as a natural anchor for something, like a boat or a tent.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 59,
+      "text": "A tree as a natural clock for measuring time through growth rings.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 60,
+      "text": "Though that's more for dating, not real-time.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 61,
+      "text": "A tree as a natural sculpture garden.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 62,
+      "text": "Carving different parts into shapes.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 63,
+      "text": "A tree as a natural sound barrier.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 64,
+      "text": "Using dense foliage to block noise.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 65,
+      "text": "A tree as a natural compost system.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 66,
+      "text": "Letting organic matter decompose around the base.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 67,
+      "text": "A tree as a natural playground.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 68,
+      "text": "Swings, slides, climbing structures.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 69,
+      "text": "A tree as a natural art gallery.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 70,
+      "text": "Hosting events or exhibitions under the tree.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 71,
+      "text": "A tree as a natural library.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 72,
+      "text": "Carving books or messages into the bark.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 73,
+      "text": "A tree as a natural communication tower.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 74,
+      "text": "Using it to transmit signals in a remote area.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 75,
+      "text": "A tree as a natural monument.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 76,
+      "text": "Marking a significant location.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 77,
+      "text": "A tree as a natural classroom.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 78,
+      "text": "Using it for outdoor education.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 79,
+      "text": "A tree as a natural meditation spot.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 80,
+      "text": "Encouraging mindfulness and relaxation.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 81,
+      "text": "A tree as a natural art medium.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 82,
+      "text": "Using leaves, bark, etc., in art projects.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 83,
+      "text": "A tree as a natural water reservoir.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 84,
+      "text": "Collecting rainwater in the canopy.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 85,
+      "text": "A tree as a natural windbreak.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 86,
+      "text": "Protecting against strong winds.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 87,
+      "text": "A tree as a natural habitat for rare species.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 88,
+      "text": "Creating a sanctuary.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 89,
+      "text": "A tree as a natural energy source.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 90,
+      "text": "Using it for biomass energy.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 91,
+      "text": "A tree as a natural dye for body paint or cosmetics.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 92,
+      "text": "A tree as a natural tool for carving other materials.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 93,
+      "text": "A tree as a natural support structure for other plants.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 94,
+      "text": "Like a trellis.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 95,
+      "text": "A tree as a natural source of medicine.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 96,
+      "text": "Using its parts for herbal remedies.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 97,
+      "text": "A tree as a natural source of food.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 98,
+      "text": "Beyond fruit, maybe using bark or leaves.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 99,
+      "text": "A tree as a natural source of fiber for making ropes or textiles.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 100,
+      "text": "A tree as a natural source of resin for adhesives or varnishes.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 101,
+      "text": "A tree as a natural source of latex for rubber.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 102,
+      "text": "A tree as a natural source of tannins for leather.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 103,
+      "text": "A tree as a natural source of essential oils.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 104,
+      "text": "A tree as a natural source of ink or paint.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 105,
+      "text": "A tree as a natural source of building materials for shelters.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 106,
+      "text": "A tree as a natural source of fuel for cooking or heating.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 107,
+      "text": "A tree as a natural source of charcoal for drawing or fuel.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 108,
+      "text": "A tree as a natural source of mulch for gardening.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 109,
+      "text": "A tree as a natural source of compost for soil enrichment.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 110,
+      "text": "A tree as a natural source of shade for urban cooling.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 111,
+      "text": "A tree as a natural source of beauty for landscaping.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 112,
+      "text": "A tree as a natural source of inspiration for art and literature.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 113,
+      "text": "A tree as a natural source of spiritual or religious significance.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 114,
+      "text": "A tree as a natural source of community gathering spaces.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 115,
+      "text": "A tree as a natural source of historical markers.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 116,
+      "text": "A tree as a natural source of educational tools for biology.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 117,
+      "text": "A tree as a natural source of environmental monitoring (like air quality).",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 118,
+      "text": "A tree as a natural source of carbon sequestration.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 119,
+      "text": "A tree as a natural source of erosion control.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 120,
+      "text": "A tree as a natural source of wildlife corridors.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 121,
+      "text": "A tree as a natural source of pollinator habitats.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 122,
+      "text": "A tree as a natural source of genetic diversity for conservation.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 123,
+      "text": "A tree as a natural source of climate resilience.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 124,
+      "text": "A tree as a natural source of storm protection.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 125,
+      "text": "A tree as a natural source of noise reduction.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 126,
+      "text": "A tree as a natural source of aesthetic value in urban areas.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 127,
+      "text": "A tree as a natural source of mental health benefits.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 128,
+      "text": "A tree as a natural source of physical activity through climbing or walking.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 129,
+      "text": "A tree as a natural source of social interaction in parks.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 130,
+      "text": "A tree as a natural source of cultural heritage.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 131,
+      "text": "A tree as a natural source of folklore and traditions.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 132,
+      "text": "A tree as a natural source of storytelling and myths.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 133,
+      "text": "A tree as a natural source of symbols and metaphors.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 134,
+      "text": "A tree as a natural source of philosophical reflection.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 135,
+      "text": "A tree as a natural source of artistic expression.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 136,
+      "text": "A tree as a natural source of scientific research.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 137,
+      "text": "A tree as a natural source of technological innovation (like biomimicry).",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 138,
+      "text": "A tree as a natural source of sustainable practices.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 139,
+      "text": "A tree as a natural source of eco-tourism.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 140,
+      "text": "A tree as a natural source of environmental education.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 141,
+      "text": "A tree as a natural source of conservation efforts.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 142,
+      "text": "A tree as a natural source of reforestation projects.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 143,
+      "text": "A tree as a natural source of carbon credits.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 144,
+      "text": "A tree as a natural source of economic value through timber or products.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 145,
+      "text": "A tree as a natural source of employment in forestry.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 146,
+      "text": "A tree as a natural source of community development.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 147,
+      "text": "A tree as a natural source of disaster mitigation.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 148,
+      "text": "A tree as a natural source of water conservation.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 149,
+      "text": "A tree as a natural source of soil conservation.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 150,
+      "text": "A tree as a natural source of biodiversity.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 151,
+      "text": "A tree as a natural source of ecosystem services.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 152,
+      "text": "A tree as a natural source of natural capital.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 153,
+      "text": "A tree as a natural source of environmental justice.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 154,
+      "text": "A tree as a natural source of climate action.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 155,
+      "text": "A tree as a natural source of global cooperation.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 156,
+      "text": "A tree as a natural source of hope and renewal.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "maybe using"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 157,
+      "text": "Okay, that's a lot.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 158,
+      "text": "Let me organize these into a numbered list, making sure they're unusual and creative.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 159,
+      "text": "Some might be overlapping, but I'll try to pick the most unique ones.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that's a"
+      ],
+      "gold_labels": []
+    }
+  ]
+}

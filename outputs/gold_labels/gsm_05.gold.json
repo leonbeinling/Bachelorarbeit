@@ -1,0 +1,553 @@
+{
+  "task_id": "gsm_05",
+  "task_type": "GSM8K",
+  "prompt": "James writes a 3-page letter to 2 different friends twice a week. How many pages does he write a year?",
+  "units": "sentence",
+  "note": "Gold labels left blank; seg_labels and trigger_markers aggregated per sentence from structured_signals.",
+  "marker_usage": {
+    "CLARIFY": {
+      "okay, let's see": 1,
+      "okay, so": 1
+    },
+    "IDEATE": {},
+    "EVALUATE": {
+      "that": 7,
+      "confirm": 1,
+      "calculate": 2,
+      "let me check": 1,
+      "make sure": 1,
+      "that's": 1
+    },
+    "FINALIZE": {
+      "final answer": 1
+    }
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 37,
+    "evaluate": 54,
+    "finalize": 26
+  },
+  "catalog_hash": "055ac768531902a35e2492f040ee2816",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, let's see.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 2,
+      "text": "James writes a 3-page letter to 2 different friends twice a week.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 3,
+      "text": "I need to figure out how many pages he writes in a year.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 4,
+      "text": "Hmm, let me break this down step by step.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 5,
+      "text": "First, let's understand the components here.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 6,
+      "text": "He writes letters to 2 different friends.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 7,
+      "text": "Each letter is 3 pages long.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 8,
+      "text": "And he does this twice a week.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 9,
+      "text": "So, per session, how many pages is that?",
+      "seg_labels": [
+        "Clarify",
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "okay, let's see",
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 10,
+      "text": "Well, if he writes to 2 friends and each letter is 3 pages, then for each session, it's 2 friends multiplied by 3 pages.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 11,
+      "text": "Let me write that out: 2 * 3 = 6 pages per session.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 12,
+      "text": "Right?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 13,
+      "text": "So each time he does this, whether it's once a week or twice a week, each occurrence he writes 6 pages.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 14,
+      "text": "But he does this twice a week.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 15,
+      "text": "So per week, it's 2 sessions.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 16,
+      "text": "Therefore, weekly pages would be 6 pages per session times 2 sessions per week.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 17,
+      "text": "That would be 6 * 2 = 12 pages per week.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 18,
+      "text": "Okay, so every week he writes 12 pages.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, so"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 19,
+      "text": "Now, to find out how many pages he writes in a year, I need to multiply the weekly pages by the number of weeks in a year.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, so"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 20,
+      "text": "Typically, a year has 52 weeks.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, so"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 21,
+      "text": "Let me confirm that...",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 22,
+      "text": "Yeah, 52 weeks in a year.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 23,
+      "text": "So 12 pages per week times 52 weeks.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 24,
+      "text": "Let me calculate that.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 25,
+      "text": "12 * 52.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 26,
+      "text": "Hmm, 10*52 is 520, and 2*52 is 104, so adding those together gives 520 + 104 = 624.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 27,
+      "text": "So 624 pages per year?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 28,
+      "text": "Wait, let me check my steps again to make sure I didn't skip anything or miscalculate.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 29,
+      "text": "First, per session: 2 friends * 3 pages = 6 pages.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 30,
+      "text": "Then twice a week: 6 * 2 = 12 pages per week.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 31,
+      "text": "Then 12 * 52 weeks.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 32,
+      "text": "12*50 is 600, and 12*2 is 24, so 600 + 24 = 624.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 33,
+      "text": "Yeah, that seems right.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 34,
+      "text": "Is there another way to approach this?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 35,
+      "text": "Maybe calculate the total number of letters first?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 36,
+      "text": "Each letter is 3 pages.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 37,
+      "text": "How many letters does he write a year?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 38,
+      "text": "He writes 2 letters per session (since he writes to 2 friends), twice a week.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 39,
+      "text": "So letters per week: 2 * 2 = 4 letters per week.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 40,
+      "text": "Then per year: 4 letters/week * 52 weeks = 208 letters.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 41,
+      "text": "Each letter is 3 pages, so 208 * 3 = 624 pages.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 42,
+      "text": "Yep, same answer.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 43,
+      "text": "So that confirms it.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 44,
+      "text": "I think that's solid.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 45,
+      "text": "So the answer should be 624 pages a year.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "confirm"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 46,
+      "text": "**Final Answer**",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "final answer"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 47,
+      "text": "James writes a total of \\boxed{624} pages a year.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "final answer"
+      ],
+      "gold_labels": []
+    }
+  ]
+}

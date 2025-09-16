@@ -1,0 +1,587 @@
+{
+  "task_id": "crt_04",
+  "task_type": "CRT",
+  "prompt": "If you’re running a race and you pass the person in second place, what place are you in?",
+  "units": "sentence",
+  "note": "Gold labels left blank; seg_labels and trigger_markers aggregated per sentence from structured_signals.",
+  "marker_usage": {
+    "CLARIFY": {
+      "okay, let's see": 1,
+      "the question is": 2,
+      "let me think": 1
+    },
+    "IDEATE": {
+      "for example": 1,
+      "alternatively": 1
+    },
+    "EVALUATE": {
+      "that": 6,
+      "let me check": 1,
+      "but that's": 1,
+      "make sure": 1,
+      "that's": 1
+    },
+    "FINALIZE": {
+      "the answer is": 2
+    }
+  },
+  "marker_counts": {
+    "clarify": 38,
+    "ideate": 37,
+    "evaluate": 54,
+    "finalize": 26
+  },
+  "catalog_hash": "055ac768531902a35e2492f040ee2816",
+  "labels": [
+    {
+      "sent_id": 1,
+      "text": "Okay, let's see.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 2,
+      "text": "The question is: If you're running a race and you pass the person in second place, what place are you in?",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 3,
+      "text": "Hmm, I need to think through this step by step.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 4,
+      "text": "First, let me visualize the race.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 5,
+      "text": "Let's say there are several runners.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 6,
+      "text": "The person who is in second place is currently behind the leader.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "okay, let's see"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 7,
+      "text": "Now, if I'm running and I pass that person who's in second, what happens?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 8,
+      "text": "So, if I pass someone who is in second place, that means I was behind them before passing.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 9,
+      "text": "So, if I overtake them, I take their position.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 10,
+      "text": "But wait, if they were in second, then by passing them, I would move into their spot.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 11,
+      "text": "So, if I pass the person in second, I would be in second place.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 12,
+      "text": "But wait, isn't the person who was in first still ahead of me?",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 13,
+      "text": "So, if I pass the second-place runner, I take their position, which is second.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 14,
+      "text": "Therefore, I would be in second place.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 15,
+      "text": "Wait, but maybe I need to consider if there's someone else ahead.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 16,
+      "text": "Let me think again.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 17,
+      "text": "Suppose the race has a leader in first place, then the person in second, and then me.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 18,
+      "text": "If I pass the person in second, I take their spot, so I'm now second.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 19,
+      "text": "The person I passed would drop to third, assuming there are more runners.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 20,
+      "text": "But the question doesn't specify how many people are in the race.",
+      "seg_labels": [
+        "Clarify"
+      ],
+      "trigger_markers": [
+        "let me think"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 21,
+      "text": "However, the key here is that passing the second-place person would put me into their position.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 22,
+      "text": "But maybe there's a trick here.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 23,
+      "text": "Sometimes these questions are about wording.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 24,
+      "text": "For example, if you pass the person in second place, you take their position.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 25,
+      "text": "So if they were second, you become second.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 26,
+      "text": "But if you pass the person in first place, you become first.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 27,
+      "text": "So in this case, passing second place would make you second.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "for example"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 28,
+      "text": "Wait, but let me check if there's another angle.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 29,
+      "text": "Suppose the race has only three people: A, B, and me.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 30,
+      "text": "A is first, B is second, and I'm third.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 31,
+      "text": "If I pass B, I take second place, and B becomes third.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 32,
+      "text": "So yes, I would be in second.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "let me check"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 33,
+      "text": "Alternatively, if there are more people, say four runners: 1st, 2nd, 3rd, 4th.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 34,
+      "text": "If I'm in third and pass the person in second, I become second.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 35,
+      "text": "The person I passed becomes third.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 36,
+      "text": "So regardless of how many people are in the race, passing the person in second place would put me into second place.",
+      "seg_labels": [
+        "Ideate"
+      ],
+      "trigger_markers": [
+        "alternatively"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 37,
+      "text": "But maybe the question is trying to trick me into thinking that passing second place would make me first.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 38,
+      "text": "But that's only if I pass the leader.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 39,
+      "text": "So the answer is second place.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "the answer is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 40,
+      "text": "Wait, but let me make sure.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "make sure"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 41,
+      "text": "Let's take an example.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "make sure"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 42,
+      "text": "If I'm in third place and I pass the person in second, I take their position.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "make sure"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 43,
+      "text": "So I'm now second.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "make sure"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 44,
+      "text": "The person I passed is now third.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "make sure"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 45,
+      "text": "So the answer is second place.",
+      "seg_labels": [
+        "Finalize"
+      ],
+      "trigger_markers": [
+        "the answer is"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 46,
+      "text": "Yes, that makes sense.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 47,
+      "text": "So the answer should be second place.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 48,
+      "text": "I think that's it.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 49,
+      "text": "The trick is that people might think passing someone in second would make you first, but actually, you just take their position.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    },
+    {
+      "sent_id": 50,
+      "text": "So the correct answer is second place.",
+      "seg_labels": [
+        "Evaluate"
+      ],
+      "trigger_markers": [
+        "that"
+      ],
+      "gold_labels": []
+    }
+  ]
+}
