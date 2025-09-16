@@ -12,17 +12,17 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, __version__ as hf_
 from transformers import StoppingCriteria, StoppingCriteriaList  # for in-generate stopping
 
 # =========================
-# Config block (stateless per prompt)
+# Config block
 # =========================
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DEBUG_MODE = True       # If True, process only NUM_TEST_PROMPTS
 NUM_TEST_PROMPTS = 5
 
 SEED = 42
 MODEL_ID = "Qwen/Qwen3-32B"
 REVISION = "9216db5781bf21249d130ec9da846c4624c16137"   # commit hash 2025-07-26
-PROMPT_FILE = "prompts/all_prompts.json"
-OUTPUT_DIR = "/home/beinling/qwen-reasoning/outputs/raw"
-
+PROMPT_FILE = os.path.join(BASE, "prompts", "all_prompts.json")
+OUTPUT_DIR  = os.path.join(BASE, "outputs", "raw")
 # Generation parameters — deterministic by default (do_sample=False)
 MAX_NEW_TOKENS = 2048    # 1st stage; Auto-Continue uses smaller chunks
 DO_SAMPLE = False
