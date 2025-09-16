@@ -9,6 +9,7 @@ from glob import glob
 from collections import Counter, defaultdict
 from typing import Dict, List, Tuple
 
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 PHASES = ["Clarify", "Ideate", "Evaluate", "Finalize"]
 FAMILIES = ["aut", "gsm", "crt"]
 FILENAME_RE = re.compile(r"^(aut|gsm|crt)_[0-9]+\.gold\.json$")
@@ -33,6 +34,9 @@ def read_json(path: str) -> dict:
 
 def ensure_dir(p: str) -> None:
     os.makedirs(p, exist_ok=True)
+
+def resolve_path(p: str) -> str:
+    return p if os.path.isabs(p) else os.path.join(BASE, p)
 
 def clean_dir(p: str) -> None:
     """Removes previous output files, but never touches input files."""
@@ -514,8 +518,8 @@ def main():
     parser.add_argument("--out-dir", default="outputs/3_phase_metrics", help="Output folder for metrics.")
     args = parser.parse_args()
 
-    input_dir = args.input_dir
-    out_dir = args.out_dir
+    input_dir = resolve_path(args.input_dir)
+    out_dir = resolve_path(args.out_dir)
 
     if not os.path.isdir(input_dir):
         print(f"[ERR] Input folder does not exist: {input_dir}", file=sys.stderr)
