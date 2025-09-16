@@ -1,0 +1,31 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,**DIY Plant Marker**: Write plant names on the cup and insert it into soil to label garden beds.,,
+1,**Emergency Whistle**: Poke a small hole in the side and blow through it to create a whistle.,0.3231021761894226,0.6768978238105774
+2,**Mini Speaker Diffuser**: Wrap the cup with a plastic bag or tissue paper and place a small speaker inside to amplify sound.,0.4877544641494751,0.5122455358505249
+3,**Bird Bath Base**: Fill the cup with water and place it in a shallow dish or on a pedestal for birds to drink from.,0.5492804646492004,0.45071953535079956
+4,"**Temporary Ice Pack**: Fill with water, freeze, and use as a cooling pack for food or injuries.",0.3845798969268799,0.6154201030731201
+5,"**Kaleidoscope Lens**: Cut a slit in the side, insert a mirror strip, and look through it to create patterns from light.",0.030705468729138374,0.9692945312708616
+6,**Puppet Theater Prop**: Cut out sections to form a face or character for a shadow puppet show.,0.3904377222061157,0.6095622777938843
+7,"**Seed Germination Chamber**: Make small holes in the bottom, fill with soil and seeds, and keep it moist in a warm spot.",0.16619378328323364,0.8338062167167664
+8,**DIY Drum**: Stretch a balloon over the open end and use fingers to tap out rhythms.,0.1680561900138855,0.8319438099861145
+9,"**Mini Greenhouse**: Place a small plant inside, cover with plastic wrap, and create a humid environment.",0.21519145369529724,0.7848085463047028
+10,**Temporary Compass**: Float a magnetized needle in water inside the cup to indicate direction.,0.22619381546974182,0.7738061845302582
+11,"**Photo Booth Prop**: Decorate with funny faces, mustaches, or hats for a quirky photo backdrop.",0.24555149674415588,0.7544485032558441
+12,**Egg Incubator**: Line the cup with soft materials and use a heat source to keep an egg warm for observation.,0.1093684509396553,0.8906315490603447
+13,"**DIY Wind Chime**: Cut slits into the cup, thread with beads or strings, and hang in a breeze.",0.41097140312194824,0.5890285968780518
+14,**Liquid Measuring Tool**: Mark volume levels and use as a makeshift graduated cylinder for recipes or experiments.,0.28273510932922363,0.7172648906707764
+15,**Mini Lantern**: Wrap with LED string lights or a battery-powered candle for a portable light source.,0.12307201325893402,0.876927986741066
+16,**Temporary Container for Oils**: Hold small amounts of cooking oil or essential oils for mixing or pouring.,0.18838700652122498,0.811612993478775
+17,**DIY Snow Cone Mold**: Freeze juice-filled cups and chisel out icy treats.,0.4101606607437134,0.5898393392562866
+18,"**Pencil Holder**: Stack cups together to organize small items like pens, buttons, or screws.",0.440669983625412,0.559330016374588
+19,**Miniature Theater Stage**: Cut a slit in the side to create a flap for puppet performances.,0.3127959370613098,0.6872040629386902
+20,"**DIY Steam Engine**: Punch holes in the bottom, fill with water, and heat it to demonstrate steam principles.",0.18879909813404083,0.8112009018659592
+21,**Temporary Paint Palette**: Use for mixing watercolors or acrylics during art projects.,0.27036070823669434,0.7296392917633057
+22,**Miniature Boat Hull**: Float it in water and add a sail made from paper or fabric for a toy boat.,0.3950144350528717,0.6049855649471283
+23,"**Emergency Signal Mirror**: Cover the cup with a reflective surface (e.g., foil) to create a signaling device.",0.18143031001091003,0.81856968998909
+24,**DIY Musical Instrument**: Fill with water to different levels and tap with a spoon to create tones (like a water xylophone).,0.36494967341423035,0.6350503265857697
+25,**Miniature Greenhouse for Cuttings**: Place plant cuttings inside to propagate new plants.,0.06625821441411972,0.9337417855858803
+26,"**Temporary Container for Baking**: Use as a mold for small muffins, candies, or baked goods (non-heated).",0.20643343031406403,0.793566569685936
+27,**DIY Gravity Demonstrator**: Drop objects into the cup from a height to observe free-fall.,0.195764422416687,0.804235577583313
+28,"**Miniature Bird Feeder**: Punch small holes in the sides, fill with birdseed, and hang with string.",0.39368367195129395,0.606316328048706
+29,"**Temporary Emergency Cup**: In survival situations, use to collect rainwater or melt snow for drinking.",0.2682757079601288,0.7317242920398712

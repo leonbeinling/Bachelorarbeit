@@ -1,0 +1,31 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,"**Vertical Garden Frame**: Convert the bicycle frame into a trellis for climbing plants, adding soil-filled containers to the wheels and frame.",,
+1,"**Kinetic Sculpture**: Use the chain, gears, and spokes to create a moving art piece powered by wind or manual input.",0.4240299463272095,0.5759700536727905
+2,**Hula Hoop Replacement**: Repurpose a lightweight rim as a hula hoop after removing the spokes.,0.24240988492965698,0.757590115070343
+3,**Bike-Powered Generator**: Attach a dynamo to generate electricity for small devices or lighting.,0.07009100168943405,0.929908998310566
+4,**Mobile Pet Bed**: Transform the saddle and handlebars into a suspended pet bed using a pulley system.,0.2602304518222809,0.7397695481777191
+5,**String Art Canvas**: Utilize the wheel spokes and hub as a base for intricate string or wire art.,0.3251599967479706,0.6748400032520294
+6,**Portable Musical Instrument**: Strike the spokes with mallets or pluck the chain to create a unique percussion instrument.,0.5100542902946472,0.4899457097053528
+7,**DIY Canoe Paddle Holder**: Mount the handlebars to a kayak or canoe for secure paddle storage.,0.3548651933670044,0.6451348066329956
+8,**Emergency Tent Pole**: Use the seat post or handlebars as collapsible poles for a temporary shelter.,0.533125102519989,0.466874897480011
+9,**Wheelbarrow Wheel Upgrade**: Replace a wheelbarrow’s wheel with a bicycle wheel for smoother terrain navigation.,0.33617880940437317,0.6638211905956268
+10,**Bike Wheel Water Wheel**: Modify the wheel with buckets to create a small-scale water pump for irrigation.,0.5516855716705322,0.4483144283294678
+11,"**Coaster Rack**: Convert the frame into a slanted rack to hold coffee mugs, books, or tools.",0.3463117480278015,0.6536882519721985
+12,"**Bike-Frame Greenhouse**: Build a cold frame using the frame as a base, covered in plastic or glass.",0.547817587852478,0.452182412147522
+13,**Windmill Propeller**: Attach blades to the front fork to create a mini windmill for outdoor decor.,0.4633476734161377,0.5366523265838623
+14,**Bike-Powered Blender**: Connect the pedals to a motor to power a hand-crank blender for remote kitchens.,0.5051722526550293,0.4948277473449707
+15,**Garden Trellis with Wheels**: Use the frame as a mobile trellis that rolls along garden rows.,0.3289605677127838,0.6710394322872162
+16,"**Bike Wheel Mirror**: Attach a mirror to the wheel’s rim for a decorative, rotating wall art piece.",0.48506349325180054,0.5149365067481995
+17,**Bike Seat as Garden Chair**: Add a cushion and legs to the saddle for a unique outdoor seating option.,0.37645846605300903,0.623541533946991
+18,"**Bike Chain Fencing**: String the chain between two poles as a rustic, functional garden fence.",0.34591370820999146,0.6540862917900085
+19,**Bike Frame Canopy**: Use the frame as a support structure for a fabric canopy or parasol.,0.45003095269203186,0.5499690473079681
+20,**Bike Wheel Wind Chime**: Hang the wheel vertically and add chimes to the spokes for a wind-powered instrument.,0.36273857951164246,0.6372614204883575
+21,**Bike Tire Planters**: Cut the tires into flower pots or use them as mulch retainers in gardens.,0.36060070991516113,0.6393992900848389
+22,"**Bike Pedal Tool Organizer**: Attach the pedals to a wall with hooks for storing screwdrivers, wrenches, etc.",0.4608612656593323,0.5391387343406677
+23,**Bike Handlebar BBQ Skewer Holder**: Install hooks on the handlebars to hold skewers during outdoor cooking.,0.4242335855960846,0.5757664144039154
+24,"**Bike Wheel Merry-Go-Round**: Add seats and a central pivot to create a small, child-friendly spinning toy.",0.3064248263835907,0.6935751736164093
+25,**Bike Frame Swing Set**: Secure the frame to a tree and add a swing seat for a rustic play area.,0.5490576028823853,0.45094239711761475
+26,**Bike Saddle as Bird Feeder**: Attach a feeding tray and perch to the saddle for a unique garden fixture.,0.4764576554298401,0.5235423445701599
+27,**Bike Chain Jewelry Stand**: Use the chain as a base for displaying necklaces or bracelets.,0.2620146870613098,0.7379853129386902
+28,**Bike Wheel Fire Ring**: Create a circular fire pit using the wheel’s rim and heat-resistant materials.,0.3103342652320862,0.6896657347679138
+29,**Bike Frame Time Capsule**: Hollow out the frame to store memorabilia and bury it as a historical artifact.,0.24049314856529236,0.7595068514347076

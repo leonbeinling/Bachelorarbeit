@@ -1,0 +1,41 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,**DIY Wind Chime Component**: Attach to strings with beads or shells to create a homemade wind chime.,,
+1,**Cable Organizer**: Clip wires together to prevent tangles under desks or behind devices.,0.159096822142601,0.840903177857399
+2,**Garden Plant Label Holder**: Secure handwritten labels to stems or pots for plant identification.,0.17961829900741577,0.8203817009925842
+3,**Temporary Bookmark**: Clip to a page to mark a reading spot without damaging the book.,0.25261610746383667,0.7473838925361633
+4,"**Art Medium**: Paint or carve into the wood for decorative keychains, ornaments, or jewelry.",0.2774743437767029,0.7225256562232971
+5,**Miniature Prop**: Use in dollhouse or miniature scenes as a functional or decorative item.,0.4875345826148987,0.5124654173851013
+6,"**Science Experiment Tool**: Demonstrate levers, fulcrums, or friction in classroom physics lessons.",0.2756243348121643,0.7243756651878357
+7,"**Kitchen Utensil**: Press herbs or lemon slices to extract juice, or secure a spice jar lid.",0.12896859645843506,0.8710314035415649
+8,**Pet Toy**: Paint with non-toxic colors for a chew toy or attach to a leash for a walking clip.,0.2925153374671936,0.7074846625328064
+9,**First Aid Splint Holder**: Secure a makeshift splint to a broken limb in an emergency.,0.19854722917079926,0.8014527708292007
+10,"**Candle Holder**: Insert a narrow candle into the clip for a stable, decorative holder.",0.23846611380577087,0.7615338861942291
+11,**Photo Frame Clip**: Hold photos or postcards in place within a frame without adhesive.,0.35141411423683167,0.6485858857631683
+12,**DIY Camera Shutter**: Attach to a smartphone to remotely trigger the camera (with a string).,0.27552515268325806,0.7244748473167419
+13,**Woodworking Clamp**: Temporarily hold small wood pieces together while gluing.,0.1428174376487732,0.8571825623512268
+14,**Curtain Tack**: Use as a makeshift hook to hold back curtains or drapes.,0.5071929693222046,0.4928070306777954
+15,**Seedling Support**: Prop up young plants in a greenhouse or indoor garden.,0.260469913482666,0.739530086517334
+16,**Recipe Organizer**: Clip recipe cards to a magnetic board or wall for easy access.,0.2205144762992859,0.7794855237007141
+17,**Cable Management in Cars**: Secure charging cables to a car’s cup holder or vents.,0.27600860595703125,0.7239913940429688
+18,**DIY Bird Feeder**: Attach to a branch or hook with seeds for a simple feeder.,0.26679372787475586,0.7332062721252441
+19,**Emergency Jar Opener**: Use the metal spring to pry open lids on jars or cans.,0.45000457763671875,0.5499954223632812
+20,**Craft Stencil Holder**: Clip fabric or paper stencils in place during painting or cutting.,0.2126062959432602,0.7873937040567398
+21,"**Drawer Organizer**: Sort small items like screws, beads, or buttons in compartments.",0.34935832023620605,0.650641679763794
+22,"**Wall Mount for Keys**: Clip to a hook or nail to store keys, headphones, or small tools.",0.5342828035354614,0.4657171964645386
+23,**Ice Cube Tray Marker**: Clip labels to identify flavors or contents in frozen cubes.,0.2666182518005371,0.7333817481994629
+24,**Miniature Shelf Holder**: Prop up lightweight items on a narrow shelf or windowsill.,0.21708838641643524,0.7829116135835648
+25,**Gardening Tool**: Secure trellises or netting to support climbing plants.,0.32871124148368835,0.6712887585163116
+26,**DIY Loom for Weaving**: Use as a simple loom for small weaving or macramé projects.,0.29744112491607666,0.7025588750839233
+27,**Temporary Door Stop**: Wedge between a door and frame to keep it open.,0.3056594133377075,0.6943405866622925
+28,**Art Journal Fastener**: Secure loose pages or mixed-media elements in a sketchbook.,0.2352973073720932,0.7647026926279068
+29,**Survival Tool**: Combine with sticks or string to create a lever for prying objects or building shelters.,0.18617035448551178,0.8138296455144882
+30,**Kitchen Utensil Holder**: Clip to a magnetic strip or wall to organize knives or tools.,0.6133338212966919,0.3866661787033081
+31,**DIY Mobile Component**: Attach to strings with lightweight objects for a hanging mobile.,0.375868022441864,0.624131977558136
+32,**Tape Dispenser Holder**: Clip a small tape roll to the clip for easy access.,0.502843976020813,0.497156023979187
+33,**Craft Glue Dispenser**: Insert a glue stick into the clip for a portable glue tool.,0.5285146832466125,0.47148531675338745
+34,**Garden Hose Organizer**: Clip to a fence or hook to hold a hose while watering.,0.3092378079891205,0.6907621920108795
+35,**Pet Harness Attachment**: Clip to a pet’s collar or harness for added control during walks.,0.3862740993499756,0.6137259006500244
+36,**Emergency Light Diffuser**: Clip a thin cloth over a flashlight to soften the beam.,0.29623204469680786,0.7037679553031921
+37,**Miniature Sifter**: Use with a fine mesh to sift powders like flour or sugar.,0.3710528016090393,0.6289471983909607
+38,**DIY Musical Instrument**: Attach to strings with beads or shells to create a percussion tool.,0.3413292467594147,0.6586707532405853
+39,**Window Decal Holder**: Clip to a window to secure a decal in place during application.,0.19181588292121887,0.8081841170787811

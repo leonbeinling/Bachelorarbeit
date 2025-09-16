@@ -1,0 +1,31 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,**DIY Wind Chime Holder** – String multiple clothespins together to create a base for hanging wind chimes or seashells.,,
+1,**Candle Mold** – Carve the clothespin into a shape to mold beeswax or soy candles.,0.3014083504676819,0.6985916495323181
+2,**Mini Bookmarks** – Paint or engrave them as decorative bookmarks.,0.43058550357818604,0.569414496421814
+3,**Pet Toy Organizer** – Clip small pet toys or treats to a string for easy access.,0.4068656861782074,0.5931343138217926
+4,**Mobile Phone Stand** – Attach a clothespin to a surface to prop up a phone for hands-free viewing.,0.3885505795478821,0.6114494204521179
+5,**Plant Label Holder** – Clip handwritten plant tags to seedlings in a garden.,0.28628721833229065,0.7137127816677094
+6,**Emergency Splint** – Use as a makeshift splint for minor injuries (not a substitute for medical care).,0.1742091178894043,0.8257908821105957
+7,**Cord Organizer** – Clip together tangled cords or wires to keep them tidy.,0.26524412631988525,0.7347558736801147
+8,**Mini Drawer Separator** – Stack and glue clothespins vertically to divide drawers into sections.,0.655220627784729,0.344779372215271
+9,**DIY Bird Feeder** – Attach a clothespin to a pinecone or wooden spoon for a hanging bird feeder.,0.5050351619720459,0.4949648380279541
+10,**Hair Clip Alternative** – Paint or decorate a clothespin to use as a hair clip (for casual looks).,0.3933888077735901,0.6066111922264099
+11,**Kitchen Utensil Holder** – Clip to the edge of a counter to hold a spatula or peelers.,0.530213475227356,0.46978652477264404
+12,**Mini Art Canvas** – Paint small artworks or mosaics on the flat surface.,0.3668133318424225,0.6331866681575775
+13,**Garden Trellis** – String clothespins vertically to create a support system for climbing plants.,0.1896703690290451,0.8103296309709549
+14,**Recipe Holder** – Clip a recipe card to a pot or pan while cooking.,0.13280557096004486,0.8671944290399551
+15,"**Camping Gear Organizer** – Clip to a backpack strap to hold a compass, map, or snacks.",0.25477975606918335,0.7452202439308167
+16,**DIY Musical Instrument** – Attach to a wooden box to create a basic xylophone or drum.,0.2543627619743347,0.7456372380256653
+17,**Emergency Fire Starter** – Carve into small pieces for kindling in a survival kit.,0.3480135202407837,0.6519864797592163
+18,**Mini Bookend** – Stack and glue clothespins to hold small books upright.,0.41793251037597656,0.5820674896240234
+19,**Art Studio Tool** – Use to hold paintbrushes upright while drying.,0.43478721380233765,0.5652127861976624
+20,**Bathroom Towel Hanger** – Clip to a shower caddy to keep a towel from slipping.,0.5679813027381897,0.4320186972618103
+21,**DIY Jewelry Clamp** – Secure small jewelry pieces while soldering or gluing.,0.30827999114990234,0.6917200088500977
+22,**Toy Train Track Holder** – Clip to a surface to stabilize model train tracks.,0.2794240415096283,0.7205759584903717
+23,**Mini Flagpole** – String clothespins to create a tiny flag display for events or decorations.,0.3383849263191223,0.6616150736808777
+24,**Emergency Pencil Holder** – Clip to a desk edge to hold pencils or pens.,0.2188958078622818,0.7811041921377182
+25,**DIY Puzzle Pieces** – Paint and carve them into shapes for custom jigsaw puzzles.,0.34831929206848145,0.6516807079315186
+26,**Mini Garden Gate** – Attach to a small fence or pot to create a decorative gate.,0.39250731468200684,0.6074926853179932
+27,**Bike Accessories Holder** – Clip to a bike rack to hold a bike pump or tools.,0.2834799885749817,0.7165200114250183
+28,**DIY Clock Component** – Use in a handmade clock as a gear or lever (for educational models).,0.27147871255874634,0.7285212874412537
+29,**Mini Sundial** – Carve a shadow-casting notch and use with a string to track time.,0.35671669244766235,0.6432833075523376

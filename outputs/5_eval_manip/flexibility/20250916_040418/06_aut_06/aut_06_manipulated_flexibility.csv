@@ -1,0 +1,31 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,"**DIY Musical Instrument** – Turn it into a drum, tambourine (by adding beads or bells), or a wind chime by cutting slits and threading strings.",,
+1,**Seed Starter for Plants** – Use it as a biodegradable container for starting seeds; plant it directly in soil.,0.060812756419181824,0.9391872435808182
+2,**Mini Greenhouse** – Cover with plastic wrap and a rubber band to create a humid environment for sprouting herbs or cuttings.,0.5096120834350586,0.4903879165649414
+3,**Emergency Funnel** – Cut off the top and use it to pour liquids into narrow openings.,0.3802223205566406,0.6197776794433594
+4,"**Calorimeter for Science Experiments** – Measure heat transfer in a simple experiment (e.g., melting ice).",0.27949315309524536,0.7205068469047546
+5,**Puppet for Shadow Play** – Decorate the inside and use it as a hand puppet for storytelling.,0.006601747125387192,0.9933982528746128
+6,**Temporary Cable Organizer** – Cut slits in the side to create a holder for tangled wires or earbuds.,0.1666477769613266,0.8333522230386734
+7,**Mini Steamer** – Place over a pot of boiling water to steam vegetables or dim sum.,0.017699655145406723,0.9823003448545933
+8,**DIY Lantern or Light Diffuser** – Paint the cup with glow-in-the-dark paint or use it as a diffuser for a small LED light.,0.4343727231025696,0.5656272768974304
+9,**Puzzle or Game Piece** – Stack cups in a pyramid for a balancing game or use as tokens in board games.,0.32993796467781067,0.6700620353221893
+10,**Ice Cube Mold** – Freeze water (or colored water with herbs) for decorative ice cubes.,0.36073368787765503,0.639266312122345
+11,"**Emergency Water Filter (Basic)** – Layer charcoal, sand, and cotton inside to create a rudimentary filter (not for drinking water without sterilization).",0.28523874282836914,0.7147612571716309
+12,**Mini Greenhouse for Mushrooms** – Use it as a humidifier for growing oyster mushrooms.,0.28071868419647217,0.7192813158035278
+13,**DIY Kite Frame** – Cut and reshape the cup into a lightweight frame for a paper kite.,0.14717315137386322,0.8528268486261368
+14,**Temporary Patch** – Use it to cover small leaks in buckets or containers until a permanent fix is possible.,0.20128756761550903,0.798712432384491
+15,**Bird Bath** – Fill with water and place in a sunny spot for small birds to drink from.,0.27222782373428345,0.7277721762657166
+16,"**Art Medium** – Paint or collage the cup into a sculpture, or cut it into shapes for mobiles or wall art.",0.29224205017089844,0.7077579498291016
+17,**Mini Aquarium for Snails** – Fill with water and add a snail (from a pet store) for a temporary habitat.,0.2744821608066559,0.7255178391933441
+18,"**Candle Holder** – Secure a tealight candle in the center for a safe, decorative flame.",0.11820100247859955,0.8817989975214005
+19,**DIY Compass** – Float a magnetized paperclip inside water to create a makeshift compass.,0.1874983310699463,0.8125016689300537
+20,**Plant Marker** – Write plant names on the cup and stick it in soil.,0.20981933176517487,0.7901806682348251
+21,**Emergency Cup Phone Holder** – Poke a hole in the bottom and thread a phone into a makeshift stand.,0.3646926283836365,0.6353073716163635
+22,"**Math Teaching Tool** – Use to demonstrate volume, fractions, or capacity.",0.22453303635120392,0.7754669636487961
+23,"**Temporary Stool** – Stack and tape multiple cups together for a lightweight, temporary seat.",0.21747638285160065,0.7825236171483994
+24,**DIY Musical Marimba** – Attach cups of varying sizes to a board and strike with a mallet for different notes.,0.5703539848327637,0.42964601516723633
+25,**Stain Test Swatch** – Apply cleaning solutions to the inside to test for discoloration before using on fabrics.,0.24826288223266602,0.751737117767334
+26,**Mini Boat** – Float it in water and decorate as a toy or for a small-scale model.,0.19469264149665833,0.8053073585033417
+27,**Bug Hotel Component** – Fill with twigs or moss and hang it to attract insects.,0.35298389196395874,0.6470161080360413
+28,**Emergency Ice Pack** – Freeze water and use as a cooling pack for food or minor injuries.,0.29161930084228516,0.7083806991577148
+29,**DIY Camera Lens Filter** – Cover the lens with a cup (cut in half) for creative light diffusion.,0.21170537173748016,0.7882946282625198

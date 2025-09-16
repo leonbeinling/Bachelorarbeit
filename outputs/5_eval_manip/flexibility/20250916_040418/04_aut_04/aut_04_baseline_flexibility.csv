@@ -1,0 +1,51 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,As a makeshift belt to hold up pants or a skirt.,,
+1,To secure a loose lid or bottle cap by tying it around the neck.,0.4401789903640747,0.5598210096359253
+2,As a temporary fishing line in survival situations.,0.3194122016429901,0.6805877983570099
+3,For creating a pendulum in a DIY science experiment.,0.21565285325050354,0.7843471467494965
+4,To tie down items in a car during transport.,0.08971897512674332,0.9102810248732567
+5,As a component in a pulley system to lift small objects.,0.4338568449020386,0.5661431550979614
+6,To braid into a decorative bracelet or necklace.,0.2298358529806137,0.7701641470193863
+7,As a replacement for a rubber band to hold objects together.,0.19241224229335785,0.8075877577066422
+8,To mark a hiking trail by tying it to trees or branches.,0.13286060094833374,0.8671393990516663
+9,As a hair tie if the shoelace is elastic.,0.2920861840248108,0.7079138159751892
+10,For securing a tarp or tent flap in place.,0.24543696641921997,0.75456303358078
+11,To make a lanyard for keys or ID tags.,0.41116973757743835,0.5888302624225616
+12,"As a string for a makeshift musical instrument (e.g., a one-string guitar).",0.30420225858688354,0.6957977414131165
+13,To create a belt for a costume or historical reenactment.,0.3318449854850769,0.6681550145149231
+14,"For tying together broken items (e.g., a cracked phone screen).",0.23918533325195312,0.7608146667480469
+15,As a component in a kite’s bridle or tail.,0.08031168580055237,0.9196883141994476
+16,To build a simple compass by attaching a magnet to its end.,0.34556177258491516,0.6544382274150848
+17,For crafting a braided wall hanging or art piece.,0.2911417782306671,0.7088582217693329
+18,As a temporary splint for a broken limb in an emergency.,0.3170550763607025,0.6829449236392975
+19,To secure a pet’s leash if the original breaks.,0.27538543939590454,0.7246145606040955
+20,For making a bow or arrow string in a survival scenario.,0.226096510887146,0.773903489112854
+21,To create a puzzle or riddle that requires manipulating the lace.,0.49834030866622925,0.5016596913337708
+22,As a thread in a sewing project for heavy-duty repairs.,0.44676482677459717,0.5532351732254028
+23,To tie a flag or banner to a pole for a DIY decoration.,0.2963247001171112,0.7036752998828888
+24,For tightening a slackline or slackline-like contraption.,0.2708582282066345,0.7291417717933655
+25,As a component in a clock’s pendulum or gear system.,0.3327777087688446,0.6672222912311554
+26,To make a belt for a costume sword or harness.,0.2957395315170288,0.7042604684829712
+27,For securing a plant stake in gardening.,0.16646882891654968,0.8335311710834503
+28,"As a part of a theatrical prop (e.g., a lasso or whip).",0.15441416203975677,0.8455858379602432
+29,To bind pages in a homemade book or notebook.,0.22176627814769745,0.7782337218523026
+30,For creating a lasso for a game or sport.,0.23663544654846191,0.7633645534515381
+31,As a part of a mechanical lock or puzzle box.,0.29039180278778076,0.7096081972122192
+32,To make a decorative border on a quilt or tapestry.,0.35579052567481995,0.64420947432518
+33,For tying a hat or headgear in windy conditions.,0.4273681640625,0.5726318359375
+34,As a component in a model airplane or car for flexible parts.,0.3905911445617676,0.6094088554382324
+35,To create a makeshift net for small game or insects.,0.3510811924934387,0.6489188075065613
+36,For securing a loose shoe without the original laces.,0.21245664358139038,0.7875433564186096
+37,As a string for a camera or lens strap in a pinch.,0.46819251775741577,0.5318074822425842
+38,To braid into a sash for ceremonial or military costumes.,0.45351436734199524,0.5464856326580048
+39,For making a belt for a cosplay or fantasy character.,0.5278222560882568,0.47217774391174316
+40,As a part of a DIY musical instrument’s tuning mechanism.,0.35075023770332336,0.6492497622966766
+41,To create a flag or pennant by weaving multiple laces.,0.2919652760028839,0.7080347239971161
+42,For training a dog by using the lace as a reward or toy.,0.5224613547325134,0.4775386452674866
+43,As a component in a game of tug-of-war with friends.,0.3142907917499542,0.6857092082500458
+44,To make a belt for a historical or medieval costume.,0.2389104962348938,0.7610895037651062
+45,For tying a splint to stabilize a broken object.,0.28539326786994934,0.7146067321300507
+46,As a part of a DIY compass or directional tool.,0.2914826273918152,0.7085173726081848
+47,To secure a loose shoelace on someone else’s shoe.,0.3248816132545471,0.6751183867454529
+48,For creating a decorative knot in a piece of furniture.,0.42893457412719727,0.5710654258728027
+49,As a component in a science fair project on material strength.,0.33907008171081543,0.6609299182891846

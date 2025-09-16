@@ -1,0 +1,31 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,**Temporary Sound Dampening Panels**: Layer crumpled newspaper with fabric to create makeshift acoustic panels for reducing echo in a room.,,
+1,**Biodegradable Confetti**: Cut colorful sections into confetti for eco-friendly celebrations.,0.15242671966552734,0.8475732803344727
+2,**DIY Musical Instrument**: Roll sections into tubes to make a paper flute or stretch over a drum for a makeshift percussion instrument.,0.21049432456493378,0.7895056754350662
+3,**Emergency Ice Pack**: Freeze wet newspaper to create a temporary ice pack for cooling items.,0.18767891824245453,0.8123210817575455
+4,**Shadow Puppet Theater**: Cut shapes from newspaper and hold them up to a light source for a hand-shadow puppet show.,0.30594074726104736,0.6940592527389526
+5,**Temporary Bookshelf Supports**: Stack and tape rolled newspaper logs between shelves to stabilize wobbly bookshelves.,0.29540616273880005,0.7045938372612
+6,"**Ink Wash Paint**: Blend soy-based newspaper ink with water to create a textured, earthy paint for abstract art.",0.26402783393859863,0.7359721660614014
+7,**Solar Oven Lining**: Use it as insulation in a DIY solar oven to trap heat more effectively.,0.23026278614997864,0.7697372138500214
+8,"**Fishing Net Prototype**: Braid strips of newspaper to test a lightweight, biodegradable fishing net design.",0.14705276489257812,0.8529472351074219
+9,**Temporary Fireproofing Layer**: Cover flammable materials with wet newspaper as a fire barrier (though not a substitute for proper safety).,0.4125148057937622,0.5874851942062378
+10,**DIY Mosaic Art**: Cut out headlines or images and arrange them into a collage on a canvas or wall.,0.34514451026916504,0.654855489730835
+11,**Emergency Whistle**: Roll a section tightly into a cone and use it as a makeshift whistle in survival situations.,0.1903035044670105,0.8096964955329895
+12,**Temporary Wall Art**: Use headlines as a stencil for spray-painting bold text onto walls or furniture.,0.25295692682266235,0.7470430731773376
+13,**Camping Fire Starter**: Crumple and shape newspaper into a spiral to create a slow-burning kindling structure.,0.44509175419807434,0.5549082458019257
+14,**Gardening Mulch**: Shred and use it as a weed suppressant in garden beds (avoid glossy sections for composting).,0.3497507572174072,0.6502492427825928
+15,"**DIY Paper Jewelry**: Fold and cut sections into earrings, pendants, or headbands for a temporary fashion statement.",0.20313231647014618,0.7968676835298538
+16,**Temporary Emergency Hat**: Roll a section into a cone or crown shape for shade during outdoor activities.,0.40278589725494385,0.5972141027450562
+17,**Soundproofing for Microphones**: Wrap a microphone in crumpled newspaper to reduce handling noise during recordings.,0.15370506048202515,0.8462949395179749
+18,"**DIY Bridge for Miniature Models**: Layer and tape strips to build a lightweight, temporary bridge in model-building projects.",0.19839653372764587,0.8016034662723541
+19,**Emergency Insulation**: Pack crumpled newspaper into gaps in windows or doors to block drafts during power outages.,0.19310908019542694,0.8068909198045731
+20,**Paper Marble Maze**: Cut a grid into a newspaper section and roll it into a cylinder to create a maze for marbles or small objects.,0.39615413546562195,0.603845864534378
+21,**Temporary Camera Lens Filter**: Use a crumpled ball to diffuse light from a camera flash for softer photos.,0.2092711627483368,0.7907288372516632
+22,**DIY Origami-Inspired Sculpture**: Combine folding techniques with ink patterns to create 3D art pieces.,0.24296331405639648,0.7570366859436035
+23,**Emergency Water Filter**: Layer newspaper with sand and charcoal in a container to test a basic filtration system (not for drinking water).,0.12554176151752472,0.8744582384824753
+24,**Temporary Stencil for Spray Paint**: Cut out shapes and use the newspaper as a stencil for custom patterns on surfaces.,0.3741787075996399,0.6258212924003601
+25,**DIY Musical Notation Board**: Write sheet music on a newspaper section and use it as a portable practice tool for musicians.,0.32642513513565063,0.6735748648643494
+26,**Temporary Emergency Bandage Cover**: Use a clean section to cover a wound as a sterile barrier (not a replacement for medical supplies).,0.1251659095287323,0.8748340904712677
+27,"**DIY Paper Fireworks Fuse**: Wrap a strip around a fuse-like material to create a decorative, non-functional model for educational purposes.",0.21227067708969116,0.7877293229103088
+28,**Emergency Book for Children**: Bind pages with string or tape to create a temporary coloring or drawing book for kids.,0.46107569336891174,0.5389243066310883
+29,"**DIY Paper Lantern**: Roll and glue sections into a cylinder, cut patterns, and light a tea candle inside for ambient light.",0.4264460802078247,0.5735539197921753

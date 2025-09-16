@@ -1,0 +1,101 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,**Measuring tape** – Use its length to measure objects in a pinch.,,
+1,**Make-shift belt** – Tie around pants if a belt breaks.,0.3779295086860657,0.6220704913139343
+2,**Wire bundler** – Secure loose cables or cords.,0.37392890453338623,0.6260710954666138
+3,"**Craft thread** – Braid or knot for bracelets, keychains, or decorative knots.",0.45497989654541016,0.5450201034545898
+4,**Survival snare** – Create a loop trap for small animals or fish.,0.35089564323425293,0.6491043567657471
+5,**Slingshot band** – Use elastic laces as a stretchy component.,0.22213032841682434,0.7778696715831757
+6,"**Pendulum string** – For experiments, dowsing, or simple toys.",0.3504721522331238,0.6495278477668762
+7,**Hair tie** – Tie up hair in a bind.,0.25286543369293213,0.7471345663070679
+8,**Bookmark** – Secure pages in a book with a knotted lace.,0.4177519977092743,0.5822480022907257
+9,"**Lanyard** – Braid multiple laces to carry keys, IDs, or tools.",0.537047803401947,0.462952196598053
+10,**Kite string** – Reinforce or replace frayed kite lines.,0.4080648422241211,0.5919351577758789
+11,**Musical instrument** – Use tension to create a monochord or stringed toy.,0.4894142746925354,0.5105857253074646
+12,**Water bottle carrier** – Tie two bottles together for easy transport.,0.17694656550884247,0.8230534344911575
+13,**Tent guylines** – Secure tarps or tents in a survival scenario.,0.19313155114650726,0.8068684488534927
+14,**Compass suspension** – Suspend a magnetized needle for direction.,0.3440871834754944,0.6559128165245056
+15,**Loom thread** – Weave small items like bracelets or pouches.,0.3070334494113922,0.6929665505886078
+16,**Pet harness** – Create a makeshift leash or collar.,0.5674824714660645,0.43251752853393555
+17,**Plant tie** – Secure plants to stakes or trellises in gardens.,0.31719616055488586,0.6828038394451141
+18,**DIY camera strap** – Attach to a camera for a quick grip.,0.3259727954864502,0.6740272045135498
+19,**Trail marker** – Tie between trees to mark a path in the wilderness.,0.2678206264972687,0.7321793735027313
+20,**Bicycle repair** – Temporarily secure loose spokes or parts.,0.12971222400665283,0.8702877759933472
+21,**Bandana fastener** – Tie around a headscarf or bandana.,0.29938119649887085,0.7006188035011292
+22,"**Toy component** – Make a yo-yo, fidget spinner, or string-based game.",0.274164080619812,0.725835919380188
+23,**Fishing line** – Use as a weak-line alternative in emergencies.,0.22642888128757477,0.7735711187124252
+24,**Timing device** – Wind/unwind to estimate time intervals.,0.16115166246891022,0.8388483375310898
+25,"**Knot practice** – Learn advanced knots (e.g., bowlines, figure-eights).",0.1345842033624649,0.8654157966375351
+26,**Bike chain tool** – Use as a temporary chain holder during repairs.,0.26459264755249023,0.7354073524475098
+27,**DIY compass** – Suspend a magnetized object for direction.,0.3518061339855194,0.6481938660144806
+28,**Tug-of-war rope** – Challenge friends in a playful game.,0.2790639400482178,0.7209360599517822
+29,**Sewing thread** – For heavy-duty fabric repairs (if thin enough).,0.22066912055015564,0.7793308794498444
+30,**Dog collar lanyard** – Attach to a broken collar for temporary use.,0.42441824078559875,0.5755817592144012
+31,**Balance scale** – Suspend a pan for makeshift weighing.,0.25860559940338135,0.7413944005966187
+32,**Flagpole fastener** – Tie a flag to a stick for a temporary banner.,0.263740599155426,0.736259400844574
+33,**Kite tail** – Stabilize a kite with a braided lace.,0.4859156012535095,0.5140843987464905
+34,**Hammock straps** – Secure a hammock in the absence of proper gear.,0.4363900125026703,0.5636099874973297
+35,**Pulley system** – Create a simple lift for small objects.,0.4031910300254822,0.5968089699745178
+36,**Bandana tie** – Secure a scarf or cloth around the head or neck.,0.11690331995487213,0.8830966800451279
+37,**DIY compass** – Use with a magnetized pin for navigation.,0.24731484055519104,0.752685159444809
+38,**Garden marker** – Tie around plants to identify species.,0.2219545692205429,0.7780454307794571
+39,**Camera shutter release** – Attach to a smartphone for hands-free shots.,0.0924166664481163,0.9075833335518837
+40,**Tent peg** – Bury and tie for a makeshift stake.,0.12149658799171448,0.8785034120082855
+41,**DIY pendulum clock** – Use as a string for a basic timekeeping device.,0.12486119568347931,0.8751388043165207
+42,**Kite frame** – Tie sticks together for a homemade kite.,0.2741817235946655,0.7258182764053345
+43,**Bandage tie** – Secure a wound if traditional medical tape fails.,0.3334677219390869,0.6665322780609131
+44,**Tool organizer** – Bundle tools or utensils together.,0.2612697184085846,0.7387302815914154
+45,**Pet leash** – Create a temporary leash for small animals.,0.3388359546661377,0.6611640453338623
+46,**DIY musical instrument** – Use as a string for a primitive zither or dulcimer.,0.24348962306976318,0.7565103769302368
+47,**Map marker** – Tie a knot at a specific location on a map.,0.20631572604179382,0.7936842739582062
+48,**Garden tool** – Secure loose handles on gardening tools.,0.2405543476343155,0.7594456523656845
+49,**DIY camera tripod** – Tie sticks together for a stable base.,0.45725977420806885,0.5427402257919312
+50,**Toy bow** – Make a rubber band bow with elastic laces.,0.477429062128067,0.522570937871933
+51,**Tent divider** – Partition a tent into sections.,0.22802865505218506,0.7719713449478149
+52,**DIY kite** – Use as a frame or string for creative designs.,0.3077426850795746,0.6922573149204254
+53,**Plant support** – Tie climbing plants to a trellis.,0.29039472341537476,0.7096052765846252
+54,**Bandana holder** – Secure a face mask or cloth.,0.15757310390472412,0.8424268960952759
+55,**DIY balance scale** – Suspend a pan for weight comparisons.,0.1485302597284317,0.8514697402715683
+56,**Flag pole** – Tie a flag to a stick for a makeshift banner.,0.08590762317180634,0.9140923768281937
+57,**DIY pendulum** – Demonstrate physics principles in a classroom.,0.1686270534992218,0.8313729465007782
+58,**DIY camera strap** – Attach to a smartphone for stability.,0.23068436980247498,0.769315630197525
+59,**Kite tail** – Decorate with beads or colors for visual appeal.,0.2357998937368393,0.7642001062631607
+60,**DIY musical instrument** – Use as a string for a thumb piano.,0.27863800525665283,0.7213619947433472
+61,**Plant marker** – Label garden rows with tied tags.,0.1430334746837616,0.8569665253162384
+62,**DIY camera shutter** – Create a cable release for photos.,0.11922843009233475,0.8807715699076653
+63,**Tent repair** – Patch holes by tying around gaps.,0.1977832317352295,0.8022167682647705
+64,**DIY kite** – Use as a frame for a paper or fabric kite.,0.08015184849500656,0.9198481515049934
+65,**DIY balance scale** – Suspend a pan for weight measurement.,0.2709117829799652,0.7290882170200348
+66,**DIY compass** – Use with a magnetized pin for direction.,0.22541388869285583,0.7745861113071442
+67,**DIY musical instrument** – String a primitive drum or guitar.,0.2976060211658478,0.7023939788341522
+68,**DIY pendulum** – For a science experiment or clock.,0.2746448516845703,0.7253551483154297
+69,**DIY kite** – Reinforce a paper or fabric kite’s frame.,0.4558907151222229,0.5441092848777771
+70,**DIY camera strap** – Secure a camera to a backpack.,0.3678897023200989,0.6321102976799011
+71,**DIY musical instrument** – String a basic banjo or dulcimer.,0.23173879086971283,0.7682612091302872
+72,**DIY balance scale** – Suspend a pan for weight testing.,0.07854194939136505,0.921458050608635
+73,**DIY compass** – Suspend a magnetized object for navigation.,0.2744632363319397,0.7255367636680603
+74,**DIY musical instrument** – Create a stringed toy for children.,0.2926385998725891,0.7073614001274109
+75,**DIY pendulum** – For a classroom physics demonstration.,0.43399369716644287,0.5660063028335571
+76,**DIY kite** – Use as a string for a decorative kite tail.,0.3978344202041626,0.6021655797958374
+77,**DIY camera strap** – Attach to a compact camera for stability.,0.3089480400085449,0.6910519599914551
+78,**DIY musical instrument** – String a simple xylophone or drum.,0.22126202285289764,0.7787379771471024
+79,**DIY balance scale** – Suspend a pan for weight comparisons.,0.0762755423784256,0.9237244576215744
+80,**DIY compass** – Use with a magnetized pin for direction.,0.16834014654159546,0.8316598534584045
+81,**DIY musical instrument** – Create a primitive guitar or lute.,0.2591557502746582,0.7408442497253418
+82,**DIY pendulum** – For a science fair project.,0.323610782623291,0.676389217376709
+83,**DIY kite** – Use as a frame for a creative design.,0.6103320717811584,0.38966792821884155
+84,**DIY camera strap** – Secure a phone or compact camera.,0.2849441170692444,0.7150558829307556
+85,**DIY musical instrument** – String a basic drum or instrument.,0.29948049783706665,0.7005195021629333
+86,**DIY balance scale** – Suspend a pan for weight measurement.,0.15468022227287292,0.8453197777271271
+87,**DIY compass** – Suspend a magnetized object for navigation.,0.3078826069831848,0.6921173930168152
+88,**DIY musical instrument** – Create a stringed toy for play.,0.3281920552253723,0.6718079447746277
+89,**DIY pendulum** – For a classroom physics experiment.,0.4000018239021301,0.5999981760978699
+90,**DIY kite** – Use as a string for a simple kite.,0.4174804091453552,0.5825195908546448
+91,**DIY camera strap** – Attach to a phone for stability.,0.2705281674861908,0.7294718325138092
+92,**DIY musical instrument** – String a basic xylophone or drum.,0.23039768636226654,0.7696023136377335
+93,**DIY balance scale** – Suspend a pan for weight testing.,0.09513877332210541,0.9048612266778946
+94,**DIY compass** – Use with a magnetized pin for direction.,0.15024334192276,0.84975665807724
+95,**DIY musical instrument** – Create a primitive stringed toy.,0.3691161274909973,0.6308838725090027
+96,**DIY pendulum** – For a science demonstration.,0.4447185695171356,0.5552814304828644
+97,**DIY kite** – Use as a frame for a decorative design.,0.5240172147750854,0.47598278522491455
+98,**DIY camera strap** – Secure a phone or compact camera.,0.2898452877998352,0.7101547122001648
+99,**DIY musical instrument** – String a basic drum or lute.,0.26910996437072754,0.7308900356292725

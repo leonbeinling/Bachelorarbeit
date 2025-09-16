@@ -1,0 +1,26 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,"**Living Sculpture** - Train a tree's branches and roots over decades to form intricate shapes or structures, such as archways or abstract art.",,
+1,**Natural Musical Instrument** - Hollow out a tree trunk to create a wind instrument or use branches as xylophones for a forest orchestra.,0.40440866351127625,0.5955913364887238
+2,"**Vertical Wildlife Habitat** - Carve nesting boxes, insect hotels, or small shelters into a tree to create a multi-species ecosystem.",0.3031722605228424,0.6968277394771576
+3,"**Bioluminescent Art Installation** - Embed bioluminescent fungi or LED lights into a tree’s bark for glowing, interactive art.",0.32956358790397644,0.6704364120960236
+4,**Tree-Based Sundial** - Design a tree with a specific shape and position to cast shadows that mark time like a sundial.,0.5446006059646606,0.45539939403533936
+5,"**Living Bridge** - Cultivate roots to grow into natural bridges or walkways, as seen in the ""living root bridges"" of Meghalaya, India.",0.2692607641220093,0.7307392358779907
+6,**Sound Amplification Device** - Hollow a tree trunk to create a natural megaphone for projecting voices or ambient forest sounds.,0.21401458978652954,0.7859854102134705
+7,**Water Purification System** - Use a tree’s root system to filter rainwater or contaminated water through a constructed underground basin.,0.26985764503479004,0.73014235496521
+8,**Kinetic Energy Generator** - Attach piezoelectric sensors to a tree’s trunk or roots to harness energy from subtle movements caused by wind or animals.,0.3957456946372986,0.6042543053627014
+9,"**Edible Tree Art** - Graft fruit-bearing branches into the shape of letters, symbols, or patterns for a living edible artwork.",0.366658478975296,0.633341521024704
+10,**Tree-Integrated Greenhouse** - Wrap a tree in a transparent dome to use its natural structure as a support for a mini-greenhouse.,0.34652814269065857,0.6534718573093414
+11,**Urban Air Quality Monitor** - Embed sensors in a tree’s bark to track pollutants and display real-time data via a digital interface.,0.35440748929977417,0.6455925107002258
+12,**Tree-Powered Radio Antenna** - Use the tree’s conductivity to experiment with transmitting or receiving radio signals in remote areas.,0.5811958312988281,0.4188041687011719
+13,"**Root-Formed Murals** - Guide roots to grow into specific patterns in the soil, creating subterranean art visible only when the ground is excavated.",0.19129492342472076,0.8087050765752792
+14,"**Tree-Embedded Library** - Hollow out a large tree trunk to house a small, weatherproof library with waterproof pages or digital archives.",0.2853541970252991,0.7146458029747009
+15,"**Natural Escape Room Prop** - Use a tree as a central puzzle element in an outdoor escape room, such as a hidden compartment or riddle-locked door.",0.46359488368034363,0.5364051163196564
+16,"**Tree-Integrated Solar Panel** - Grow a tree with a flat, leafy canopy to support solar panels that blend with the foliage.",0.3169330954551697,0.6830669045448303
+17,"**Bioacoustic Sanctuary** - Position a tree in a way that its hollows amplify and blend natural sounds (e.g., birdsong, wind) for therapeutic environments.",0.3580700755119324,0.6419299244880676
+18,**Tree-Root Water Channel** - Train roots to grow into a network that redirects water flow in a garden or landscape.,0.419108510017395,0.580891489982605
+19,"**Living Classroom** - Design a tree with attached interactive panels, QR codes, or carvings to teach about botany, ecology, or history.",0.37545883655548096,0.624541163444519
+20,"**Tree-Powered Clock** - Use the tree’s growth rate or seasonal changes (e.g., leaf fall, flowering) to mark time in a conceptual art piece.",0.4770023822784424,0.5229976177215576
+21,"**Tree-Integrated Playground** - Build swings, slides, and climbing structures directly into a tree’s branches for a nature-centric play area.",0.4440549314022064,0.5559450685977936
+22,**Tree-Based Geocaching** - Hide geocaches inside hollowed-out branches or trunks for a forest-themed treasure hunt.,0.55155348777771,0.44844651222229004
+23,"**Phytotherapy Station** - Use a tree’s sap, bark, or leaves to create on-site medicinal products like salves or teas at a remote location.",0.376783549785614,0.623216450214386
+24,"**Tree-Embedded Time Capsule** - Seal a capsule inside a tree’s trunk using a hollowed-out section, planning to open it decades later as the tree grows around it.",0.39257383346557617,0.6074261665344238

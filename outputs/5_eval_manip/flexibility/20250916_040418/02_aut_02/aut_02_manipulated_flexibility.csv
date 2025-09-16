@@ -1,0 +1,31 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,**Keyboard Cleaner** – Use the bristles to dislodge dust and debris from keyboard keys.,,
+1,**Mini Paintbrush** – Dip bristles in paint or ink for detailed art or calligraphy.,0.33082717657089233,0.6691728234291077
+2,**Gardening Tool** – Gently loosen soil around seedlings or remove pests from plant leaves.,0.29264819622039795,0.707351803779602
+3,**Seed Planter** – Poke small holes in soil for sowing tiny seeds like herbs or flowers.,0.7555515766143799,0.24444842338562012
+4,**Electronic Component Cleaner** – Gently sweep dust from circuit boards or delicate electronics.,0.1779594123363495,0.8220405876636505
+5,"**Pet Grooming** – Brush a pet’s ears, paws, or fur to remove dirt or loose hair.",0.2637367844581604,0.7362632155418396
+6,**Keyboard Key Cleaner** – Insert bristles into key gaps to remove crumbs or dirt.,0.31800997257232666,0.6819900274276733
+7,**DIY Glue Spreader** – Use bristles to apply glue in tight spaces for crafts or model building.,0.4549102783203125,0.5450897216796875
+8,**Candle Wax Tool** – Spread melted wax in intricate patterns on candles or surfaces.,0.4065548777580261,0.5934451222419739
+9,**Texture Tool for Clay** – Press bristles into clay or pottery to create unique patterns.,0.5797075033187866,0.4202924966812134
+10,**Fabric Stenciling** – Use bristles to dab paint through a stencil for fabric designs.,0.5236525535583496,0.4763474464416504
+11,**Camera Lens Cleaner** – Gently tap the bristles to remove dust from a lens (use with caution).,0.3900955617427826,0.6099044382572174
+12,**Aquarium Maintenance** – Scrape algae off small rocks or decorations in fish tanks.,0.27402329444885254,0.7259767055511475
+13,**DIY Musical Instrument** – Attach bristles to a drumstick or as a makeshift pick for stringed instruments.,0.2397829294204712,0.7602170705795288
+14,**Touchscreen Stylus** – Wrap the handle with conductive tape to mimic a stylus for tablets.,0.41637909412384033,0.5836209058761597
+15,**Ink Blot Art** – Dip bristles in ink to create splatter effects on paper or fabric.,0.4124622046947479,0.5875377953052521
+16,**Small Object Polisher** – Buff scratches on jewelry or small gadgets with a polishing compound.,0.5015840530395508,0.4984159469604492
+17,**DIY Ice Scraper** – Attach a toothbrush to a lever system to scrape ice off small surfaces.,0.5274524688720703,0.4725475311279297
+18,**Plant Propagator** – Use bristles to gently press cuttings into soil or rooting medium.,0.4196774363517761,0.5803225636482239
+19,**Keyboard Key Remover** – Carefully pry stubborn keys off with the handle.,0.24736112356185913,0.7526388764381409
+20,**Mini Chisel** – Carve small grooves in soft materials like soap or wax.,0.17952081561088562,0.8204791843891144
+21,**Pet Toy Cleaner** – Scrub chew toys or bones to remove bacteria or residue.,0.46007588505744934,0.5399241149425507
+22,**Hair Highlighter Tool** – Use bristles to apply hair dye or bleach to small sections.,0.3188633620738983,0.6811366379261017
+23,**DIY Hairpin** – Bend the handle into a shape to secure hair (non-electric).,0.5144816637039185,0.48551833629608154
+24,**Mold Release Tool** – Scrape uncured resin or clay from molds without damaging them.,0.297252357006073,0.702747642993927
+25,**Fruit/Vegetable Scrubber** – Clean small produce like strawberries or mushrooms.,0.26163747906684875,0.7383625209331512
+26,**DIY Candle Wick Straightener** – Adjust crooked wicks in candles during pouring.,0.10255506634712219,0.8974449336528778
+27,**Mouse Pad Cleaner** – Remove debris from the underside of a computer mouse.,0.12873384356498718,0.8712661564350128
+28,**Mini Whisk** – Whisk tiny amounts of batter or cream in a small dish.,0.2631726861000061,0.7368273138999939
+29,**DIY Sculpting Tool** – Carve or shape soft materials like foam or clay.,0.28432273864746094,0.7156772613525391

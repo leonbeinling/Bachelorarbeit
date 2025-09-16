@@ -1,0 +1,31 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,**Keyboard Cleaner** – Use the bristles to remove dust and debris from between keyboard keys.,,
+1,**Painting Tool** – Dip the bristles into paint to create textured art or intricate patterns.,0.3394005596637726,0.6605994403362274
+2,**Pet Groomer** – Gently brush a dog’s fur to remove tangles or clean their paws.,0.3292865753173828,0.6707134246826172
+3,**Mini Paint Roller** – Roll the bristles in paint to apply it evenly on small surfaces or stencils.,0.2727191746234894,0.7272808253765106
+4,"**Clog Unclogger** – Use the bristles to clear small clogs in sink drains, pens, or nozzles.",0.4896315932273865,0.5103684067726135
+5,"**Glue Dispenser** – Apply glue to tiny areas (e.g., model-making or repairs) using the bristles.",0.519084632396698,0.480915367603302
+6,**Sculpting Tool** – Carve clay or soft materials with the handle or reshape dough.,0.5735384821891785,0.42646151781082153
+7,"**Electronic Dust Brush** – Remove dust from circuit boards, speakers, or camera sensors.",0.32817456126213074,0.6718254387378693
+8,"**Polishing Tool** – Rub a polishing compound onto small objects (e.g., jewelry or glass) for shine.",0.3439033627510071,0.6560966372489929
+9,**Gardening Aid** – Loosen soil around delicate plant roots or dislodge insects from leaves.,0.2934056520462036,0.7065943479537964
+10,**Mini Chisel** – Break off the bristles and use the handle to scrape off paint or gunk.,0.36618995666503906,0.6338100433349609
+11,**Spice Mixer** – Swirl the bristles in a small bowl to blend spices or powders.,0.4433996081352234,0.5566003918647766
+12,**Musical Rattle** – Attach beads to the bristles and shake for a makeshift instrument.,0.449138879776001,0.550861120223999
+13,**Bottle Cleaner** – Brush the inside of narrow bottles or jars to remove residue.,0.3854215443134308,0.6145784556865692
+14,**Fabric Texture Tool** – Press the bristles into wet clay or paper to create unique textures.,0.3610745072364807,0.6389254927635193
+15,**Sticker Remover** – Use the bristles to lift stubborn stickers or residue from surfaces.,0.39665502309799194,0.6033449769020081
+16,**Felt Pencil** – Wrap the bristles with felt to make a custom-shaped pencil eraser or marker.,0.616409957408905,0.38359004259109497
+17,"**Ink Transfer Tool** – Transfer ink or dye onto fabric, leather, or wood for DIY designs.",0.45629364252090454,0.5437063574790955
+18,**Candle Wick Trimmer** – Snip candle wicks to the right length using the handle as a guide.,0.23767772316932678,0.7623222768306732
+19,"**Mini Duster** – Clean small electronics, like headphones or camera lenses, without scratching.",0.15676161646842957,0.8432383835315704
+20,**Wood Shaver** – File rough edges on small wooden objects with the handle.,0.36138197779655457,0.6386180222034454
+21,**Ice Sculpting Tool** – Chip away at ice for sculpting or carving.,0.34876227378845215,0.6512377262115479
+22,**Seed Planter** – Poke tiny holes in soil for planting seeds in containers.,0.26741570234298706,0.7325842976570129
+23,**Makeup Sponge** – Dab the bristles in makeup to blend it in small areas.,0.32494205236434937,0.6750579476356506
+24,**Bead Threader** – Use the handle to thread tiny beads for jewelry-making.,0.30360496044158936,0.6963950395584106
+25,**Candle Wick Straightener** – Straighten crooked wicks in candles with the handle.,0.3350922763347626,0.6649077236652374
+26,**Mini Spatula** – Spread adhesives or pastes in tight spaces.,0.34453240036964417,0.6554675996303558
+27,**Fabric Stenciler** – Press the bristles into wet fabric to create patterns.,0.5849990844726562,0.41500091552734375
+28,"**Toy Cleaner** – Brush off dirt from small toys, action figures, or model parts.",0.3669419288635254,0.6330580711364746
+29,**Solder Wick Scraper** – Remove excess solder from electronics projects.,0.48827850818634033,0.5117214918136597

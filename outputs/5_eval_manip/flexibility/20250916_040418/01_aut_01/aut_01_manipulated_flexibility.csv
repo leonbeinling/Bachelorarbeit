@@ -1,0 +1,21 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,"**Kinetic Sculpture**: Transform the entire bike or its parts (wheels, frame) into a wind-powered kinetic art piece that spins or moves with environmental energy.",,
+1,**Musical Instrument**: Use the spokes as chimes for a wind instrument or strike them like a xylophone to create rhythmic sounds.,0.30400800704956055,0.6959919929504395
+2,**Vertical Garden Trellis**: Hang the bike frame upside-down with plants growing along its structure for a living art installation.,0.1377582550048828,0.8622417449951172
+3,**Emergency Water Wheel**: Submerge the rear wheel in a stream to harness kinetic energy and generate small amounts of electricity.,0.2826939821243286,0.7173060178756714
+4,**Mobile Library Cart**: Attach a large basket or crate to the frame to create a portable library for distributing books in underserved areas.,0.2818318009376526,0.7181681990623474
+5,"**Pet Playground**: Convert the wheel into a hamster or dwarf goat treadmill, or use the frame as a climbing structure for small animals.",0.23621000349521637,0.7637899965047836
+6,"**Architectural Prop**: Use the bike as a focal point in a room’s decor, such as a wall-mounted mobile or a ceiling sculpture.",0.3714955151081085,0.6285044848918915
+7,**Composting System**: Attach a rotating drum to the pedals to create a pedal-powered compost tumbler.,0.3162333369255066,0.6837666630744934
+8,**Gaming Platform**: Build a balance challenge game where players ride the bike on a narrow beam or track.,0.41514670848846436,0.5848532915115356
+9,**Time Capsule Container**: Enclose a historical bike in a transparent case as a symbolic time capsule for future generations.,0.3670975863933563,0.6329024136066437
+10,**Sound Installation**: Create a bike-powered sound art project where pedaling generates white noise or music via piezoelectric sensors.,0.3836056590080261,0.6163943409919739
+11,"**Emergency Shelter Component**: Use the frame and canvas to build a lightweight, collapsible shelter for disaster relief.",0.2122897207736969,0.7877102792263031
+12,**Floating Garden Barge**: Attach the bike to a raft with planters to create a mobile garden on waterways or ponds.,0.30870652198791504,0.691293478012085
+13,**Fitness Equipment**: Modify the bike into a resistance trainer using pulleys and elastic bands for strength training.,0.401140421628952,0.598859578371048
+14,"**Interactive Art**: Build a bike that paints with its wheels (e.g., using paint-coated tires on a canvas surface).",0.4883318543434143,0.5116681456565857
+15,"**Community Mural Base**: Use the bike frame as a scaffold for artists to paint on, creating a collaborative, portable mural.",0.7560657262802124,0.2439342737197876
+16,**Wind-Powered Fan**: Convert the wheel into a windcatcher for a passive cooling system in a building.,0.21867311000823975,0.7813268899917603
+17,"**Theatrical Prop**: Incorporate the bike into a dance or theater performance as a metaphor for movement, freedom, or struggle.",0.27997592091560364,0.7200240790843964
+18,"**Sustainable Jewelry**: Repurpose tiny parts (e.g., chain links, reflectors) into eco-friendly fashion accessories.",0.24555756151676178,0.7544424384832382
+19,"**Educational Tool**: Use the bike to demonstrate physics principles like torque, momentum, or energy conversion in classrooms.",0.15794366598129272,0.8420563340187073

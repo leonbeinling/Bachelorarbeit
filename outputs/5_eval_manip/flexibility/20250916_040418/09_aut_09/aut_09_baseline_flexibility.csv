@@ -1,0 +1,51 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,"**Mini Greenhouse** – Cut off the top, prop it open with sticks, and cover with plastic wrap to create a warm environment for seedlings.",,
+1,"**Shadow Box Display** – Use as a 3D display case for small trinkets, photos, or memorabilia.",0.3184961676597595,0.6815038323402405
+2,**DIY Camera Obscura** – Line the inside with aluminum foil and a pinhole to create a simple light projection device.,0.44841352105140686,0.5515864789485931
+3,"**Pet Bed** – Stuff with old blankets or foam to make a cozy bed for a cat, dog, or small animal.",0.15108844637870789,0.8489115536212921
+4,"**Bird Feeder** – Cut a hole for birds, add perches, and hang with strings; fill with seeds.",0.32285887002944946,0.6771411299705505
+5,**Marble Labyrinth** – Carve channels into the box’s interior and add a marble for a maze game.,0.3914644122123718,0.6085355877876282
+6,**Mini Library** – Label compartments for children’s books or organize a tiny library for a dollhouse.,0.42406201362609863,0.5759379863739014
+7,**Cable Organizer** – Cut slots or use dividers to sort and store tangled cables or headphones.,0.28585171699523926,0.7141482830047607
+8,**Seed Starter Station** – Line the bottom with soil and plant seeds; ideal for herbs or flowers.,0.13749857246875763,0.8625014275312424
+9,**Shadow Puppet Theater** – Cover one side with translucent material and create puppets to project on a wall.,0.052538756281137466,0.9474612437188625
+10,**Soundproofing Panel** – Fill with foam or acoustic material to dampen noise in a room.,0.4158878028392792,0.5841121971607208
+11,**Temporary Shelter** – Use as a rain barrier or windbreak for small animals or outdoor gear.,0.326579749584198,0.673420250415802
+12,"**DIY Solar Oven** – Line with aluminum foil, add a transparent cover, and use it to melt chocolate or warm food.",0.2775559425354004,0.7224440574645996
+13,"**Art Palette** – Cut compartments for paints, markers, or clay tools.",0.290932297706604,0.709067702293396
+14,**Puzzle Storage** – Keep jigsaw pieces or LEGO sorted in labeled sections.,0.4562436640262604,0.5437563359737396
+15,**Mini Aquarium** – Line with plastic and add a small air pump for aquatic plants or tiny fish.,0.19737713038921356,0.8026228696107864
+16,**Cat Tunnel** – Cut out the top and bottom for a playful tunnel or hiding spot.,0.274038165807724,0.725961834192276
+17,**Rain Gauge** – Mark measurements on the inside and use it to measure rainfall.,0.17190609872341156,0.8280939012765884
+18,**Gift Box** – Decorate and use as a custom gift container with compartments for multiple items.,0.06439640372991562,0.9356035962700844
+19,**DIY Wind Chime Base** – Attach chimes or bells to the lid and hang from a hook.,0.245810866355896,0.754189133644104
+20,**Plant Propagation Station** – Place cuttings in water or soil for rooting.,0.11344627290964127,0.8865537270903587
+21,**Mini Stage** – Create a backdrop and use as a stage for toy figures or puppet shows.,0.11370042711496353,0.8862995728850365
+22,"**Button/Scrap Sorter** – Use small compartments for organizing buttons, beads, or craft scraps.",0.3476381301879883,0.6523618698120117
+23,**Emergency Splint** – Line with padding and secure with tape to temporarily support an injured limb.,0.3374612033367157,0.6625387966632843
+24,**Dollhouse Room** – Paint and decorate to replicate a tiny room or furniture.,0.18408572673797607,0.8159142732620239
+25,**Shadow Puppet Projector** – Add a small light source inside to project hand-cut silhouettes on a wall.,0.5687676072120667,0.43123239278793335
+26,**Mini Bookshelf** – Stack multiple boxes vertically to create a small bookcase.,0.3523124158382416,0.6476875841617584
+27,**Seed Compost Bin** – Add kitchen scraps and soil to the box for a mini composting project.,0.4290277063846588,0.5709722936153412
+28,**DIY Camera Housing** – Use as a base for a pinhole camera or camera shutter mechanism.,0.2870417833328247,0.7129582166671753
+29,"**Eco-Friendly Packaging** – Repurpose as a shipping box for small items, lined with recycled materials.",0.24654093384742737,0.7534590661525726
+30,"**Toy Storage** – Sort and store small toys, blocks, or game pieces.",0.41213157773017883,0.5878684222698212
+31,**Mini Greenhouse with Heat Lamp** – Add a low-wattage lamp to grow plants indoors.,0.0429549440741539,0.9570450559258461
+32,"**Art Studio Organizer** – Store brushes, canvases, or art tools in labeled sections.",0.21157018840312958,0.7884298115968704
+33,**Mini Bridge Model** – Use as a base for building a scale model of a bridge or structure.,0.2010374218225479,0.7989625781774521
+34,"**DIY Desk Organizer** – Cut slots for pens, scissors, and sticky notes.",0.17843376100063324,0.8215662389993668
+35,**Bird Bath** – Place a shallow dish inside and hang or place in a sunny spot.,0.2723514437675476,0.7276485562324524
+36,"**Temporary Shelter for Wildlife** – Provide a dry space for hedgehogs, rabbits, or birds during storms.",0.44301626086235046,0.5569837391376495
+37,**Mini Aquarium Filter Housing** – Store filter components or create a DIY filtration system.,0.3799612522125244,0.6200387477874756
+38,"**Shadow Box for 3D Art** – Display layered paper, fabric, or mixed-media creations.",0.3325778841972351,0.6674221158027649
+39,**DIY Camera Shutter Speed Tester** – Use to test exposure times with a light source and timer.,0.22315359115600586,0.7768464088439941
+40,**Mini Room Divider** – Stack and paint multiple boxes to create a partition in a small space.,0.07784243673086166,0.9221575632691383
+41,"**Storage for Winter Gear** – Keep gloves, scarves, or hats organized and accessible.",0.16740787029266357,0.8325921297073364
+42,**Mini Mobile Base** – Attach lightweight toys or art to the lid and hang as a decorative mobile.,0.3125876784324646,0.6874123215675354
+43,**DIY Lamp Base** – Attach a battery-powered LED light to the inside for a simple desk lamp.,0.3160746991634369,0.6839253008365631
+44,**Mini Greenhouse with Ventilation** – Add adjustable flaps to regulate temperature and airflow.,0.26055222749710083,0.7394477725028992
+45,**DIY Planter with Drainage** – Drill holes in the bottom and line with plastic for potted plants.,0.285291463136673,0.714708536863327
+46,**Mini Aquarium Background** – Paint a scene on the inside to create a backdrop for fish.,0.274169921875,0.725830078125
+47,"**DIY Wind Turbine Base** – Use as a foundation for a small, homemade wind turbine.",0.1681731790304184,0.8318268209695816
+48,**Mini Greenhouse with Thermometer** – Add a thermometer to monitor plant-growing conditions.,0.34542274475097656,0.6545772552490234
+49,"**DIY Miniature Garden** – Create a tiny ecosystem with moss, stones, and small plants.",0.44979026913642883,0.5502097308635712

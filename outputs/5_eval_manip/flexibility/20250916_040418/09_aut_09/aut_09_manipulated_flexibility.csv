@@ -1,0 +1,49 @@
+idx,idea,adj_sim_to_prev,adj_dist_to_prev
+0,**Birdhouse** – Cut a hole in the top or side and add a perch for small birds.,,
+1,"**Desk Organizer** – Divide the box into compartments for pens, clips, and stationery.",0.35519707202911377,0.6448029279708862
+2,"**Pet Bed** – Line it with soft fabric for a cozy nook for a cat, dog, or small animal.",0.34197285771369934,0.6580271422863007
+3,"**Diorama Box** – Create a 3D miniature scene with landscapes, figures, or art.",0.36825236678123474,0.6317476332187653
+4,"**Shadow Box** – Display 3D items like seashells, buttons, or memorabilia.",0.6898092031478882,0.3101907968521118
+5,**Puppet Theater** – Add a curtain and string puppets for a DIY stage.,0.4308558404445648,0.5691441595554352
+6,**Phone Stand** – Prop a phone upright using the box’s structure.,0.2770322263240814,0.7229677736759186
+7,**Speaker Stand** – Elevate a portable speaker for better sound projection.,0.4704782962799072,0.5295217037200928
+8,"**Candle Holder** – Line with reflective material (e.g., foil) to create a decorative candle display.",0.22524937987327576,0.7747506201267242
+9,**Camera Tripod** – Arrange the box in a triangular shape for a makeshift support.,0.3997299075126648,0.6002700924873352
+10,**Plant Support** – Wrap the box around a young plant to help it grow straight.,0.5045169591903687,0.49548304080963135
+11,**Measuring Tool** – Use the box’s fixed dimensions as a template for cutting or aligning materials.,0.4409041404724121,0.5590958595275879
+12,**Temporary Aquarium** – Line with plastic and add water for small fish or aquatic plants.,0.2638719081878662,0.7361280918121338
+13,"**Wildlife Shelter** – Create a shelter for insects, birds, or small mammals during storms.",0.34359198808670044,0.6564080119132996
+14,"**Costume Prop** – Use as a base for a pirate’s treasure chest, robot, or fantasy artifact.",0.22660581767559052,0.7733941823244095
+15,"**Time Capsule** – Bury the box with letters, photos, or items to be discovered later.",0.4490848779678345,0.5509151220321655
+16,**Musical Instrument** – Stretch a balloon over the top to make a drum or use as a resonator for a DIY speaker.,0.20269463956356049,0.7973053604364395
+17,**Solar Oven** – Paint the inside black and use the box to trap heat for cooking or drying.,0.19357798993587494,0.8064220100641251
+18,**Voltaic Battery** – Line with copper and zinc plates and fill with saltwater for a simple battery.,0.32780206203460693,0.6721979379653931
+19,**Mini Greenhouse** – Cover with plastic to grow seedlings or herbs.,0.12088128924369812,0.8791187107563019
+20,**Puzzle Box** – Design hidden compartments or locks to solve.,0.340264230966568,0.659735769033432
+21,**Dog Toy** – Hide treats inside and let the dog figure out how to access them.,0.4808086156845093,0.5191913843154907
+22,**Emergency Shelter** – Stack and reinforce boxes to create a temporary cardboard structure.,0.2867348790168762,0.7132651209831238
+23,**Theater Prop** – Use as a magical or mysterious object in a play or film.,0.21288955211639404,0.787110447883606
+24,**Architecture Model** – Build a scaled-down house or room layout inside.,0.09779322147369385,0.9022067785263062
+25,**Surprise Gift Box** – Embed a gift within the box as part of the unboxing experience.,0.0755709856748581,0.9244290143251419
+26,**Robot Base** – Attach motors and wheels to create a simple robot.,0.18841658532619476,0.8115834146738052
+27,**Model House Roof** – Use as a sloped roof in a diorama or model village.,0.23754747211933136,0.7624525278806686
+28,**Temporary Ramp** – Angle the box to create a step or incline.,0.36108553409576416,0.6389144659042358
+29,**Room Partition** – Stack and lean boxes to form a privacy screen.,0.2571188807487488,0.7428811192512512
+30,"**Craft Mold** – Use as a template for concrete, plaster, or clay projects.",0.18857309222221375,0.8114269077777863
+31,**Soldering Station** – Drill holes for tools and components.,0.4991324245929718,0.5008675754070282
+32,**Laser Projection Shield** – Cut patterns into the box to cast light/shadow art.,0.2659297585487366,0.7340702414512634
+33,**Telescope Mount** – Secure a telescope with a DIY bracket.,0.34968167543411255,0.6503183245658875
+34,**Plant Shelter** – Protect plants from harsh weather by covering them.,0.20799708366394043,0.7920029163360596
+35,**Wheelchair Ramp** – Create a small incline for accessibility.,0.18750077486038208,0.8124992251396179
+36,**Game Box** – Build a choose-your-own-adventure game inside.,0.3743070065975189,0.6256929934024811
+37,**Ruler Template** – Mark measurements on the edges for DIY projects.,0.2794215679168701,0.7205784320831299
+38,**DIY Speaker** – House a portable speaker system.,0.2608279585838318,0.7391720414161682
+39,**Robot Arm Base** – Mount servos or motors for a mechanical arm.,0.29134154319763184,0.7086584568023682
+40,**Wall-Mounted Shelf** – Attach to a wall for storage or decor.,0.18797940015792847,0.8120205998420715
+41,**Tent Base** – Use as a frame for a child’s cardboard tent.,0.4525839686393738,0.5474160313606262
+42,**Door Stopper** – Place horizontally to hold a door open.,0.33377763628959656,0.6662223637104034
+43,**Step Stool** – Elevate the box for reaching high places.,0.5501523017883301,0.4498476982116699
+44,**Drone Storage** – House a small drone and accessories.,0.28648579120635986,0.7135142087936401
+45,**Plant Drip Tray** – Prevent water damage under potted plants.,0.1432580202817917,0.8567419797182083
+46,**Object Support** – Use as a base to stabilize heavy items.,0.3105982542037964,0.6894017457962036
+47,**Smart Device Housing** – Store a Raspberry Pi or other tech projects.,0.3317112922668457,0.6682887077331543
