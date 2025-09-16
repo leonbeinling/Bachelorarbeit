@@ -1,0 +1,1134 @@
+{
+  "files_processed": [
+    "aut_01.gold.json",
+    "aut_02.gold.json",
+    "aut_03.gold.json",
+    "aut_04.gold.json",
+    "aut_05.gold.json"
+  ],
+  "sentences_total": 688,
+  "labels_overview": {
+    "predicted": {
+      "Clarify": 36,
+      "Evaluate": 144,
+      "Ideate": 402,
+      "Finalize": 110
+    },
+    "gold": {
+      "Clarify": 31,
+      "Ideate": 450,
+      "Evaluate": 87,
+      "Finalize": 125
+    }
+  },
+  "accuracy": {
+    "any_overlap": 0.8255813953488372,
+    "primary": 0.8197674418604651,
+    "pred_primary_coverage": 1.0,
+    "per_phase_primary": {
+      "Clarify": 0.8387096774193549,
+      "Ideate": 0.8214285714285714,
+      "Evaluate": 0.7976190476190477,
+      "Finalize": 0.824
+    }
+  },
+  "prf": {
+    "per_phase": {
+      "Clarify": {
+        "tp": 26,
+        "fp": 10,
+        "fn": 5,
+        "precision": 0.7222222222222222,
+        "recall": 0.8387096774193549,
+        "f1": 0.7761194029850746
+      },
+      "Ideate": {
+        "tp": 368,
+        "fp": 31,
+        "fn": 80,
+        "precision": 0.9223057644110275,
+        "recall": 0.8214285714285714,
+        "f1": 0.8689492325855961
+      },
+      "Evaluate": {
+        "tp": 67,
+        "fp": 76,
+        "fn": 17,
+        "precision": 0.46853146853146854,
+        "recall": 0.7976190476190477,
+        "f1": 0.5903083700440529
+      },
+      "Finalize": {
+        "tp": 103,
+        "fp": 7,
+        "fn": 22,
+        "precision": 0.9363636363636364,
+        "recall": 0.824,
+        "f1": 0.876595744680851
+      }
+    },
+    "micro": {
+      "precision": 0.8197674418604651,
+      "recall": 0.8197674418604651,
+      "f1": 0.8197674418604651
+    },
+    "macro": {
+      "precision": 0.7623557728820887,
+      "recall": 0.8204393241167434,
+      "f1": 0.7779931875738937
+    }
+  },
+  "confusion_primary": {
+    "Clarify": {
+      "Clarify": 26,
+      "Ideate": 2,
+      "Evaluate": 3,
+      "Finalize": 0,
+      "NONE": 0
+    },
+    "Ideate": {
+      "Clarify": 9,
+      "Ideate": 368,
+      "Evaluate": 70,
+      "Finalize": 1,
+      "NONE": 0
+    },
+    "Evaluate": {
+      "Clarify": 1,
+      "Ideate": 10,
+      "Evaluate": 67,
+      "Finalize": 6,
+      "NONE": 0
+    },
+    "Finalize": {
+      "Clarify": 0,
+      "Ideate": 19,
+      "Evaluate": 3,
+      "Finalize": 103,
+      "NONE": 0
+    },
+    "NONE": {
+      "Clarify": 0,
+      "Ideate": 0,
+      "Evaluate": 0,
+      "Finalize": 0,
+      "NONE": 0
+    }
+  },
+  "transitions": {
+    "total": 683,
+    "correct_primary": 499,
+    "accuracy_primary": 0.7306002928257687,
+    "missed": 99,
+    "wrong": 9,
+    "confusion": {
+      "Clarify->Clarify": {
+        "Clarify->Clarify": 19,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 0,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 0,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Clarify->Ideate": {
+        "Clarify->Clarify": 4,
+        "Clarify->Ideate": 2,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 2,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 3,
+        "Evaluate->Evaluate": 0,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Clarify->Evaluate": {
+        "Clarify->Clarify": 1,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 0,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 0,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Clarify->Finalize": {
+        "Clarify->Clarify": 0,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 0,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 0,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Ideate->Clarify": {
+        "Clarify->Clarify": 1,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 1,
+        "Ideate->Ideate": 2,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 0,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Ideate->Ideate": {
+        "Clarify->Clarify": 4,
+        "Clarify->Ideate": 2,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 297,
+        "Ideate->Evaluate": 2,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 7,
+        "Evaluate->Evaluate": 53,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Ideate->Evaluate": {
+        "Clarify->Clarify": 0,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 2,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 7,
+        "Ideate->Evaluate": 39,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 10,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Ideate->Finalize": {
+        "Clarify->Clarify": 0,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 18,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 2,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 0,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 1,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Evaluate->Clarify": {
+        "Clarify->Clarify": 0,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 0,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 2,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Evaluate->Ideate": {
+        "Clarify->Clarify": 1,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 3,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 32,
+        "Evaluate->Evaluate": 15,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Evaluate->Evaluate": {
+        "Clarify->Clarify": 0,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 2,
+        "Ideate->Evaluate": 3,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 1,
+        "Evaluate->Evaluate": 12,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 1,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Evaluate->Finalize": {
+        "Clarify->Clarify": 0,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 0,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 2,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 2,
+        "Evaluate->Finalize": 3,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 5,
+        "UNK": 0
+      },
+      "Finalize->Clarify": {
+        "Clarify->Clarify": 0,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 0,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 0,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 1,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      },
+      "Finalize->Ideate": {
+        "Clarify->Clarify": 0,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 19,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 0,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 1,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 1,
+        "UNK": 0
+      },
+      "Finalize->Evaluate": {
+        "Clarify->Clarify": 0,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 0,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 0,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 6,
+        "UNK": 0
+      },
+      "Finalize->Finalize": {
+        "Clarify->Clarify": 0,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 0,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 1,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 91,
+        "UNK": 0
+      },
+      "UNK": {
+        "Clarify->Clarify": 0,
+        "Clarify->Ideate": 0,
+        "Clarify->Evaluate": 0,
+        "Clarify->Finalize": 0,
+        "Ideate->Clarify": 0,
+        "Ideate->Ideate": 0,
+        "Ideate->Evaluate": 0,
+        "Ideate->Finalize": 0,
+        "Evaluate->Clarify": 0,
+        "Evaluate->Ideate": 0,
+        "Evaluate->Evaluate": 0,
+        "Evaluate->Finalize": 0,
+        "Finalize->Clarify": 0,
+        "Finalize->Ideate": 0,
+        "Finalize->Evaluate": 0,
+        "Finalize->Finalize": 0,
+        "UNK": 0
+      }
+    },
+    "top_failed_transitions": []
+  },
+  "markers": {
+    "top_20": {
+      "that": 39,
+      "that's": 28,
+      "that's a": 27,
+      "maybe a": 24,
+      "maybe as": 20,
+      "maybe using": 19,
+      "what about": 17,
+      "user wants": 6,
+      "another idea": 6,
+      "let me think": 6,
+      "might be": 6,
+      "another thought": 5,
+      "let me check": 5,
+      "make sure": 5,
+      "okay, let's see": 4,
+      "how about": 4,
+      "maybe not": 4,
+      "maybe for": 4,
+      "for example": 4,
+      "let me count": 3
+    },
+    "phase_alignment": {
+      "min_support": 5,
+      "micro": {
+        "gold_start_accuracy": 0.95703125,
+        "pred_start_accuracy": 0.97265625,
+        "both_start_accuracy": 0.94140625,
+        "agreement_rate": 0.953125
+      },
+      "macro": {
+        "gold_start_accuracy": 0.949646781789639,
+        "pred_start_accuracy": 0.9573621553884711,
+        "both_start_accuracy": 0.9355803657495388,
+        "agreement_rate": 0.9641517943209673
+      },
+      "per_marker": [
+        {
+          "marker": "that",
+          "intended_phase": "Evaluate",
+          "count": 39,
+          "gold_start_accuracy": 0.8974358974358975,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 0.8974358974358975,
+          "agreement_rate": 0.8974358974358975,
+          "gold_phase_counts": {
+            "Evaluate": 35,
+            "Clarify": 2,
+            "Ideate": 2
+          },
+          "pred_phase_counts": {
+            "Evaluate": 39
+          },
+          "gold_top_phase": "Evaluate",
+          "gold_top_frac": 0.8974358974358975,
+          "pred_top_phase": "Evaluate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "that's",
+          "intended_phase": "Evaluate",
+          "count": 28,
+          "gold_start_accuracy": 0.9642857142857143,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 0.9642857142857143,
+          "agreement_rate": 0.9642857142857143,
+          "gold_phase_counts": {
+            "Evaluate": 27,
+            "Clarify": 1
+          },
+          "pred_phase_counts": {
+            "Evaluate": 28
+          },
+          "gold_top_phase": "Evaluate",
+          "gold_top_frac": 0.9642857142857143,
+          "pred_top_phase": "Evaluate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "that's a",
+          "intended_phase": "Evaluate",
+          "count": 27,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Evaluate": 27
+          },
+          "pred_phase_counts": {
+            "Evaluate": 27
+          },
+          "gold_top_phase": "Evaluate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Evaluate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "maybe a",
+          "intended_phase": "Ideate",
+          "count": 24,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 0.9583333333333334,
+          "both_start_accuracy": 0.9583333333333334,
+          "agreement_rate": 0.9583333333333334,
+          "gold_phase_counts": {
+            "Ideate": 24
+          },
+          "pred_phase_counts": {
+            "Ideate": 23,
+            "Finalize": 1
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 0.9583333333333334
+        },
+        {
+          "marker": "maybe as",
+          "intended_phase": "Ideate",
+          "count": 20,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 0.95,
+          "both_start_accuracy": 0.95,
+          "agreement_rate": 0.95,
+          "gold_phase_counts": {
+            "Ideate": 20
+          },
+          "pred_phase_counts": {
+            "Ideate": 19,
+            "Evaluate": 1
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 0.95
+        },
+        {
+          "marker": "maybe using",
+          "intended_phase": "Ideate",
+          "count": 19,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 0.8947368421052632,
+          "both_start_accuracy": 0.8947368421052632,
+          "agreement_rate": 0.8947368421052632,
+          "gold_phase_counts": {
+            "Ideate": 19
+          },
+          "pred_phase_counts": {
+            "Ideate": 17,
+            "Evaluate": 2
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 0.8947368421052632
+        },
+        {
+          "marker": "what about",
+          "intended_phase": "Ideate",
+          "count": 17,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Ideate": 17
+          },
+          "pred_phase_counts": {
+            "Ideate": 17
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "another idea",
+          "intended_phase": "Ideate",
+          "count": 6,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Ideate": 6
+          },
+          "pred_phase_counts": {
+            "Ideate": 6
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "let me think",
+          "intended_phase": "Ideate",
+          "count": 6,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Ideate": 6
+          },
+          "pred_phase_counts": {
+            "Ideate": 6
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "might be",
+          "intended_phase": "Evaluate",
+          "count": 6,
+          "gold_start_accuracy": 0.8333333333333334,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 0.8333333333333334,
+          "agreement_rate": 0.8333333333333334,
+          "gold_phase_counts": {
+            "Evaluate": 5,
+            "Finalize": 1
+          },
+          "pred_phase_counts": {
+            "Evaluate": 6
+          },
+          "gold_top_phase": "Evaluate",
+          "gold_top_frac": 0.8333333333333334,
+          "pred_top_phase": "Evaluate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "user wants",
+          "intended_phase": "Clarify",
+          "count": 6,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Clarify": 6
+          },
+          "pred_phase_counts": {
+            "Clarify": 6
+          },
+          "gold_top_phase": "Clarify",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Clarify",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "another thought",
+          "intended_phase": "Ideate",
+          "count": 5,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Ideate": 5
+          },
+          "pred_phase_counts": {
+            "Ideate": 5
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "let me check",
+          "intended_phase": "Evaluate",
+          "count": 5,
+          "gold_start_accuracy": 0.8,
+          "pred_start_accuracy": 0.8,
+          "both_start_accuracy": 0.8,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Evaluate": 4,
+            "Finalize": 1
+          },
+          "pred_phase_counts": {
+            "Evaluate": 4,
+            "Finalize": 1
+          },
+          "gold_top_phase": "Evaluate",
+          "gold_top_frac": 0.8,
+          "pred_top_phase": "Evaluate",
+          "pred_top_frac": 0.8
+        },
+        {
+          "marker": "make sure",
+          "intended_phase": "Evaluate",
+          "count": 5,
+          "gold_start_accuracy": 0.8,
+          "pred_start_accuracy": 0.8,
+          "both_start_accuracy": 0.8,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Evaluate": 4,
+            "Finalize": 1
+          },
+          "pred_phase_counts": {
+            "Evaluate": 4,
+            "Finalize": 1
+          },
+          "gold_top_phase": "Evaluate",
+          "gold_top_frac": 0.8,
+          "pred_top_phase": "Evaluate",
+          "pred_top_frac": 0.8
+        },
+        {
+          "marker": "for example",
+          "intended_phase": "Ideate",
+          "count": 4,
+          "gold_start_accuracy": 0.75,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 0.75,
+          "agreement_rate": 0.75,
+          "gold_phase_counts": {
+            "Ideate": 3,
+            "Evaluate": 1
+          },
+          "pred_phase_counts": {
+            "Ideate": 4
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 0.75,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "how about",
+          "intended_phase": "Ideate",
+          "count": 4,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Ideate": 4
+          },
+          "pred_phase_counts": {
+            "Ideate": 4
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "maybe for",
+          "intended_phase": "Ideate",
+          "count": 4,
+          "gold_start_accuracy": 0.75,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 0.75,
+          "agreement_rate": 0.75,
+          "gold_phase_counts": {
+            "Ideate": 3,
+            "Evaluate": 1
+          },
+          "pred_phase_counts": {
+            "Ideate": 4
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 0.75,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "maybe not",
+          "intended_phase": "Evaluate",
+          "count": 4,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Evaluate": 4
+          },
+          "pred_phase_counts": {
+            "Evaluate": 4
+          },
+          "gold_top_phase": "Evaluate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Evaluate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "okay, let's see",
+          "intended_phase": "Clarify",
+          "count": 4,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Clarify": 4
+          },
+          "pred_phase_counts": {
+            "Clarify": 4
+          },
+          "gold_top_phase": "Clarify",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Clarify",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "i think i have enough",
+          "intended_phase": "Finalize",
+          "count": 3,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Finalize": 3
+          },
+          "pred_phase_counts": {
+            "Finalize": 3
+          },
+          "gold_top_phase": "Finalize",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Finalize",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "let me count",
+          "intended_phase": "Finalize",
+          "count": 3,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Finalize": 3
+          },
+          "pred_phase_counts": {
+            "Finalize": 3
+          },
+          "gold_top_phase": "Finalize",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Finalize",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "but that's",
+          "intended_phase": "Evaluate",
+          "count": 2,
+          "gold_start_accuracy": 0.5,
+          "pred_start_accuracy": 0.5,
+          "both_start_accuracy": 0.5,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Ideate": 1,
+            "Evaluate": 1
+          },
+          "pred_phase_counts": {
+            "Ideate": 1,
+            "Evaluate": 1
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 0.5,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 0.5
+        },
+        {
+          "marker": "ensure",
+          "intended_phase": "Evaluate",
+          "count": 2,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Evaluate": 2
+          },
+          "pred_phase_counts": {
+            "Evaluate": 2
+          },
+          "gold_top_phase": "Evaluate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Evaluate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "i have enough",
+          "intended_phase": "Finalize",
+          "count": 2,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Finalize": 2
+          },
+          "pred_phase_counts": {
+            "Finalize": 2
+          },
+          "gold_top_phase": "Finalize",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Finalize",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "let me list them out",
+          "intended_phase": "Finalize",
+          "count": 2,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Finalize": 2
+          },
+          "pred_phase_counts": {
+            "Finalize": 2
+          },
+          "gold_top_phase": "Finalize",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Finalize",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "might not be",
+          "intended_phase": "Evaluate",
+          "count": 2,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Evaluate": 2
+          },
+          "pred_phase_counts": {
+            "Evaluate": 2
+          },
+          "gold_top_phase": "Evaluate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Evaluate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "could be used",
+          "intended_phase": "Ideate",
+          "count": 1,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Ideate": 1
+          },
+          "pred_phase_counts": {
+            "Ideate": 1
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "final list",
+          "intended_phase": "Finalize",
+          "count": 1,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Finalize": 1
+          },
+          "pred_phase_counts": {
+            "Finalize": 1
+          },
+          "gold_top_phase": "Finalize",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Finalize",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "let me finalize",
+          "intended_phase": "Finalize",
+          "count": 1,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Finalize": 1
+          },
+          "pred_phase_counts": {
+            "Finalize": 1
+          },
+          "gold_top_phase": "Finalize",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Finalize",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "let me organize them",
+          "intended_phase": "Finalize",
+          "count": 1,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Finalize": 1
+          },
+          "pred_phase_counts": {
+            "Finalize": 1
+          },
+          "gold_top_phase": "Finalize",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Finalize",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "maybe something",
+          "intended_phase": "Ideate",
+          "count": 1,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Ideate": 1
+          },
+          "pred_phase_counts": {
+            "Ideate": 1
+          },
+          "gold_top_phase": "Ideate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Ideate",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "okay, i need to come up",
+          "intended_phase": "Clarify",
+          "count": 1,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Clarify": 1
+          },
+          "pred_phase_counts": {
+            "Clarify": 1
+          },
+          "gold_top_phase": "Clarify",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Clarify",
+          "pred_top_frac": 1.0
+        },
+        {
+          "marker": "that's kind of",
+          "intended_phase": "Evaluate",
+          "count": 1,
+          "gold_start_accuracy": 1.0,
+          "pred_start_accuracy": 1.0,
+          "both_start_accuracy": 1.0,
+          "agreement_rate": 1.0,
+          "gold_phase_counts": {
+            "Evaluate": 1
+          },
+          "pred_phase_counts": {
+            "Evaluate": 1
+          },
+          "gold_top_phase": "Evaluate",
+          "gold_top_frac": 1.0,
+          "pred_top_phase": "Evaluate",
+          "pred_top_frac": 1.0
+        }
+      ]
+    }
+  }
+}
