@@ -1,0 +1,60 @@
+{
+  "run_dir": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments/20250916_065745",
+  "input_root": "/home/beinling/qwen-reasoning/outputs/4_manip",
+  "found_files": 10,
+  "processed": 10,
+  "skipped_no_text": 0,
+  "skipped_no_markers": 0,
+  "outputs": [
+    {
+      "source": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/01_aut_01/manipulated.json",
+      "segments_written": 13,
+      "output_path": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments/20250916_065745/20250916_040418/01_aut_01/segments.jsonl"
+    },
+    {
+      "source": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/02_aut_02/manipulated.json",
+      "segments_written": 8,
+      "output_path": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments/20250916_065745/20250916_040418/02_aut_02/segments.jsonl"
+    },
+    {
+      "source": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/03_aut_03/manipulated.json",
+      "segments_written": 17,
+      "output_path": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments/20250916_065745/20250916_040418/03_aut_03/segments.jsonl"
+    },
+    {
+      "source": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/04_aut_04/manipulated.json",
+      "segments_written": 3,
+      "output_path": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments/20250916_065745/20250916_040418/04_aut_04/segments.jsonl"
+    },
+    {
+      "source": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/05_aut_05/manipulated.json",
+      "segments_written": 11,
+      "output_path": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments/20250916_065745/20250916_040418/05_aut_05/segments.jsonl"
+    },
+    {
+      "source": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/06_aut_06/manipulated.json",
+      "segments_written": 5,
+      "output_path": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments/20250916_065745/20250916_040418/06_aut_06/segments.jsonl"
+    },
+    {
+      "source": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/07_aut_07/manipulated.json",
+      "segments_written": 5,
+      "output_path": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments/20250916_065745/20250916_040418/07_aut_07/segments.jsonl"
+    },
+    {
+      "source": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/08_aut_08/manipulated.json",
+      "segments_written": 10,
+      "output_path": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments/20250916_065745/20250916_040418/08_aut_08/segments.jsonl"
+    },
+    {
+      "source": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/09_aut_09/manipulated.json",
+      "segments_written": 19,
+      "output_path": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments/20250916_065745/20250916_040418/09_aut_09/segments.jsonl"
+    },
+    {
+      "source": "/home/beinling/qwen-reasoning/outputs/4_manip/20250916_040418/10_aut_10/manipulated.json",
+      "segments_written": 11,
+      "output_path": "/home/beinling/qwen-reasoning/outputs/5_eval_manip/segments/20250916_065745/20250916_040418/10_aut_10/segments.jsonl"
+    }
+  ]
+}
